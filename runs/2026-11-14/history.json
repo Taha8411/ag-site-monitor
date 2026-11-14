@@ -1,0 +1,11 @@
+[
+  {
+    "date": "2026-11-14T09:31:50.008Z",
+    "status": "FAIL",
+    "passRate": 90,
+    "perf": 42,
+    "seo": 100,
+    "avgLoadMs": 3209,
+    "brokenLinks": 0
+  }
+]

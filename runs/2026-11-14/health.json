@@ -1,0 +1,254 @@
+{
+  "generatedAt": "2026-11-14T09:30:21.066Z",
+  "checks": [
+    {
+      "name": "SSL certificate",
+      "status": "PASS",
+      "detail": "85 days left (Google Trust Services)"
+    },
+    {
+      "name": "Redirect http://www.applegadgetsbd.com/",
+      "status": "PASS",
+      "detail": "→ https://www.applegadgetsbd.com/ (200)"
+    },
+    {
+      "name": "Redirect https://applegadgetsbd.com/",
+      "status": "PASS",
+      "detail": "→ https://www.applegadgetsbd.com/ (200)"
+    },
+    {
+      "name": "robots.txt",
+      "status": "PASS",
+      "detail": "18 lines"
+    },
+    {
+      "name": "Sitemap",
+      "status": "PASS",
+      "detail": "8 file(s), 13145 URLs"
+    },
+    {
+      "name": "Sitemap URL sample",
+      "status": "PASS",
+      "detail": "40 checked, 0 broken, 0 slow, avg 826 ms"
+    },
+    {
+      "name": "Internal links",
+      "status": "PASS",
+      "detail": "200 checked, 0 broken"
+    }
+  ],
+  "brokenLinks": [],
+  "sitemap": {
+    "files": 8,
+    "badFiles": [],
+    "totalUrls": 13145,
+    "sample": [
+      {
+        "url": "https://www.applegadgetsbd.com/product/qbits-lania-r7-mini-pc",
+        "status": 200,
+        "ms": 680
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/panasonic-eh-ne85-essential-ionity-hair-dryer",
+        "status": 200,
+        "ms": 734
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/uniview-mw3218-l-monitor",
+        "status": 200,
+        "ms": 712
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/microsoft-surface-pro-12-laptop",
+        "status": 200,
+        "ms": 757
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/dareu-a950gm-tri-mode-wireless-gaming-mouse",
+        "status": 200,
+        "ms": 969
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/delonghi-ec685bk-coffee-maker",
+        "status": 200,
+        "ms": 1135
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/haier-h55s85gux-55-inch-google-tv",
+        "status": 200,
+        "ms": 675
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/walton-w32c7hg-32-inch-google-tv",
+        "status": 200,
+        "ms": 694
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/haylou-s6-bt-calling-smart-watch",
+        "status": 200,
+        "ms": 670
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/mccoy-aura-3-jars-mixer-grinder",
+        "status": 200,
+        "ms": 662
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/gazi-if-hl01-smiss-infrared-cooker",
+        "status": 200,
+        "ms": 1479
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/uphere-d6sec-air-cpu-cooler",
+        "status": 200,
+        "ms": 570
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/pccooler-paladin-s9-rgb-air-cpu-cooler",
+        "status": 200,
+        "ms": 613
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/office-lksm-f3-gaming-mouse-pad",
+        "status": 200,
+        "ms": 1205
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/gamdias-aura-gl240-cpu-cooler",
+        "status": 200,
+        "ms": 1386
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/cougar-gex-pro-750w-80-plus-gold-power-supply",
+        "status": 200,
+        "ms": 1240
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/intel-11th-gen-core-i5-11400-processor",
+        "status": 200,
+        "ms": 1193
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/xiaomi-tv-x-mini-75-inch-google-tv-2026",
+        "status": 200,
+        "ms": 629
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/anker-powercore-30w-portable-power-bank-with-usb-c-cable",
+        "status": 200,
+        "ms": 1014
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/torras-ostand-q3-vegskin-case-for-iphone-duo",
+        "status": 200,
+        "ms": 577
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/hitachi-r-vg490p8pb-stylish-line-refrigerator",
+        "status": 200,
+        "ms": 1818
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/panasonic-mx-gc4550-4-jars-mixer-grinder",
+        "status": 200,
+        "ms": 599
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/oraimo-boompop-air-ohp-316-black-tws-headphones",
+        "status": 200,
+        "ms": 616
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/aitc-kingsman-kp800-gen4-nvme-ssd-with-dram",
+        "status": 200,
+        "ms": 1311
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/xiaomi-mijia-24-in-1-anti-rust-magnetic-precision-screwdriver-set",
+        "status": 200,
+        "ms": 593
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/msi-modern-md272upsw-smart-monitor",
+        "status": 200,
+        "ms": 621
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/deli-e9952-paper-shredder",
+        "status": 200,
+        "ms": 1632
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/titan-95288wm01-womens-watch",
+        "status": 200,
+        "ms": 584
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/mcdodo-ch-4443-45w-gan-charger-adapter-with-cable",
+        "status": 200,
+        "ms": 625
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/galaxy-a06-official",
+        "status": 200,
+        "ms": 607
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/esr-cyber-flicklock-magnetic-case-for-airpods-5",
+        "status": 200,
+        "ms": 449
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/samsung-ww90dg6g94lbu4-washing-machine",
+        "status": 200,
+        "ms": 609
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/msi-pro-mp225-e12l-monitor",
+        "status": 200,
+        "ms": 420
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/redmi-pad-2-9-7inch-official",
+        "status": 200,
+        "ms": 1002
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/cooler-master-elite-gold-1200-power-supply",
+        "status": 200,
+        "ms": 611
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/esr-armorite-pro-case-with-screen-protector-set-for-apple-watch-ultra",
+        "status": 200,
+        "ms": 641
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/montech-xr-mid-tower-atx-desktop-gaming-casing",
+        "status": 200,
+        "ms": 625
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/xiaomi-c201-smart-camera",
+        "status": 200,
+        "ms": 630
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/titan-1506ym02-mens-watch",
+        "status": 200,
+        "ms": 633
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/sony-bravia-2-k-43s20m2-google-tv",
+        "status": 200,
+        "ms": 807
+      }
+    ],
+    "avgMs": 826
+  },
+  "ssl": {
+    "issuer": "Google Trust Services",
+    "validTo": "Feb  7 15:23:07 2027 GMT",
+    "daysLeft": 85
+  }
+}
