@@ -1,0 +1,97 @@
+name: Daily site test — applegadgetsbd.com
+
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-site-test
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      BASE_URL: https://www.applegadgetsbd.com
+      REPORT_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch previous history (for trend charts)
+        uses: actions/checkout@v4
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: site
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+
+      - name: Browser tests (smoke, journeys, SEO — desktop + mobile)
+        run: npx playwright test
+        continue-on-error: true
+
+      - name: Site health (SSL, redirects, robots, sitemap, broken links)
+        run: node scripts/health.mjs
+        continue-on-error: true
+
+      - name: Lighthouse (mobile)
+        run: node scripts/lighthouse.mjs
+        continue-on-error: true
+
+      - name: Build report
+        run: node scripts/build-report.mjs
+
+      - name: Prepare publish folder
+        run: |
+          DAY=$(TZ=Asia/Dhaka date +%F)
+          mkdir -p publish/runs/$DAY
+          cp -r reports/. publish/
+          cp -r reports/. publish/runs/$DAY/
+          rm -rf publish/test-artifacts publish/runs/$DAY/test-artifacts
+          echo "DAY=$DAY" >> $GITHUB_ENV
+
+      - name: Publish to GitHub Pages (gh-pages branch)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./publish
+          keep_files: true
+          commit_message: 'Report ${{ env.DAY }}'
+
+      - name: Upload report artifact (kept 30 days)
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-report-${{ env.DAY }}
+          path: reports/
+          retention-days: 30
+
+      - name: Send notifications
+        run: node scripts/notify.mjs
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          NOTIFY_ONLY_ON_ISSUES: ${{ vars.NOTIFY_ONLY_ON_ISSUES || 'false' }}
+
+      - name: Mark run red if site FAILED
+        run: |
+          STATUS=$(node -p "require('./reports/summary.json').status")
+          echo "Overall: $STATUS"
+          [ "$STATUS" != "FAIL" ]
