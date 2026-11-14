@@ -1,0 +1,21 @@
+{
+  "name": "ag-daily-site-tests",
+  "version": "1.0.0",
+  "description": "Daily automated testing + report for applegadgetsbd.com",
+  "scripts": {
+    "test:browser": "playwright test",
+    "test:health": "node scripts/health.mjs",
+    "test:lighthouse": "node scripts/lighthouse.mjs",
+    "report": "node scripts/build-report.mjs",
+    "notify": "node scripts/notify.mjs",
+    "all": "npm run test:browser; npm run test:health; npm run test:lighthouse; npm run report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "chrome-launcher": "^1.2.3",
+    "lighthouse": "^13.6.0",
+    "nodemailer": "^10.5.0"
+  },
+  "private": true,
+  "type": "module"
+}
