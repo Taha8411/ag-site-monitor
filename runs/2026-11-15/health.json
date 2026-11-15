@@ -1,0 +1,254 @@
+{
+  "generatedAt": "2026-11-15T10:52:36.437Z",
+  "checks": [
+    {
+      "name": "SSL certificate",
+      "status": "PASS",
+      "detail": "84 days left (Google Trust Services)"
+    },
+    {
+      "name": "Redirect http://www.applegadgetsbd.com/",
+      "status": "PASS",
+      "detail": "→ https://www.applegadgetsbd.com/ (200)"
+    },
+    {
+      "name": "Redirect https://applegadgetsbd.com/",
+      "status": "PASS",
+      "detail": "→ https://www.applegadgetsbd.com/ (200)"
+    },
+    {
+      "name": "robots.txt",
+      "status": "PASS",
+      "detail": "18 lines"
+    },
+    {
+      "name": "Sitemap",
+      "status": "PASS",
+      "detail": "8 file(s), 13328 URLs"
+    },
+    {
+      "name": "Sitemap URL sample",
+      "status": "PASS",
+      "detail": "40 checked, 0 broken, 0 slow, avg 840 ms"
+    },
+    {
+      "name": "Internal links",
+      "status": "PASS",
+      "detail": "200 checked, 0 broken"
+    }
+  ],
+  "brokenLinks": [],
+  "sitemap": {
+    "files": 8,
+    "badFiles": [],
+    "totalUrls": 13328,
+    "sample": [
+      {
+        "url": "https://www.applegadgetsbd.com/brands/viomi",
+        "status": 200,
+        "ms": 821
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/philips-hr2652-91-hand-blender",
+        "status": 200,
+        "ms": 854
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/pitaka-horizon-series-case-for-iphone-18-series",
+        "status": 200,
+        "ms": 1091
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/metapen-air-8-pro-ipad-pencil",
+        "status": 200,
+        "ms": 883
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/sony-plus-sp43sf-43-inch-frameless-smart-android-led-tv",
+        "status": 200,
+        "ms": 872
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/haier-es30h-ck3-bd-30-litre-geyser",
+        "status": 200,
+        "ms": 829
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/adata-urban-tapsafe-2000gb-usb-c-external-ssd",
+        "status": 200,
+        "ms": 951
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/ocpc-geforce-rtx-5050-xe-graphics-card",
+        "status": 200,
+        "ms": 954
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/xiaomi-67w-power-bank",
+        "status": 200,
+        "ms": 951
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/imou-cruiser-ipc-s21ftp-2mp-4g-dome-ip-camera",
+        "status": 200,
+        "ms": 967
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/joyroom-jr-l008-cutie-series-power-bank-with-kickstand",
+        "status": 200,
+        "ms": 965
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/edifier-neobuds-plus-tws-anc-earbuds",
+        "status": 200,
+        "ms": 774
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/hifuture-boombeat-portable-speaker",
+        "status": 200,
+        "ms": 797
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/philips-gc160-affinia-dry-iron",
+        "status": 200,
+        "ms": 853
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/pny-geforce-rtx-5060-ti-dual-fan-oc-gddr7-graphics-card",
+        "status": 200,
+        "ms": 869
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/lg-2b332plcbvt8-refrigerator",
+        "status": 200,
+        "ms": 1193
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/kemei-km-3024-4-in-1-shaver-for-women",
+        "status": 200,
+        "ms": 854
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/gigabyte-z790-d-ddr5-atx-intel-motherboard",
+        "status": 200,
+        "ms": 798
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/minister-ypf-631-iron",
+        "status": 200,
+        "ms": 1192
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/hifuture-musicbox-200-portable-speaker",
+        "status": 200,
+        "ms": 696
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/panasonic-mk-f310-18-in-1-food-processor",
+        "status": 200,
+        "ms": 779
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/bluetti-premium-200-v2-2700w-portable-power-station",
+        "status": 200,
+        "ms": 728
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/haier-hwm80-1269s6-top-load-automatic-washing-machine",
+        "status": 200,
+        "ms": 771
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/miyako-kt-6002-2-slice-bread-toaster",
+        "status": 200,
+        "ms": 737
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/philips-dst502030-iron",
+        "status": 200,
+        "ms": 700
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/titan-1506ym02-mens-watch",
+        "status": 200,
+        "ms": 1143
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/arctic-hunter-b00489-new-breathable-lightweight-backpack",
+        "status": 200,
+        "ms": 498
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/sony-bravia-2-k-55s20m2-smart-tv",
+        "status": 200,
+        "ms": 949
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/transcend-storejet-25h3-hdd",
+        "status": 200,
+        "ms": 997
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/magcubic-l018-android-portable-projector",
+        "status": 200,
+        "ms": 737
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/transcend-230s-ssd",
+        "status": 200,
+        "ms": 729
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/ugreen-lp894-45860-desktop-tablet-stand",
+        "status": 200,
+        "ms": 720
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/pc-power-iceberg-v2-casing",
+        "status": 200,
+        "ms": 783
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/geepas-ggs25019-handheld-garment-steamer",
+        "status": 200,
+        "ms": 745
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/msi-pro-mp275pg-business-monitor",
+        "status": 200,
+        "ms": 724
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/titan-neo-quartz-2648wm11-womens-watch",
+        "status": 200,
+        "ms": 748
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/myone-my-2b5g-elegant-magnolia-black-full-match-refrigerator",
+        "status": 200,
+        "ms": 742
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/miyako-el-226-dry-iron",
+        "status": 200,
+        "ms": 721
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/miyako-mt-40-dbl-rcl-convection-electric-oven",
+        "status": 200,
+        "ms": 499
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/transcend-storejet-25m3s-hdd",
+        "status": 200,
+        "ms": 998
+      }
+    ],
+    "avgMs": 840
+  },
+  "ssl": {
+    "issuer": "Google Trust Services",
+    "validTo": "Feb  7 15:23:07 2027 GMT",
+    "daysLeft": 84
+  }
+}

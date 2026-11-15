@@ -1,30 +1,34 @@
 {
-  "generatedAt": "2026-11-14T09:31:49.559Z",
+  "generatedAt": "2026-11-15T10:54:11.541Z",
   "results": [
     {
       "path": "/",
       "report": "lighthouse/home.html",
       "scores": {
-        "performance": 42,
+        "performance": 41,
         "accessibility": 82,
         "best-practices": 69,
         "seo": 100
       },
       "metrics": {
-        "LCP": 7811.866000000002,
-        "FCP": 2235.83,
-        "TBT": 1834,
+        "LCP": 7679.699499999999,
+        "FCP": 2349.2219999999998,
+        "TBT": 1775.999999999999,
         "CLS": 0,
-        "SI": 5387.661283445875
+        "SI": 5532.633167635495
       },
       "topIssues": [
         {
           "title": "Reduce unused JavaScript",
-          "savingsMs": 1250
+          "savingsMs": 1360
         },
         {
           "title": "Reduce initial server response time",
-          "savingsMs": 777
+          "savingsMs": 911
+        },
+        {
+          "title": "Reduce unused CSS",
+          "savingsMs": 150
         }
       ]
     },
@@ -32,17 +36,17 @@
       "path": "/category/mobile-phone",
       "report": "lighthouse/category_mobile-phone.html",
       "scores": {
-        "performance": 49,
+        "performance": 47,
         "accessibility": 85,
         "best-practices": 77,
         "seo": 100
       },
       "metrics": {
-        "LCP": 6469.485599999999,
-        "FCP": 1680.3192000000004,
-        "TBT": 1983.4999999999973,
+        "LCP": 6470.381400000001,
+        "FCP": 1661.307,
+        "TBT": 1930.4975999999979,
         "CLS": 0,
-        "SI": 2360.5032319999937
+        "SI": 4173.264064888001
       },
       "topIssues": [
         {
@@ -51,7 +55,7 @@
         },
         {
           "title": "Reduce initial server response time",
-          "savingsMs": 814
+          "savingsMs": 934
         },
         {
           "title": "Reduce unused CSS",
@@ -63,22 +67,26 @@
       "path": "/product/apple-airtag",
       "report": "lighthouse/product_apple-airtag.html",
       "scores": {
-        "performance": 51,
+        "performance": 50,
         "accessibility": 80,
         "best-practices": 69,
         "seo": 100
       },
       "metrics": {
-        "LCP": 5192.9223,
-        "FCP": 1110.9223,
-        "TBT": 1773.500000000001,
+        "LCP": 6311.9283000000005,
+        "FCP": 1211.8161,
+        "TBT": 1476.9966999999997,
         "CLS": 0,
-        "SI": 4411.419664101946
+        "SI": 3944.5781240992733
       },
       "topIssues": [
         {
           "title": "Reduce unused JavaScript",
-          "savingsMs": 1050
+          "savingsMs": 1030
+        },
+        {
+          "title": "Reduce initial server response time",
+          "savingsMs": 687
         },
         {
           "title": "Reduce unused CSS",
