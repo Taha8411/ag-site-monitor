@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-15T10:52:36.437Z",
+  "generatedAt": "2026-11-16T11:16:10.545Z",
   "checks": [
     {
       "name": "SSL certificate",
       "status": "PASS",
-      "detail": "84 days left (Google Trust Services)"
+      "detail": "83 days left (Google Trust Services)"
     },
     {
       "name": "Redirect http://www.applegadgetsbd.com/",
@@ -24,12 +24,12 @@
     {
       "name": "Sitemap",
       "status": "PASS",
-      "detail": "8 file(s), 13328 URLs"
+      "detail": "8 file(s), 13474 URLs"
     },
     {
       "name": "Sitemap URL sample",
       "status": "PASS",
-      "detail": "40 checked, 0 broken, 0 slow, avg 840 ms"
+      "detail": "40 checked, 0 broken, 0 slow, avg 697 ms"
     },
     {
       "name": "Internal links",
@@ -41,214 +41,214 @@
   "sitemap": {
     "files": 8,
     "badFiles": [],
-    "totalUrls": 13328,
+    "totalUrls": 13474,
     "sample": [
       {
-        "url": "https://www.applegadgetsbd.com/brands/viomi",
+        "url": "https://www.applegadgetsbd.com/product/ecoflow-delta-3-max-series-portable-power-station",
         "status": 200,
-        "ms": 821
+        "ms": 598
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/oneplus-warp-charge-65w-power-adapter",
+        "status": 200,
+        "ms": 746
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/baseus-bipow-20w-digital-display-power-bank",
+        "status": 200,
+        "ms": 657
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/haier-hw140-bd14697wu1-washing-machine",
+        "status": 200,
+        "ms": 817
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/lexar-ares-rgb-desktop-ram",
+        "status": 200,
+        "ms": 741
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/gigabyte-c102-glass-ice-white-mid-tower-gaming-casing",
+        "status": 200,
+        "ms": 755
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/miyako-mfp-301-3-jars-food-processor",
+        "status": 200,
+        "ms": 575
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/pc-power-pcg27q180dw-2k-qhd-gaming-monitor",
+        "status": 200,
+        "ms": 618
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/power-pac-2000va-ups",
+        "status": 200,
+        "ms": 601
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/macbook-air-m1-8512gb-13-inch-gold-v4",
+        "status": 200,
+        "ms": 646
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/kstar-memo-iii-10k-h-ups",
+        "status": 200,
+        "ms": 642
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/amazon-kindle-scribe-colorsoft",
+        "status": 200,
+        "ms": 635
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/msi-mpg-341cqpx-qd-oled-gaming-monitor",
+        "status": 200,
+        "ms": 460
       },
       {
         "url": "https://www.applegadgetsbd.com/product/philips-hr2652-91-hand-blender",
         "status": 200,
-        "ms": 854
+        "ms": 576
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/pitaka-horizon-series-case-for-iphone-18-series",
+        "url": "https://www.applegadgetsbd.com/product/maono-pd400x-usb-xlr-dynamic-microphone",
         "status": 200,
-        "ms": 1091
+        "ms": 754
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/metapen-air-8-pro-ipad-pencil",
+        "url": "https://www.applegadgetsbd.com/product/philips-bt1243-18-1000-series-beard-trimmer",
         "status": 200,
-        "ms": 883
+        "ms": 580
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/sony-plus-sp43sf-43-inch-frameless-smart-android-led-tv",
+        "url": "https://www.applegadgetsbd.com/product/lenovo-yoga-7-16ill10-2-in-1-intel-core-ultra-5-laptop",
         "status": 200,
-        "ms": 872
+        "ms": 610
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/haier-es30h-ck3-bd-30-litre-geyser",
+        "url": "https://www.applegadgetsbd.com/product/awei-kt33-trolley-bluetooth-speaker",
         "status": 200,
-        "ms": 829
+        "ms": 582
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/adata-urban-tapsafe-2000gb-usb-c-external-ssd",
+        "url": "https://www.applegadgetsbd.com/product/miyako-mk-1920-bt-electric-kettle",
         "status": 200,
-        "ms": 951
+        "ms": 612
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/ocpc-geforce-rtx-5050-xe-graphics-card",
+        "url": "https://www.applegadgetsbd.com/product/intex-indo-820b-3-jars-mixer-grinder",
         "status": 200,
-        "ms": 954
+        "ms": 1131
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/xiaomi-67w-power-bank",
+        "url": "https://www.applegadgetsbd.com/product/fastrack-opulence-sun-moon-chronograph-quartz-3315kl01-mens-watch",
         "status": 200,
-        "ms": 951
+        "ms": 1077
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/imou-cruiser-ipc-s21ftp-2mp-4g-dome-ip-camera",
+        "url": "https://www.applegadgetsbd.com/product/gigabyte-a620m-h-am5-motherboard",
         "status": 200,
-        "ms": 967
+        "ms": 1034
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/joyroom-jr-l008-cutie-series-power-bank-with-kickstand",
+        "url": "https://www.applegadgetsbd.com/product/walton-wsi-diamond-12j-frost-clean-inverter-air-conditioner",
         "status": 200,
-        "ms": 965
+        "ms": 1045
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/edifier-neobuds-plus-tws-anc-earbuds",
+        "url": "https://www.applegadgetsbd.com/product/netac-n930e-pro-ssd",
         "status": 200,
-        "ms": 774
+        "ms": 992
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/hifuture-boombeat-portable-speaker",
+        "url": "https://www.applegadgetsbd.com/product/haier-hcf-340sm-chest-freezer",
         "status": 200,
-        "ms": 797
+        "ms": 885
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/philips-gc160-affinia-dry-iron",
+        "url": "https://www.applegadgetsbd.com/product/wavefun-star-2-anc-true-wireless-earbuds",
         "status": 200,
-        "ms": 853
+        "ms": 608
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/pny-geforce-rtx-5060-ti-dual-fan-oc-gddr7-graphics-card",
+        "url": "https://www.applegadgetsbd.com/product/deepcool-ag400-bk-argb-v2-single-tower-air-cpu-cooler",
         "status": 200,
-        "ms": 869
+        "ms": 623
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/lg-2b332plcbvt8-refrigerator",
+        "url": "https://www.applegadgetsbd.com/product/apacer-2666mhz-desktop-ram",
         "status": 200,
-        "ms": 1193
+        "ms": 578
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/kemei-km-3024-4-in-1-shaver-for-women",
+        "url": "https://www.applegadgetsbd.com/product/geepas-gic6131s-digital-infrared-cooker",
         "status": 200,
-        "ms": 854
+        "ms": 952
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/gigabyte-z790-d-ddr5-atx-intel-motherboard",
+        "url": "https://www.applegadgetsbd.com/product/vgr-v-111-5-in-1-professional-grooming-kit-for-men",
         "status": 200,
-        "ms": 798
+        "ms": 677
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/minister-ypf-631-iron",
+        "url": "https://www.applegadgetsbd.com/product/deepcool-ak500-wh-cpu-cooler",
         "status": 200,
-        "ms": 1192
+        "ms": 643
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/hifuture-musicbox-200-portable-speaker",
+        "url": "https://www.applegadgetsbd.com/product/kemei-km-2335-professional-trimmer-for-men",
         "status": 200,
-        "ms": 696
+        "ms": 672
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/panasonic-mk-f310-18-in-1-food-processor",
+        "url": "https://www.applegadgetsbd.com/product/iphone-16-pro-max",
         "status": 200,
-        "ms": 779
+        "ms": 576
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/bluetti-premium-200-v2-2700w-portable-power-station",
+        "url": "https://www.applegadgetsbd.com/product/ocpc-azz-100-ssd-enclosure",
         "status": 200,
-        "ms": 728
+        "ms": 565
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/haier-hwm80-1269s6-top-load-automatic-washing-machine",
+        "url": "https://www.applegadgetsbd.com/product/miyako-sw-5001-sandwich-maker",
         "status": 200,
-        "ms": 771
+        "ms": 617
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/miyako-kt-6002-2-slice-bread-toaster",
+        "url": "https://www.applegadgetsbd.com/product/philips-nt365016-nose-trimmer",
         "status": 200,
-        "ms": 737
+        "ms": 622
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/philips-dst502030-iron",
+        "url": "https://www.applegadgetsbd.com/product/midea-q590b-gas-stove",
         "status": 200,
-        "ms": 700
+        "ms": 574
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/titan-1506ym02-mens-watch",
+        "url": "https://www.applegadgetsbd.com/product/bose-quietcomfort-ultra-anc-tws-earbuds",
         "status": 200,
-        "ms": 1143
+        "ms": 615
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/arctic-hunter-b00489-new-breathable-lightweight-backpack",
+        "url": "https://www.applegadgetsbd.com/product/philips-qp272410-oneblade-trimmer",
         "status": 200,
-        "ms": 498
+        "ms": 622
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/sony-bravia-2-k-55s20m2-smart-tv",
+        "url": "https://www.applegadgetsbd.com/product/adata-xpg-lancer-blade-5600mhz-desktop-ram",
         "status": 200,
-        "ms": 949
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/transcend-storejet-25h3-hdd",
-        "status": 200,
-        "ms": 997
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/magcubic-l018-android-portable-projector",
-        "status": 200,
-        "ms": 737
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/transcend-230s-ssd",
-        "status": 200,
-        "ms": 729
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/ugreen-lp894-45860-desktop-tablet-stand",
-        "status": 200,
-        "ms": 720
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/pc-power-iceberg-v2-casing",
-        "status": 200,
-        "ms": 783
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/geepas-ggs25019-handheld-garment-steamer",
-        "status": 200,
-        "ms": 745
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/msi-pro-mp275pg-business-monitor",
-        "status": 200,
-        "ms": 724
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/titan-neo-quartz-2648wm11-womens-watch",
-        "status": 200,
-        "ms": 748
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/myone-my-2b5g-elegant-magnolia-black-full-match-refrigerator",
-        "status": 200,
-        "ms": 742
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/miyako-el-226-dry-iron",
-        "status": 200,
-        "ms": 721
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/miyako-mt-40-dbl-rcl-convection-electric-oven",
-        "status": 200,
-        "ms": 499
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/transcend-storejet-25m3s-hdd",
-        "status": 200,
-        "ms": 998
+        "ms": 586
       }
     ],
-    "avgMs": 840
+    "avgMs": 697
   },
   "ssl": {
     "issuer": "Google Trust Services",
     "validTo": "Feb  7 15:23:07 2027 GMT",
-    "daysLeft": 84
+    "daysLeft": 83
   }
 }

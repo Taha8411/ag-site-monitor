@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-11-16T11:17:33.567Z",
+  "results": [
+    {
+      "path": "/",
+      "report": "lighthouse/home.html",
+      "scores": {
+        "performance": 46,
+        "accessibility": 82,
+        "best-practices": 69,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 7518.5043799999985,
+        "FCP": 1956.66326,
+        "TBT": 1319,
+        "CLS": 0,
+        "SI": 5040.2857156609025
+      },
+      "topIssues": [
+        {
+          "title": "Reduce unused JavaScript",
+          "savingsMs": 1240
+        },
+        {
+          "title": "Reduce initial server response time",
+          "savingsMs": 743
+        },
+        {
+          "title": "Reduce unused CSS",
+          "savingsMs": 150
+        }
+      ]
+    },
+    {
+      "path": "/category/mobile-phone",
+      "report": "lighthouse/category_mobile-phone.html",
+      "scores": {
+        "performance": 44,
+        "accessibility": 85,
+        "best-practices": 77,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 6452.717299999998,
+        "FCP": 1665.3887000000004,
+        "TBT": 1323.4999999999982,
+        "CLS": 0,
+        "SI": 7748.268486409448
+      },
+      "topIssues": [
+        {
+          "title": "Reduce unused JavaScript",
+          "savingsMs": 1350
+        },
+        {
+          "title": "Reduce initial server response time",
+          "savingsMs": 843
+        },
+        {
+          "title": "Reduce unused CSS",
+          "savingsMs": 150
+        }
+      ]
+    },
+    {
+      "path": "/product/apple-airtag",
+      "report": "lighthouse/product_apple-airtag.html",
+      "scores": {
+        "performance": 52,
+        "accessibility": 81,
+        "best-practices": 69,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 5791.552450000001,
+        "FCP": 1216.4396,
+        "TBT": 1245,
+        "CLS": 0,
+        "SI": 4405.6559067986345
+      },
+      "topIssues": [
+        {
+          "title": "Reduce unused JavaScript",
+          "savingsMs": 1050
+        },
+        {
+          "title": "Reduce unused CSS",
+          "savingsMs": 150
+        }
+      ]
+    }
+  ]
+}
