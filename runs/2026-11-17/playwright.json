@@ -1,0 +1,2742 @@
+{
+  "config": {
+    "argv": [
+      "/opt/hostedtoolcache/node/22.23.4/x64/bin/node",
+      "/home/runner/work/ag-site-monitor/ag-site-monitor/node_modules/.bin/playwright",
+      "test"
+    ],
+    "configFile": "/home/runner/work/ag-site-monitor/ag-site-monitor/playwright.config.js",
+    "rootDir": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "ci": {
+        "commitHref": "https://github.com/Taha8411/ag-site-monitor/commit/5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
+        "commitHash": "5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
+        "buildHref": "https://github.com/Taha8411/ag-site-monitor/actions/runs/44077497182"
+      },
+      "gitCommit": {
+        "shortHash": "5f3691e",
+        "hash": "5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
+        "subject": "Delete daily-site-test.yml",
+        "body": "Delete daily-site-test.yml",
+        "author": {
+          "name": "Taha8411",
+          "email": "69293352+Taha8411@users.noreply.github.com",
+          "time": 1794647615000
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "time": 1794647615000
+        },
+        "branch": "main"
+      },
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/Taha8411/ag-site-monitor/commit/5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
+            "commitHash": "5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
+            "buildHref": "https://github.com/Taha8411/ag-site-monitor/actions/runs/44077497182"
+          },
+          "gitCommit": {
+            "shortHash": "5f3691e",
+            "hash": "5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
+            "subject": "Delete daily-site-test.yml",
+            "body": "Delete daily-site-test.yml",
+            "author": {
+              "name": "Taha8411",
+              "email": "69293352+Taha8411@users.noreply.github.com",
+              "time": 1794647615000
+            },
+            "committer": {
+              "name": "GitHub",
+              "email": "noreply@github.com",
+              "time": 1794647615000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 4
+        },
+        "id": "desktop",
+        "name": "desktop",
+        "testDir": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/Taha8411/ag-site-monitor/commit/5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
+            "commitHash": "5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
+            "buildHref": "https://github.com/Taha8411/ag-site-monitor/actions/runs/44077497182"
+          },
+          "gitCommit": {
+            "shortHash": "5f3691e",
+            "hash": "5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
+            "subject": "Delete daily-site-test.yml",
+            "body": "Delete daily-site-test.yml",
+            "author": {
+              "name": "Taha8411",
+              "email": "69293352+Taha8411@users.noreply.github.com",
+              "time": 1794647615000
+            },
+            "committer": {
+              "name": "GitHub",
+              "email": "noreply@github.com",
+              "time": 1794647615000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 4
+        },
+        "id": "mobile",
+        "name": "mobile",
+        "testDir": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests",
+        "testIgnore": [
+          "/seo\\.spec/"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/Taha8411/ag-site-monitor/commit/5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
+            "commitHash": "5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
+            "buildHref": "https://github.com/Taha8411/ag-site-monitor/actions/runs/44077497182"
+          },
+          "gitCommit": {
+            "shortHash": "5f3691e",
+            "hash": "5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
+            "subject": "Delete daily-site-test.yml",
+            "body": "Delete daily-site-test.yml",
+            "author": {
+              "name": "Taha8411",
+              "email": "69293352+Taha8411@users.noreply.github.com",
+              "time": 1794647615000
+            },
+            "committer": {
+              "name": "GitHub",
+              "email": "noreply@github.com",
+              "time": 1794647615000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 4
+        },
+        "name": "desktop",
+        "testDir": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests",
+        "snapshotDir": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "https://www.applegadgetsbd.com",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36 AG-DailyTest/1.0",
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "navigationTimeout": 45000,
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "desktop"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/Taha8411/ag-site-monitor/commit/5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
+            "commitHash": "5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
+            "buildHref": "https://github.com/Taha8411/ag-site-monitor/actions/runs/44077497182"
+          },
+          "gitCommit": {
+            "shortHash": "5f3691e",
+            "hash": "5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
+            "subject": "Delete daily-site-test.yml",
+            "body": "Delete daily-site-test.yml",
+            "author": {
+              "name": "Taha8411",
+              "email": "69293352+Taha8411@users.noreply.github.com",
+              "time": 1794647615000
+            },
+            "committer": {
+              "name": "GitHub",
+              "email": "noreply@github.com",
+              "time": 1794647615000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 4
+        },
+        "name": "mobile",
+        "testDir": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests",
+        "snapshotDir": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests",
+        "testIgnore": {},
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "https://www.applegadgetsbd.com",
+          "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Mobile Safari/537.36",
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "navigationTimeout": 45000,
+          "viewport": {
+            "width": 412,
+            "height": 839
+          },
+          "screen": {
+            "width": 412,
+            "height": 915
+          },
+          "deviceScaleFactor": 2.625,
+          "isMobile": true,
+          "hasTouch": true,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "mobile"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/playwright.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "reports/playwright",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "e2e.spec.js",
+      "file": "e2e.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "[e2e] Browse: category → product page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "info",
+                  "description": "42 product links on category"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7286,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:10.156Z",
+                  "annotations": [
+                    {
+                      "type": "info",
+                      "description": "42 product links on category"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "info",
+                  "description": "42 product links on category"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 6912,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:10.125Z",
+                  "annotations": [
+                    {
+                      "type": "info",
+                      "description": "42 product links on category"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "616cc0f313d283bb66d2-5f9a2e0935c2529feb36",
+          "file": "e2e.spec.js",
+          "line": 8,
+          "column": 1
+        },
+        {
+          "title": "[e2e] Product page: title, price, buy button, images",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3339,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:17.844Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 3117,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:17.515Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "616cc0f313d283bb66d2-82c8a7315e24ed3add09",
+          "file": "e2e.spec.js",
+          "line": 23,
+          "column": 1
+        },
+        {
+          "title": "[e2e] Search returns products",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "info",
+                  "description": "Search \"iphone\" → 66 product links (https://www.applegadgetsbd.com/)"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4272,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:21.201Z",
+                  "annotations": [
+                    {
+                      "type": "info",
+                      "description": "Search \"iphone\" → 66 product links (https://www.applegadgetsbd.com/)"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "failed",
+                  "duration": 24981,
+                  "error": {
+                    "message": "Error: search box visible\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - search box visible locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first() with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first()\u001b[22m\n",
+                    "stack": "Error: search box visible\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - search box visible locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first() with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first()\u001b[22m\n\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/e2e.spec.js:43:45",
+                    "location": {
+                      "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/e2e.spec.js",
+                      "column": 45,
+                      "line": 43
+                    },
+                    "snippet": "  41 |     input = page.locator('input#search, input[name=\"search\"], input[type=\"search\"]').locator('visible=true').first();\n  42 |   }\n> 43 |   await expect(input, 'search box visible').toBeVisible();\n     |                                             ^\n  44 |   await input.fill(config.searchTerm);\n  45 |   await input.press('Enter');\n  46 |   await page.waitForLoadState('domcontentloaded');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/e2e.spec.js",
+                        "column": 45,
+                        "line": 43
+                      },
+                      "message": "Error: search box visible\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - search box visible locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first() with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first()\u001b[22m\n\n\n  41 |     input = page.locator('input#search, input[name=\"search\"], input[type=\"search\"]').locator('visible=true').first();\n  42 |   }\n> 43 |   await expect(input, 'search box visible').toBeVisible();\n     |                                             ^\n  44 |   await input.fill(config.searchTerm);\n  45 |   await input.press('Enter');\n  46 |   await page.waitForLoadState('domcontentloaded');\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/e2e.spec.js:43:45"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:20.658Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/e2e--e2e-Search-returns-products-mobile/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/e2e--e2e-Search-returns-products-mobile/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/e2e--e2e-Search-returns-products-mobile/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/e2e.spec.js",
+                    "column": 45,
+                    "line": 43
+                  }
+                },
+                {
+                  "workerIndex": 11,
+                  "parallelIndex": 2,
+                  "status": "failed",
+                  "duration": 23867,
+                  "error": {
+                    "message": "Error: search box visible\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - search box visible locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first() with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first()\u001b[22m\n",
+                    "stack": "Error: search box visible\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - search box visible locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first() with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first()\u001b[22m\n\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/e2e.spec.js:43:45",
+                    "location": {
+                      "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/e2e.spec.js",
+                      "column": 45,
+                      "line": 43
+                    },
+                    "snippet": "  41 |     input = page.locator('input#search, input[name=\"search\"], input[type=\"search\"]').locator('visible=true').first();\n  42 |   }\n> 43 |   await expect(input, 'search box visible').toBeVisible();\n     |                                             ^\n  44 |   await input.fill(config.searchTerm);\n  45 |   await input.press('Enter');\n  46 |   await page.waitForLoadState('domcontentloaded');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/e2e.spec.js",
+                        "column": 45,
+                        "line": 43
+                      },
+                      "message": "Error: search box visible\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - search box visible locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first() with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first()\u001b[22m\n\n\n  41 |     input = page.locator('input#search, input[name=\"search\"], input[type=\"search\"]').locator('visible=true').first();\n  42 |   }\n> 43 |   await expect(input, 'search box visible').toBeVisible();\n     |                                             ^\n  44 |   await input.fill(config.searchTerm);\n  45 |   await input.press('Enter');\n  46 |   await page.waitForLoadState('domcontentloaded');\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/e2e.spec.js:43:45"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2026-11-17T11:50:46.959Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/e2e--e2e-Search-returns-products-mobile-retry1/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/e2e--e2e-Search-returns-products-mobile-retry1/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/e2e--e2e-Search-returns-products-mobile-retry1/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/e2e.spec.js",
+                    "column": 45,
+                    "line": 43
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "616cc0f313d283bb66d2-10d2f5169672845d479a",
+          "file": "e2e.spec.js",
+          "line": 35,
+          "column": 1
+        },
+        {
+          "title": "[e2e] Cart page opens",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3224,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:25.490Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2642,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:51:11.632Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "616cc0f313d283bb66d2-938a5c901532d38bc788",
+          "file": "e2e.spec.js",
+          "line": 52,
+          "column": 1
+        },
+        {
+          "title": "[e2e] Header & footer render",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3285,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:28.736Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2961,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:51:14.356Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "616cc0f313d283bb66d2-12a08f92ec2d24251ab3",
+          "file": "e2e.spec.js",
+          "line": 58,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "seo.spec.js",
+      "file": "seo.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "[seo] Home",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "info",
+                  "description": "Title(58): Smartphones, Gadgets & Premium Accessories | Apple Gadgets"
+                },
+                {
+                  "type": "info",
+                  "description": "Schema: WebSite, SearchAction, EntryPoint, LocalBusiness, Organization, OpeningHoursSpecification, PostalAddress, Country, ContactPoint, ImageObject"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 5261,
+                  "error": {
+                    "message": "Error: canonical present\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"\"\u001b[39m",
+                    "stack": "Error: canonical present\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"\"\u001b[39m\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js:54:55",
+                    "location": {
+                      "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js",
+                      "column": 55,
+                      "line": 54
+                    },
+                    "snippet": "  52 |     expect.soft(d.robots.toLowerCase(), 'page is not noindex').not.toContain('noindex');\n  53 |     expect.soft(d.h1.length, 'has an H1').toBeGreaterThan(0);\n> 54 |     expect.soft(d.canonical, 'canonical present').not.toBe('');\n     |                                                       ^\n  55 |     if (d.canonical) {\n  56 |       const canon = new URL(d.canonical);\n  57 |       const expected = new URL(url(pg.path));"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js",
+                        "column": 55,
+                        "line": 54
+                      },
+                      "message": "Error: canonical present\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"\"\u001b[39m\n\n  52 |     expect.soft(d.robots.toLowerCase(), 'page is not noindex').not.toContain('noindex');\n  53 |     expect.soft(d.h1.length, 'has an H1').toBeGreaterThan(0);\n> 54 |     expect.soft(d.canonical, 'canonical present').not.toBe('');\n     |                                                       ^\n  55 |     if (d.canonical) {\n  56 |       const canon = new URL(d.canonical);\n  57 |       const expected = new URL(url(pg.path));\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js:54:55"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:10.171Z",
+                  "annotations": [
+                    {
+                      "type": "info",
+                      "description": "Title(58): Smartphones, Gadgets & Premium Accessories | Apple Gadgets"
+                    },
+                    {
+                      "type": "info",
+                      "description": "Schema: WebSite, SearchAction, EntryPoint, LocalBusiness, Organization, OpeningHoursSpecification, PostalAddress, Country, ContactPoint, ImageObject"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/seo--seo-Home-desktop/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/seo--seo-Home-desktop/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/seo--seo-Home-desktop/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js",
+                    "column": 55,
+                    "line": 54
+                  }
+                },
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 3658,
+                  "error": {
+                    "message": "Error: canonical present\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"\"\u001b[39m",
+                    "stack": "Error: canonical present\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"\"\u001b[39m\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js:54:55",
+                    "location": {
+                      "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js",
+                      "column": 55,
+                      "line": 54
+                    },
+                    "snippet": "  52 |     expect.soft(d.robots.toLowerCase(), 'page is not noindex').not.toContain('noindex');\n  53 |     expect.soft(d.h1.length, 'has an H1').toBeGreaterThan(0);\n> 54 |     expect.soft(d.canonical, 'canonical present').not.toBe('');\n     |                                                       ^\n  55 |     if (d.canonical) {\n  56 |       const canon = new URL(d.canonical);\n  57 |       const expected = new URL(url(pg.path));"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js",
+                        "column": 55,
+                        "line": 54
+                      },
+                      "message": "Error: canonical present\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"\"\u001b[39m\n\n  52 |     expect.soft(d.robots.toLowerCase(), 'page is not noindex').not.toContain('noindex');\n  53 |     expect.soft(d.h1.length, 'has an H1').toBeGreaterThan(0);\n> 54 |     expect.soft(d.canonical, 'canonical present').not.toBe('');\n     |                                                       ^\n  55 |     if (d.canonical) {\n  56 |       const canon = new URL(d.canonical);\n  57 |       const expected = new URL(url(pg.path));\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js:54:55"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2026-11-17T11:50:16.805Z",
+                  "annotations": [
+                    {
+                      "type": "info",
+                      "description": "Title(58): Smartphones, Gadgets & Premium Accessories | Apple Gadgets"
+                    },
+                    {
+                      "type": "info",
+                      "description": "Schema: WebSite, SearchAction, EntryPoint, LocalBusiness, Organization, OpeningHoursSpecification, PostalAddress, Country, ContactPoint, ImageObject"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/seo--seo-Home-desktop-retry1/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/seo--seo-Home-desktop-retry1/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/seo--seo-Home-desktop-retry1/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js",
+                    "column": 55,
+                    "line": 54
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "c492e88247ecdf7201f5-d64ff383b0b9a76f0b29",
+          "file": "seo.spec.js",
+          "line": 7,
+          "column": 3
+        },
+        {
+          "title": "[seo] Mobile Phone",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "info",
+                  "description": "Title(60): Latest Mobile Phone Price in Bangladesh 2026 | Apple Gadgets"
+                },
+                {
+                  "type": "info",
+                  "description": "Schema: none"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2717,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:21.656Z",
+                  "annotations": [
+                    {
+                      "type": "info",
+                      "description": "Title(60): Latest Mobile Phone Price in Bangladesh 2026 | Apple Gadgets"
+                    },
+                    {
+                      "type": "info",
+                      "description": "Schema: none"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c492e88247ecdf7201f5-ca556fe6bdafb092286c",
+          "file": "seo.spec.js",
+          "line": 7,
+          "column": 3
+        },
+        {
+          "title": "[seo] Laptops",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "info",
+                  "description": "Title(53): Laptop Price in Bangladesh 2026 | Latest Laptop Price"
+                },
+                {
+                  "type": "info",
+                  "description": "Schema: none"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1936,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:24.501Z",
+                  "annotations": [
+                    {
+                      "type": "info",
+                      "description": "Title(53): Laptop Price in Bangladesh 2026 | Latest Laptop Price"
+                    },
+                    {
+                      "type": "info",
+                      "description": "Schema: none"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c492e88247ecdf7201f5-851068467671702731a0",
+          "file": "seo.spec.js",
+          "line": 7,
+          "column": 3
+        },
+        {
+          "title": "[seo] Tablet",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "info",
+                  "description": "Title(47): Tablet Price in Bangladesh 2026 | Apple Gadgets"
+                },
+                {
+                  "type": "info",
+                  "description": "Schema: none"
+                },
+                {
+                  "type": "warn",
+                  "description": "Meta description length 175 (aim 70–165)"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2449,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:26.452Z",
+                  "annotations": [
+                    {
+                      "type": "info",
+                      "description": "Title(47): Tablet Price in Bangladesh 2026 | Apple Gadgets"
+                    },
+                    {
+                      "type": "info",
+                      "description": "Schema: none"
+                    },
+                    {
+                      "type": "warn",
+                      "description": "Meta description length 175 (aim 70–165)"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c492e88247ecdf7201f5-bfa4f9447ef0b4c0aede",
+          "file": "seo.spec.js",
+          "line": 7,
+          "column": 3
+        },
+        {
+          "title": "[seo] Gadgets & Gears",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "info",
+                  "description": "Title(35): Gadgets & Gears price in Bangladesh"
+                },
+                {
+                  "type": "info",
+                  "description": "Schema: none"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1730,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:28.931Z",
+                  "annotations": [
+                    {
+                      "type": "info",
+                      "description": "Title(35): Gadgets & Gears price in Bangladesh"
+                    },
+                    {
+                      "type": "info",
+                      "description": "Schema: none"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c492e88247ecdf7201f5-58b928f66c8049b49ac2",
+          "file": "seo.spec.js",
+          "line": 7,
+          "column": 3
+        },
+        {
+          "title": "[seo] Brand: Apple",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "info",
+                  "description": "Title(25): Apple Store in Bangladesh"
+                },
+                {
+                  "type": "info",
+                  "description": "Schema: none"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2687,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:30.692Z",
+                  "annotations": [
+                    {
+                      "type": "info",
+                      "description": "Title(25): Apple Store in Bangladesh"
+                    },
+                    {
+                      "type": "info",
+                      "description": "Schema: none"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c492e88247ecdf7201f5-5a0c48cb9eea13cd44a5",
+          "file": "seo.spec.js",
+          "line": 7,
+          "column": 3
+        },
+        {
+          "title": "[seo] Offers",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "info",
+                  "description": "Title(18): Offer AppleGadgets"
+                },
+                {
+                  "type": "info",
+                  "description": "Schema: none"
+                },
+                {
+                  "type": "warn",
+                  "description": "Title length 18 (aim 20–65)"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 2920,
+                  "error": {
+                    "message": "Error: canonical present\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"\"\u001b[39m",
+                    "stack": "Error: canonical present\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"\"\u001b[39m\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js:54:55",
+                    "location": {
+                      "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js",
+                      "column": 55,
+                      "line": 54
+                    },
+                    "snippet": "  52 |     expect.soft(d.robots.toLowerCase(), 'page is not noindex').not.toContain('noindex');\n  53 |     expect.soft(d.h1.length, 'has an H1').toBeGreaterThan(0);\n> 54 |     expect.soft(d.canonical, 'canonical present').not.toBe('');\n     |                                                       ^\n  55 |     if (d.canonical) {\n  56 |       const canon = new URL(d.canonical);\n  57 |       const expected = new URL(url(pg.path));"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js",
+                        "column": 55,
+                        "line": 54
+                      },
+                      "message": "Error: canonical present\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"\"\u001b[39m\n\n  52 |     expect.soft(d.robots.toLowerCase(), 'page is not noindex').not.toContain('noindex');\n  53 |     expect.soft(d.h1.length, 'has an H1').toBeGreaterThan(0);\n> 54 |     expect.soft(d.canonical, 'canonical present').not.toBe('');\n     |                                                       ^\n  55 |     if (d.canonical) {\n  56 |       const canon = new URL(d.canonical);\n  57 |       const expected = new URL(url(pg.path));\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js:54:55"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:33.394Z",
+                  "annotations": [
+                    {
+                      "type": "info",
+                      "description": "Title(18): Offer AppleGadgets"
+                    },
+                    {
+                      "type": "info",
+                      "description": "Schema: none"
+                    },
+                    {
+                      "type": "warn",
+                      "description": "Title length 18 (aim 20–65)"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/seo--seo-Offers-desktop/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/seo--seo-Offers-desktop/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/seo--seo-Offers-desktop/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js",
+                    "column": 55,
+                    "line": 54
+                  }
+                },
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 1841,
+                  "error": {
+                    "message": "Error: canonical present\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"\"\u001b[39m",
+                    "stack": "Error: canonical present\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"\"\u001b[39m\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js:54:55",
+                    "location": {
+                      "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js",
+                      "column": 55,
+                      "line": 54
+                    },
+                    "snippet": "  52 |     expect.soft(d.robots.toLowerCase(), 'page is not noindex').not.toContain('noindex');\n  53 |     expect.soft(d.h1.length, 'has an H1').toBeGreaterThan(0);\n> 54 |     expect.soft(d.canonical, 'canonical present').not.toBe('');\n     |                                                       ^\n  55 |     if (d.canonical) {\n  56 |       const canon = new URL(d.canonical);\n  57 |       const expected = new URL(url(pg.path));"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js",
+                        "column": 55,
+                        "line": 54
+                      },
+                      "message": "Error: canonical present\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"\"\u001b[39m\n\n  52 |     expect.soft(d.robots.toLowerCase(), 'page is not noindex').not.toContain('noindex');\n  53 |     expect.soft(d.h1.length, 'has an H1').toBeGreaterThan(0);\n> 54 |     expect.soft(d.canonical, 'canonical present').not.toBe('');\n     |                                                       ^\n  55 |     if (d.canonical) {\n  56 |       const canon = new URL(d.canonical);\n  57 |       const expected = new URL(url(pg.path));\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js:54:55"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2026-11-17T11:50:36.935Z",
+                  "annotations": [
+                    {
+                      "type": "info",
+                      "description": "Title(18): Offer AppleGadgets"
+                    },
+                    {
+                      "type": "info",
+                      "description": "Schema: none"
+                    },
+                    {
+                      "type": "warn",
+                      "description": "Title length 18 (aim 20–65)"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/seo--seo-Offers-desktop-retry1/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/seo--seo-Offers-desktop-retry1/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/seo--seo-Offers-desktop-retry1/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js",
+                    "column": 55,
+                    "line": 54
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "c492e88247ecdf7201f5-93c30eab313fcf7df8c7",
+          "file": "seo.spec.js",
+          "line": 7,
+          "column": 3
+        },
+        {
+          "title": "[seo] Blog",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "info",
+                  "description": "Title(60): AppleGadgets Blog - Tech Product Insights at Your Fingertips"
+                },
+                {
+                  "type": "info",
+                  "description": "Schema: Person, ImageObject, WebSite, SearchAction, CollectionPage"
+                },
+                {
+                  "type": "warn",
+                  "description": "Missing og:title / og:image"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 2358,
+                  "error": {
+                    "message": "Error: has an H1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+                    "stack": "Error: has an H1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js:53:43",
+                    "location": {
+                      "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js",
+                      "column": 43,
+                      "line": 53
+                    },
+                    "snippet": "  51 |     expect.soft(d.desc, 'meta description present').not.toBe('');\n  52 |     expect.soft(d.robots.toLowerCase(), 'page is not noindex').not.toContain('noindex');\n> 53 |     expect.soft(d.h1.length, 'has an H1').toBeGreaterThan(0);\n     |                                           ^\n  54 |     expect.soft(d.canonical, 'canonical present').not.toBe('');\n  55 |     if (d.canonical) {\n  56 |       const canon = new URL(d.canonical);"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js",
+                        "column": 43,
+                        "line": 53
+                      },
+                      "message": "Error: has an H1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n\n  51 |     expect.soft(d.desc, 'meta description present').not.toBe('');\n  52 |     expect.soft(d.robots.toLowerCase(), 'page is not noindex').not.toContain('noindex');\n> 53 |     expect.soft(d.h1.length, 'has an H1').toBeGreaterThan(0);\n     |                                           ^\n  54 |     expect.soft(d.canonical, 'canonical present').not.toBe('');\n  55 |     if (d.canonical) {\n  56 |       const canon = new URL(d.canonical);\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js:53:43"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:39.698Z",
+                  "annotations": [
+                    {
+                      "type": "info",
+                      "description": "Title(60): AppleGadgets Blog - Tech Product Insights at Your Fingertips"
+                    },
+                    {
+                      "type": "info",
+                      "description": "Schema: Person, ImageObject, WebSite, SearchAction, CollectionPage"
+                    },
+                    {
+                      "type": "warn",
+                      "description": "Missing og:title / og:image"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/seo--seo-Blog-desktop/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/seo--seo-Blog-desktop/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/seo--seo-Blog-desktop/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js",
+                    "column": 43,
+                    "line": 53
+                  }
+                },
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 2429,
+                  "error": {
+                    "message": "Error: has an H1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+                    "stack": "Error: has an H1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js:53:43",
+                    "location": {
+                      "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js",
+                      "column": 43,
+                      "line": 53
+                    },
+                    "snippet": "  51 |     expect.soft(d.desc, 'meta description present').not.toBe('');\n  52 |     expect.soft(d.robots.toLowerCase(), 'page is not noindex').not.toContain('noindex');\n> 53 |     expect.soft(d.h1.length, 'has an H1').toBeGreaterThan(0);\n     |                                           ^\n  54 |     expect.soft(d.canonical, 'canonical present').not.toBe('');\n  55 |     if (d.canonical) {\n  56 |       const canon = new URL(d.canonical);"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js",
+                        "column": 43,
+                        "line": 53
+                      },
+                      "message": "Error: has an H1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n\n  51 |     expect.soft(d.desc, 'meta description present').not.toBe('');\n  52 |     expect.soft(d.robots.toLowerCase(), 'page is not noindex').not.toContain('noindex');\n> 53 |     expect.soft(d.h1.length, 'has an H1').toBeGreaterThan(0);\n     |                                           ^\n  54 |     expect.soft(d.canonical, 'canonical present').not.toBe('');\n  55 |     if (d.canonical) {\n  56 |       const canon = new URL(d.canonical);\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js:53:43"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2026-11-17T11:50:43.436Z",
+                  "annotations": [
+                    {
+                      "type": "info",
+                      "description": "Title(60): AppleGadgets Blog - Tech Product Insights at Your Fingertips"
+                    },
+                    {
+                      "type": "info",
+                      "description": "Schema: Person, ImageObject, WebSite, SearchAction, CollectionPage"
+                    },
+                    {
+                      "type": "warn",
+                      "description": "Missing og:title / og:image"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/seo--seo-Blog-desktop-retry1/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/seo--seo-Blog-desktop-retry1/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/home/runner/work/ag-site-monitor/ag-site-monitor/reports/test-artifacts/seo--seo-Blog-desktop-retry1/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js",
+                    "column": 43,
+                    "line": 53
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "c492e88247ecdf7201f5-d7c82f2fe2a8f124b391",
+          "file": "seo.spec.js",
+          "line": 7,
+          "column": 3
+        },
+        {
+          "title": "[seo] Product: AirTag",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "info",
+                  "description": "Title(32): Apple AirTag Price in Bangladesh"
+                },
+                {
+                  "type": "info",
+                  "description": "Schema: Product, Brand, PropertyValue, Offer, UnitPriceSpecification, OnlineStore, BreadcrumbList, ListItem"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1502,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:46.853Z",
+                  "annotations": [
+                    {
+                      "type": "info",
+                      "description": "Title(32): Apple AirTag Price in Bangladesh"
+                    },
+                    {
+                      "type": "info",
+                      "description": "Schema: Product, Brand, PropertyValue, Offer, UnitPriceSpecification, OnlineStore, BreadcrumbList, ListItem"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c492e88247ecdf7201f5-4e0c998a0a755807ca8a",
+          "file": "seo.spec.js",
+          "line": 7,
+          "column": 3
+        },
+        {
+          "title": "[seo] Product: iPhone 18 Pro Max",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "info",
+                  "description": "Title(53): iPhone 18 Pro Max Price in Bangladesh | Apple Gadgets"
+                },
+                {
+                  "type": "info",
+                  "description": "Schema: Product, Brand, PropertyValue, Offer, UnitPriceSpecification, OnlineStore, BreadcrumbList, ListItem"
+                },
+                {
+                  "type": "warn",
+                  "description": "1 image(s) without alt attribute"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1655,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:48.477Z",
+                  "annotations": [
+                    {
+                      "type": "info",
+                      "description": "Title(53): iPhone 18 Pro Max Price in Bangladesh | Apple Gadgets"
+                    },
+                    {
+                      "type": "info",
+                      "description": "Schema: Product, Brand, PropertyValue, Offer, UnitPriceSpecification, OnlineStore, BreadcrumbList, ListItem"
+                    },
+                    {
+                      "type": "warn",
+                      "description": "1 image(s) without alt attribute"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c492e88247ecdf7201f5-c1c54ef82ecae0968af6",
+          "file": "seo.spec.js",
+          "line": 7,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "smoke.spec.js",
+      "file": "smoke.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "[smoke] Home loads",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "loadMs",
+                  "description": "4632"
+                },
+                {
+                  "type": "ttfbMs",
+                  "description": "1349"
+                },
+                {
+                  "type": "status",
+                  "description": "200"
+                },
+                {
+                  "type": "warn",
+                  "description": "Slow load: 4632 ms"
+                },
+                {
+                  "type": "warn",
+                  "description": "Slow TTFB: 1349 ms"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 5174,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:10.186Z",
+                  "annotations": [
+                    {
+                      "type": "loadMs",
+                      "description": "4632"
+                    },
+                    {
+                      "type": "ttfbMs",
+                      "description": "1349"
+                    },
+                    {
+                      "type": "status",
+                      "description": "200"
+                    },
+                    {
+                      "type": "warn",
+                      "description": "Slow load: 4632 ms"
+                    },
+                    {
+                      "type": "warn",
+                      "description": "Slow TTFB: 1349 ms"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "loadMs",
+                  "description": "3517"
+                },
+                {
+                  "type": "ttfbMs",
+                  "description": "1027"
+                },
+                {
+                  "type": "status",
+                  "description": "200"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4151,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:32.933Z",
+                  "annotations": [
+                    {
+                      "type": "loadMs",
+                      "description": "3517"
+                    },
+                    {
+                      "type": "ttfbMs",
+                      "description": "1027"
+                    },
+                    {
+                      "type": "status",
+                      "description": "200"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2c14808d47b386fba9eb-cfaaa411891614b4a55d",
+          "file": "smoke.spec.js",
+          "line": 9,
+          "column": 3
+        },
+        {
+          "title": "[smoke] Mobile Phone loads",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "loadMs",
+                  "description": "2603"
+                },
+                {
+                  "type": "ttfbMs",
+                  "description": "1206"
+                },
+                {
+                  "type": "status",
+                  "description": "200"
+                },
+                {
+                  "type": "warn",
+                  "description": "Slow TTFB: 1206 ms"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3247,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:15.747Z",
+                  "annotations": [
+                    {
+                      "type": "loadMs",
+                      "description": "2603"
+                    },
+                    {
+                      "type": "ttfbMs",
+                      "description": "1206"
+                    },
+                    {
+                      "type": "status",
+                      "description": "200"
+                    },
+                    {
+                      "type": "warn",
+                      "description": "Slow TTFB: 1206 ms"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "loadMs",
+                  "description": "2942"
+                },
+                {
+                  "type": "ttfbMs",
+                  "description": "1060"
+                },
+                {
+                  "type": "status",
+                  "description": "200"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3260,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:37.336Z",
+                  "annotations": [
+                    {
+                      "type": "loadMs",
+                      "description": "2942"
+                    },
+                    {
+                      "type": "ttfbMs",
+                      "description": "1060"
+                    },
+                    {
+                      "type": "status",
+                      "description": "200"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2c14808d47b386fba9eb-7817e2d5678b1fed8794",
+          "file": "smoke.spec.js",
+          "line": 9,
+          "column": 3
+        },
+        {
+          "title": "[smoke] Laptops loads",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "loadMs",
+                  "description": "3036"
+                },
+                {
+                  "type": "ttfbMs",
+                  "description": "1122"
+                },
+                {
+                  "type": "status",
+                  "description": "200"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3501,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:19.030Z",
+                  "annotations": [
+                    {
+                      "type": "loadMs",
+                      "description": "3036"
+                    },
+                    {
+                      "type": "ttfbMs",
+                      "description": "1122"
+                    },
+                    {
+                      "type": "status",
+                      "description": "200"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "loadMs",
+                  "description": "3055"
+                },
+                {
+                  "type": "ttfbMs",
+                  "description": "1079"
+                },
+                {
+                  "type": "status",
+                  "description": "200"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3417,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:40.609Z",
+                  "annotations": [
+                    {
+                      "type": "loadMs",
+                      "description": "3055"
+                    },
+                    {
+                      "type": "ttfbMs",
+                      "description": "1079"
+                    },
+                    {
+                      "type": "status",
+                      "description": "200"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2c14808d47b386fba9eb-3bcd2c064e8571b8301f",
+          "file": "smoke.spec.js",
+          "line": 9,
+          "column": 3
+        },
+        {
+          "title": "[smoke] Tablet loads",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "loadMs",
+                  "description": "3105"
+                },
+                {
+                  "type": "ttfbMs",
+                  "description": "1054"
+                },
+                {
+                  "type": "status",
+                  "description": "200"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3407,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:22.564Z",
+                  "annotations": [
+                    {
+                      "type": "loadMs",
+                      "description": "3105"
+                    },
+                    {
+                      "type": "ttfbMs",
+                      "description": "1054"
+                    },
+                    {
+                      "type": "status",
+                      "description": "200"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "loadMs",
+                  "description": "1651"
+                },
+                {
+                  "type": "ttfbMs",
+                  "description": "1029"
+                },
+                {
+                  "type": "status",
+                  "description": "200"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2752,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:44.041Z",
+                  "annotations": [
+                    {
+                      "type": "loadMs",
+                      "description": "1651"
+                    },
+                    {
+                      "type": "ttfbMs",
+                      "description": "1029"
+                    },
+                    {
+                      "type": "status",
+                      "description": "200"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2c14808d47b386fba9eb-7031f70f30f5562b2c61",
+          "file": "smoke.spec.js",
+          "line": 9,
+          "column": 3
+        },
+        {
+          "title": "[smoke] Gadgets & Gears loads",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "loadMs",
+                  "description": "3122"
+                },
+                {
+                  "type": "ttfbMs",
+                  "description": "1032"
+                },
+                {
+                  "type": "status",
+                  "description": "200"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3400,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:25.986Z",
+                  "annotations": [
+                    {
+                      "type": "loadMs",
+                      "description": "3122"
+                    },
+                    {
+                      "type": "ttfbMs",
+                      "description": "1032"
+                    },
+                    {
+                      "type": "status",
+                      "description": "200"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "loadMs",
+                  "description": "2734"
+                },
+                {
+                  "type": "ttfbMs",
+                  "description": "1034"
+                },
+                {
+                  "type": "status",
+                  "description": "200"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3130,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:46.807Z",
+                  "annotations": [
+                    {
+                      "type": "loadMs",
+                      "description": "2734"
+                    },
+                    {
+                      "type": "ttfbMs",
+                      "description": "1034"
+                    },
+                    {
+                      "type": "status",
+                      "description": "200"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2c14808d47b386fba9eb-7531ba267283605bbb36",
+          "file": "smoke.spec.js",
+          "line": 9,
+          "column": 3
+        },
+        {
+          "title": "[smoke] Brand: Apple loads",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "loadMs",
+                  "description": "3197"
+                },
+                {
+                  "type": "ttfbMs",
+                  "description": "1354"
+                },
+                {
+                  "type": "status",
+                  "description": "200"
+                },
+                {
+                  "type": "warn",
+                  "description": "Slow TTFB: 1354 ms"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3571,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:29.401Z",
+                  "annotations": [
+                    {
+                      "type": "loadMs",
+                      "description": "3197"
+                    },
+                    {
+                      "type": "ttfbMs",
+                      "description": "1354"
+                    },
+                    {
+                      "type": "status",
+                      "description": "200"
+                    },
+                    {
+                      "type": "warn",
+                      "description": "Slow TTFB: 1354 ms"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "loadMs",
+                  "description": "1580"
+                },
+                {
+                  "type": "ttfbMs",
+                  "description": "1263"
+                },
+                {
+                  "type": "status",
+                  "description": "200"
+                },
+                {
+                  "type": "warn",
+                  "description": "Slow TTFB: 1263 ms"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2359,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:49.969Z",
+                  "annotations": [
+                    {
+                      "type": "loadMs",
+                      "description": "1580"
+                    },
+                    {
+                      "type": "ttfbMs",
+                      "description": "1263"
+                    },
+                    {
+                      "type": "status",
+                      "description": "200"
+                    },
+                    {
+                      "type": "warn",
+                      "description": "Slow TTFB: 1263 ms"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2c14808d47b386fba9eb-f9bbccfee46bcd19fe94",
+          "file": "smoke.spec.js",
+          "line": 9,
+          "column": 3
+        },
+        {
+          "title": "[smoke] Offers loads",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "loadMs",
+                  "description": "2618"
+                },
+                {
+                  "type": "ttfbMs",
+                  "description": "789"
+                },
+                {
+                  "type": "status",
+                  "description": "200"
+                },
+                {
+                  "type": "warn",
+                  "description": "JS errors: Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3243,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:32.986Z",
+                  "annotations": [
+                    {
+                      "type": "loadMs",
+                      "description": "2618"
+                    },
+                    {
+                      "type": "ttfbMs",
+                      "description": "789"
+                    },
+                    {
+                      "type": "status",
+                      "description": "200"
+                    },
+                    {
+                      "type": "warn",
+                      "description": "JS errors: Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "loadMs",
+                  "description": "2646"
+                },
+                {
+                  "type": "ttfbMs",
+                  "description": "802"
+                },
+                {
+                  "type": "status",
+                  "description": "200"
+                },
+                {
+                  "type": "warn",
+                  "description": "JS errors: Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2937,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:52.341Z",
+                  "annotations": [
+                    {
+                      "type": "loadMs",
+                      "description": "2646"
+                    },
+                    {
+                      "type": "ttfbMs",
+                      "description": "802"
+                    },
+                    {
+                      "type": "status",
+                      "description": "200"
+                    },
+                    {
+                      "type": "warn",
+                      "description": "JS errors: Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2c14808d47b386fba9eb-8b2f92c41985d8d16601",
+          "file": "smoke.spec.js",
+          "line": 9,
+          "column": 3
+        },
+        {
+          "title": "[smoke] Blog loads",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "loadMs",
+                  "description": "3034"
+                },
+                {
+                  "type": "ttfbMs",
+                  "description": "1244"
+                },
+                {
+                  "type": "status",
+                  "description": "200"
+                },
+                {
+                  "type": "warn",
+                  "description": "Slow TTFB: 1244 ms"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3532,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:36.246Z",
+                  "annotations": [
+                    {
+                      "type": "loadMs",
+                      "description": "3034"
+                    },
+                    {
+                      "type": "ttfbMs",
+                      "description": "1244"
+                    },
+                    {
+                      "type": "status",
+                      "description": "200"
+                    },
+                    {
+                      "type": "warn",
+                      "description": "Slow TTFB: 1244 ms"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "loadMs",
+                  "description": "2611"
+                },
+                {
+                  "type": "ttfbMs",
+                  "description": "1129"
+                },
+                {
+                  "type": "status",
+                  "description": "200"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2995,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:55.289Z",
+                  "annotations": [
+                    {
+                      "type": "loadMs",
+                      "description": "2611"
+                    },
+                    {
+                      "type": "ttfbMs",
+                      "description": "1129"
+                    },
+                    {
+                      "type": "status",
+                      "description": "200"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2c14808d47b386fba9eb-159a7abebb1f1eea4b21",
+          "file": "smoke.spec.js",
+          "line": 9,
+          "column": 3
+        },
+        {
+          "title": "[smoke] Product: AirTag loads",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "loadMs",
+                  "description": "3077"
+                },
+                {
+                  "type": "ttfbMs",
+                  "description": "813"
+                },
+                {
+                  "type": "status",
+                  "description": "200"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3426,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:39.803Z",
+                  "annotations": [
+                    {
+                      "type": "loadMs",
+                      "description": "3077"
+                    },
+                    {
+                      "type": "ttfbMs",
+                      "description": "813"
+                    },
+                    {
+                      "type": "status",
+                      "description": "200"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "loadMs",
+                  "description": "2421"
+                },
+                {
+                  "type": "ttfbMs",
+                  "description": "866"
+                },
+                {
+                  "type": "status",
+                  "description": "200"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2776,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:58.296Z",
+                  "annotations": [
+                    {
+                      "type": "loadMs",
+                      "description": "2421"
+                    },
+                    {
+                      "type": "ttfbMs",
+                      "description": "866"
+                    },
+                    {
+                      "type": "status",
+                      "description": "200"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2c14808d47b386fba9eb-f47782eaa02b7c2e4e83",
+          "file": "smoke.spec.js",
+          "line": 9,
+          "column": 3
+        },
+        {
+          "title": "[smoke] Product: iPhone 18 Pro Max loads",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "loadMs",
+                  "description": "2467"
+                },
+                {
+                  "type": "ttfbMs",
+                  "description": "777"
+                },
+                {
+                  "type": "status",
+                  "description": "200"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2822,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:50:43.257Z",
+                  "annotations": [
+                    {
+                      "type": "loadMs",
+                      "description": "2467"
+                    },
+                    {
+                      "type": "ttfbMs",
+                      "description": "777"
+                    },
+                    {
+                      "type": "status",
+                      "description": "200"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "loadMs",
+                  "description": "2438"
+                },
+                {
+                  "type": "ttfbMs",
+                  "description": "817"
+                },
+                {
+                  "type": "status",
+                  "description": "200"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2793,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-17T11:51:01.083Z",
+                  "annotations": [
+                    {
+                      "type": "loadMs",
+                      "description": "2438"
+                    },
+                    {
+                      "type": "ttfbMs",
+                      "description": "817"
+                    },
+                    {
+                      "type": "status",
+                      "description": "200"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2c14808d47b386fba9eb-c1e93ad2a0042dc1844b",
+          "file": "smoke.spec.js",
+          "line": 9,
+          "column": 3
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-17T11:50:09.517Z",
+    "duration": 67864.799,
+    "expected": 36,
+    "skipped": 0,
+    "unexpected": 4,
+    "flaky": 0
+  }
+}
