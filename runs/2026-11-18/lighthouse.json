@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-11-18T11:43:38.224Z",
+  "results": [
+    {
+      "path": "/",
+      "report": "lighthouse/home.html",
+      "scores": {
+        "performance": 47,
+        "accessibility": 82,
+        "best-practices": 69,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 9148.664920000001,
+        "FCP": 2302.4506100000003,
+        "TBT": 1024.1177099999982,
+        "CLS": 0,
+        "SI": 4925.8715958693165
+      },
+      "topIssues": [
+        {
+          "title": "Reduce unused JavaScript",
+          "savingsMs": 1540
+        },
+        {
+          "title": "Reduce initial server response time",
+          "savingsMs": 801
+        },
+        {
+          "title": "Reduce unused CSS",
+          "savingsMs": 150
+        }
+      ]
+    },
+    {
+      "path": "/category/mobile-phone",
+      "report": "lighthouse/category_mobile-phone.html",
+      "scores": {
+        "performance": 46,
+        "accessibility": 85,
+        "best-practices": 77,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 6738.846450000001,
+        "FCP": 1663.6354000000001,
+        "TBT": 1044.5000000000018,
+        "CLS": 0.003341249230433069,
+        "SI": 7505.41974844271
+      },
+      "topIssues": [
+        {
+          "title": "Reduce unused JavaScript",
+          "savingsMs": 1350
+        },
+        {
+          "title": "Reduce initial server response time",
+          "savingsMs": 919
+        }
+      ]
+    },
+    {
+      "path": "/product/apple-airtag",
+      "report": "lighthouse/product_apple-airtag.html",
+      "scores": {
+        "performance": 58,
+        "accessibility": 81,
+        "best-practices": 69,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 5562.866900000001,
+        "FCP": 1212.7044999999998,
+        "TBT": 843.5,
+        "CLS": 0,
+        "SI": 3807.7107266929556
+      },
+      "topIssues": [
+        {
+          "title": "Reduce unused JavaScript",
+          "savingsMs": 930
+        },
+        {
+          "title": "Reduce initial server response time",
+          "savingsMs": 622
+        },
+        {
+          "title": "Reduce unused CSS",
+          "savingsMs": 150
+        }
+      ]
+    }
+  ]
+}

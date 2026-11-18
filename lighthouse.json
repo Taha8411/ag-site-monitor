@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-11-17T11:52:56.960Z",
+  "generatedAt": "2026-11-18T11:43:38.224Z",
   "results": [
     {
       "path": "/",
       "report": "lighthouse/home.html",
       "scores": {
-        "performance": 38,
+        "performance": 47,
         "accessibility": 82,
         "best-practices": 69,
         "seo": 100
       },
       "metrics": {
-        "LCP": 10028.757699999998,
-        "FCP": 2371.5181199999997,
-        "TBT": 1290,
+        "LCP": 9148.664920000001,
+        "FCP": 2302.4506100000003,
+        "TBT": 1024.1177099999982,
         "CLS": 0,
-        "SI": 10110.318762815403
+        "SI": 4925.8715958693165
       },
       "topIssues": [
         {
@@ -24,7 +24,11 @@
         },
         {
           "title": "Reduce initial server response time",
-          "savingsMs": 1028
+          "savingsMs": 801
+        },
+        {
+          "title": "Reduce unused CSS",
+          "savingsMs": 150
         }
       ]
     },
@@ -38,11 +42,11 @@
         "seo": 100
       },
       "metrics": {
-        "LCP": 6765.70435,
-        "FCP": 1667.433,
-        "TBT": 1560,
-        "CLS": 0,
-        "SI": 5126.31403007989
+        "LCP": 6738.846450000001,
+        "FCP": 1663.6354000000001,
+        "TBT": 1044.5000000000018,
+        "CLS": 0.003341249230433069,
+        "SI": 7505.41974844271
       },
       "topIssues": [
         {
@@ -51,7 +55,7 @@
         },
         {
           "title": "Reduce initial server response time",
-          "savingsMs": 1134
+          "savingsMs": 919
         }
       ]
     },
@@ -59,26 +63,26 @@
       "path": "/product/apple-airtag",
       "report": "lighthouse/product_apple-airtag.html",
       "scores": {
-        "performance": 45,
+        "performance": 58,
         "accessibility": 81,
         "best-practices": 69,
         "seo": 100
       },
       "metrics": {
-        "LCP": 6811.361450000001,
-        "FCP": 1214.8687,
-        "TBT": 1121.5000000000002,
-        "CLS": 0.003311767619576306,
-        "SI": 9438.206941295994
+        "LCP": 5562.866900000001,
+        "FCP": 1212.7044999999998,
+        "TBT": 843.5,
+        "CLS": 0,
+        "SI": 3807.7107266929556
       },
       "topIssues": [
         {
           "title": "Reduce unused JavaScript",
-          "savingsMs": 1350
+          "savingsMs": 930
         },
         {
           "title": "Reduce initial server response time",
-          "savingsMs": 801
+          "savingsMs": 622
         },
         {
           "title": "Reduce unused CSS",

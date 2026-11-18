@@ -1,0 +1,111 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FAIL · Apple Gadgets BD daily test · 18 Nov 2026, 17:43</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#16181d;--mut:#6b7280;--line:#e5e7eb;--good:#0f9d58;--ok:#c77700;--bad:#d93025}
+*{box-sizing:border-box}body{margin:0;font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink)}
+.wrap{max-width:1180px;margin:0 auto;padding:24px 16px 60px}
+header{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:18px}
+h1{font-size:22px;margin:0}h2{font-size:16px;margin:0 0 10px}.muted{color:var(--mut);font-size:12px}
+.status{font-size:20px;font-weight:700;padding:8px 18px;border-radius:999px;color:#fff}
+.s-pass{background:var(--good)}.s-warn{background:var(--ok)}.s-fail{background:var(--bad)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-bottom:18px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px}.tv{font-size:22px;font-weight:700}.tl{color:var(--mut);font-size:12px}
+.tile.bad .tv{color:var(--bad)}.tile.ok .tv{color:var(--ok)}.tile.good .tv{color:var(--good)}
+section{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;margin-bottom:14px;overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13px}th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--mut)}
+td.good{color:var(--good);font-weight:600}td.ok{color:var(--ok);font-weight:600}td.bad{color:var(--bad);font-weight:600}
+tr.sub td{color:var(--mut);font-size:12px;border-top:0}
+.b{display:inline-block;padding:1px 8px;border-radius:999px;font-size:11px;font-weight:700;background:#eee}
+.b-pass{background:#e6f4ea;color:var(--good)}.b-fail{background:#fce8e6;color:var(--bad)}.b-warn,.b-flaky{background:#fef3e0;color:var(--ok)}
+pre{white-space:pre-wrap;margin:0;font-size:12px;max-height:180px;overflow:auto}.err{color:var(--bad)}.small{font-size:12px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media(max-width:800px){.grid2{grid-template-columns:1fr}}
+a{color:#1a73e8}
+</style></head><body><div class="wrap">
+<header><div><h1>Apple Gadgets BD — Daily Site Test</h1>
+<div class="muted">https://www.applegadgetsbd.com · 18 Nov 2026, 17:43 (Dhaka) · 40 browser tests · 7 health checks · 3 Lighthouse audits</div></div>
+<div class="status s-fail">FAIL</div></header>
+
+<div class="tiles">
+<div class="tile bad"><div class="tv">36/40</div><div class="tl">Tests passed</div></div>
+<div class="tile bad"><div class="tv">4</div><div class="tl">Failures</div></div>
+<div class="tile ok"><div class="tv">13</div><div class="tl">Warnings</div></div>
+<div class="tile good"><div class="tv">2.4s</div><div class="tl">Avg page load</div></div>
+<div class="tile bad"><div class="tv">47</div><div class="tl">Home perf (mobile)</div></div>
+<div class="tile good"><div class="tv">100</div><div class="tl">Home SEO score</div></div>
+<div class="tile good"><div class="tv">0</div><div class="tl">Broken links</div></div>
+<div class="tile good"><div class="tv">81</div><div class="tl">SSL days left</div></div>
+</div>
+
+<section><h2>❌ Failures (4)</h2><table><tr><th>Test</th><th>Device</th><th>Error</th></tr>
+  <tr><td>[e2e] Search returns products</td><td>mobile</td><td><pre>Error: search box visible
+Locator: locator('input#search, input[name=&quot;search&quot;], input[type=&quot;search&quot;]').visible().first()
+Expected: visible
+Timeout: 15000ms
+Error: element(s) not found</pre></td></tr><tr><td>[seo] Home</td><td>desktop</td><td><pre>Error: canonical present
+Expected: not &quot;&quot;</pre></td></tr><tr><td>[seo] Offers</td><td>desktop</td><td><pre>Error: canonical present
+Expected: not &quot;&quot;</pre></td></tr><tr><td>[seo] Blog</td><td>desktop</td><td><pre>Error: has an H1
+Expected: &gt; 0
+Received:   0</pre></td></tr>
+  
+  </table><p class="muted">Screenshots, traces &amp; step logs: <a href="playwright/index.html">Playwright report</a></p></section>
+
+<section><h2>⚡ Page availability &amp; speed</h2><table><tr><th>Page</th><th>Desktop</th><th>Mobile</th><th>Load (D)</th><th>Load (M)</th><th>TTFB</th><th>HTTP</th></tr><tr><td>Home<div class="muted">/</div></td><td><span class="b b-pass">PASS</span></td><td><span class="b b-pass">PASS</span></td>
+    <td class="ok">4.1s</td><td class="good">2.6s</td><td>1.3s</td><td>200</td></tr><tr><td>Mobile Phone<div class="muted">/category/mobile-phone</div></td><td><span class="b b-pass">PASS</span></td><td><span class="b b-pass">PASS</span></td>
+    <td class="good">2.9s</td><td class="good">2.6s</td><td>796ms</td><td>200</td></tr><tr><td>Laptops<div class="muted">/category/laptops</div></td><td><span class="b b-pass">PASS</span></td><td><span class="b b-pass">PASS</span></td>
+    <td class="good">2.8s</td><td class="good">3.0s</td><td>834ms</td><td>200</td></tr><tr><td>Tablet<div class="muted">/category/tablet</div></td><td><span class="b b-pass">PASS</span></td><td><span class="b b-pass">PASS</span></td>
+    <td class="good">2.6s</td><td class="good">1.3s</td><td>841ms</td><td>200</td></tr><tr><td>Gadgets &amp; Gears<div class="muted">/category/gadgets-and-gears</div></td><td><span class="b b-pass">PASS</span></td><td><span class="b b-pass">PASS</span></td>
+    <td class="good">2.6s</td><td class="good">2.3s</td><td>833ms</td><td>200</td></tr><tr><td>Brand: Apple<div class="muted">/brands/apple</div></td><td><span class="b b-pass">PASS</span></td><td><span class="b b-pass">PASS</span></td>
+    <td class="good">1.6s</td><td class="good">2.4s</td><td>1.0s</td><td>200</td></tr><tr><td>Offers<div class="muted">/offer</div></td><td><span class="b b-pass">PASS</span></td><td><span class="b b-pass">PASS</span></td>
+    <td class="good">2.2s</td><td class="good">2.0s</td><td>643ms</td><td>200</td></tr><tr><td>Blog<div class="muted">/blog</div></td><td><span class="b b-pass">PASS</span></td><td><span class="b b-pass">PASS</span></td>
+    <td class="good">1.6s</td><td class="good">2.1s</td><td>932ms</td><td>200</td></tr><tr><td>Product: AirTag<div class="muted">/product/apple-airtag</div></td><td><span class="b b-pass">PASS</span></td><td><span class="b b-pass">PASS</span></td>
+    <td class="good">2.5s</td><td class="good">2.1s</td><td>953ms</td><td>200</td></tr><tr><td>Product: iPhone 18 Pro Max<div class="muted">/product/iphone-18-pro-max</div></td><td><span class="b b-pass">PASS</span></td><td><span class="b b-pass">PASS</span></td>
+    <td class="good">2.2s</td><td class="good">1.9s</td><td>645ms</td><td>200</td></tr></table>
+<p class="muted">Load = browser "load" event. Green &lt; 4.0s, amber &lt; 8.0s, red = fail.</p></section>
+
+<section><h2>🛒 Customer journeys</h2><table><tr><th>Journey</th><th>Desktop</th><th>Mobile</th><th>Notes</th></tr><tr><td>Browse: category → product page</td><td><span class="b b-pass">PASS</span></td><td><span class="b b-pass">PASS</span></td><td class="muted">42 product links on category</td></tr><tr><td>Product page: title, price, buy button, images</td><td><span class="b b-pass">PASS</span></td><td><span class="b b-pass">PASS</span></td><td class="muted"></td></tr><tr><td>Search returns products</td><td><span class="b b-pass">PASS</span></td><td><span class="b b-fail">FAIL</span></td><td class="muted">Search &quot;iphone&quot; → 66 product links (https://www.applegadgetsbd.com/)</td></tr><tr><td>Cart page opens</td><td><span class="b b-pass">PASS</span></td><td><span class="b b-pass">PASS</span></td><td class="muted"></td></tr><tr><td>Header &amp; footer render</td><td><span class="b b-pass">PASS</span></td><td><span class="b b-pass">PASS</span></td><td class="muted"></td></tr></table></section>
+
+<section><h2>🚦 Lighthouse (mobile)</h2><table><tr><th>Page</th><th>Perf</th><th>A11y</th><th>Best pr.</th><th>SEO</th><th>LCP</th><th>FCP</th><th>TBT</th><th>CLS</th><th></th></tr><tr><td>/</td><td class="bad">47</td><td class="ok">82</td><td class="bad">69</td><td class="good">100</td>
+     <td>9.1s</td><td>2.3s</td><td>1.0s</td><td>0.000</td>
+     <td><a href="lighthouse/home.html">full report</a></td></tr>
+     <tr class="sub"><td colspan="10">Top fixes: Reduce unused JavaScript (~1.5s) · Reduce initial server response time (~801ms) · Reduce unused CSS (~150ms)</td></tr><tr><td>/category/mobile-phone</td><td class="bad">46</td><td class="ok">85</td><td class="bad">77</td><td class="good">100</td>
+     <td>6.7s</td><td>1.7s</td><td>1.0s</td><td>0.003</td>
+     <td><a href="lighthouse/category_mobile-phone.html">full report</a></td></tr>
+     <tr class="sub"><td colspan="10">Top fixes: Reduce unused JavaScript (~1.4s) · Reduce initial server response time (~919ms)</td></tr><tr><td>/product/apple-airtag</td><td class="ok">58</td><td class="ok">81</td><td class="bad">69</td><td class="good">100</td>
+     <td>5.6s</td><td>1.2s</td><td>844ms</td><td>0.000</td>
+     <td><a href="lighthouse/product_apple-airtag.html">full report</a></td></tr>
+     <tr class="sub"><td colspan="10">Top fixes: Reduce unused JavaScript (~930ms) · Reduce initial server response time (~622ms) · Reduce unused CSS (~150ms)</td></tr></table>
+<p class="muted">Targets: Perf ≥ 50, A11y ≥ 80, Best practices ≥ 80, SEO ≥ 90. Good LCP &lt; 2.5s, CLS &lt; 0.1, TBT &lt; 200ms.</p></section>
+
+<section><h2>🔎 On-page SEO</h2><table><tr><th>Page</th><th>Result</th><th>Title</th><th>Issues</th></tr><tr><td>Home</td><td><span class="b b-fail">FAIL</span></td><td>Smartphones, Gadgets &amp; Premium Accessories | Apple Gadgets</td>
+    <td class="small"><div class="err">✖ Error: canonical present</div></td></tr><tr><td>Mobile Phone</td><td><span class="b b-pass">PASS</span></td><td>Latest Mobile Phone Price in Bangladesh 2026 | Apple Gadgets</td>
+    <td class="small"><span class="muted">clean</span></td></tr><tr><td>Laptops</td><td><span class="b b-pass">PASS</span></td><td>Laptop Price in Bangladesh 2026 | Latest Laptop Price</td>
+    <td class="small"><span class="muted">clean</span></td></tr><tr><td>Tablet</td><td><span class="b b-pass">PASS</span></td><td>Tablet Price in Bangladesh 2026 | Apple Gadgets</td>
+    <td class="small"><div>⚠ Meta description length 175 (aim 70–165)</div></td></tr><tr><td>Gadgets &amp; Gears</td><td><span class="b b-pass">PASS</span></td><td>Gadgets &amp; Gears price in Bangladesh</td>
+    <td class="small"><span class="muted">clean</span></td></tr><tr><td>Brand: Apple</td><td><span class="b b-pass">PASS</span></td><td>Apple Store in Bangladesh</td>
+    <td class="small"><span class="muted">clean</span></td></tr><tr><td>Offers</td><td><span class="b b-fail">FAIL</span></td><td>Offer AppleGadgets</td>
+    <td class="small"><div class="err">✖ Error: canonical present</div><div>⚠ Title length 18 (aim 20–65)</div></td></tr><tr><td>Blog</td><td><span class="b b-fail">FAIL</span></td><td>AppleGadgets Blog - Tech Product Insights at Your Fingertips</td>
+    <td class="small"><div class="err">✖ Error: has an H1</div><div>⚠ Missing og:title / og:image</div></td></tr><tr><td>Product: AirTag</td><td><span class="b b-pass">PASS</span></td><td>Apple AirTag Price in Bangladesh</td>
+    <td class="small"><span class="muted">clean</span></td></tr><tr><td>Product: iPhone 18 Pro Max</td><td><span class="b b-pass">PASS</span></td><td>iPhone 18 Pro Max Price in Bangladesh | Apple Gadgets</td>
+    <td class="small"><div>⚠ 1 image(s) without alt attribute</div></td></tr></table></section>
+
+<div class="grid2">
+<section><h2>🩺 Site health</h2><table><tr><th>Check</th><th>Result</th><th>Detail</th></tr>
+<tr><td>SSL certificate</td><td><span class="b b-pass">PASS</span></td><td class="small">81 days left (Google Trust Services)</td></tr><tr><td>Redirect http://www.applegadgetsbd.com/</td><td><span class="b b-pass">PASS</span></td><td class="small">→ https://www.applegadgetsbd.com/ (200)</td></tr><tr><td>Redirect https://applegadgetsbd.com/</td><td><span class="b b-pass">PASS</span></td><td class="small">→ https://www.applegadgetsbd.com/ (200)</td></tr><tr><td>robots.txt</td><td><span class="b b-pass">PASS</span></td><td class="small">18 lines</td></tr><tr><td>Sitemap</td><td><span class="b b-pass">PASS</span></td><td class="small">8 file(s), 13836 URLs</td></tr><tr><td>Sitemap URL sample</td><td><span class="b b-pass">PASS</span></td><td class="small">40 checked, 0 broken, 0 slow, avg 880 ms</td></tr><tr><td>Internal links</td><td><span class="b b-pass">PASS</span></td><td class="small">200 checked, 0 broken</td></tr></table></section>
+<section><h2>🔗 Broken links (0)</h2>
+<p class="muted">None found 🎉</p>
+</section></div>
+
+<section><h2>📈 Trend (last 5 runs)</h2><table>
+<tr><td>Test pass rate %</td><td><svg width="220" height="40" viewBox="0 0 220 40"><polyline fill="none" stroke="#0f9d58" stroke-width="2" points="0,36 55,36 110,36 165,36 220,36"/></svg><span class="muted"> 90 (min 90, max 90)</span></td></tr>
+<tr><td>Home perf score</td><td><svg width="220" height="40" viewBox="0 0 220 40"><polyline fill="none" stroke="#1a73e8" stroke-width="2" points="0,21.77777777777778 55,25.333333333333336 110,7.555555555555557 165,36 220,4"/></svg><span class="muted"> 47 (min 38, max 47)</span></td></tr>
+<tr><td>Avg page load (ms)</td><td><svg width="220" height="40" viewBox="0 0 220 40"><polyline fill="none" stroke="#c77700" stroke-width="2" points="0,4.56338028169014 55,4 110,17.5962441314554 165,19.023474178403756 220,36"/></svg><span class="muted"> 2372 (min 2372, max 3224)</span></td></tr>
+<tr><td>Broken links</td><td><svg width="220" height="40" viewBox="0 0 220 40"><polyline fill="none" stroke="#d93025" stroke-width="2" points="0,36 55,36 110,36 165,36 220,36"/></svg><span class="muted"> 0 (min 0, max 0)</span></td></tr>
+<tr><td>Daily status</td><td><span title="14 Nov 2026, 15:31" class="b b-fail">11-14</span> <span title="15 Nov 2026, 16:54" class="b b-fail">11-15</span> <span title="16 Nov 2026, 17:17" class="b b-fail">11-16</span> <span title="17 Nov 2026, 17:52" class="b b-fail">11-17</span> <span title="18 Nov 2026, 17:43" class="b b-fail">11-18</span></td></tr>
+</table></section>
+
+<section><h2>⚠️ Warnings (13)</h2>
+<table><tr><th>Where</th><th>Detail</th></tr><tr><td class="small">[seo] Tablet (desktop)</td><td class="small">Meta description length 175 (aim 70–165)</td></tr><tr><td class="small">[seo] Offers (desktop)</td><td class="small">Title length 18 (aim 20–65)</td></tr><tr><td class="small">[seo] Blog (desktop)</td><td class="small">Missing og:title / og:image</td></tr><tr><td class="small">[seo] Product: iPhone 18 Pro Max (desktop)</td><td class="small">1 image(s) without alt attribute</td></tr><tr><td class="small">[smoke] Home loads (desktop)</td><td class="small">Slow load: 4092 ms</td></tr><tr><td class="small">[smoke] Home loads (desktop)</td><td class="small">Slow TTFB: 1277 ms</td></tr><tr><td class="small">[smoke] Offers loads (desktop)</td><td class="small">JS errors: Minified React error #418; visit https://react.dev/errors/418?args[]=text&amp;args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.</td></tr><tr><td class="small">[smoke] Offers loads (mobile)</td><td class="small">JS errors: Minified React error #418; visit https://react.dev/errors/418?args[]=text&amp;args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.</td></tr><tr><td class="small">Lighthouse</td><td class="small">/: performance 47 (&lt; 50)</td></tr><tr><td class="small">Lighthouse</td><td class="small">/: best-practices 69 (&lt; 80)</td></tr><tr><td class="small">Lighthouse</td><td class="small">/category/mobile-phone: performance 46 (&lt; 50)</td></tr><tr><td class="small">Lighthouse</td><td class="small">/category/mobile-phone: best-practices 77 (&lt; 80)</td></tr><tr><td class="small">Lighthouse</td><td class="small">/product/apple-airtag: best-practices 69 (&lt; 80)</td></tr></table>
+</section>
+<p class="muted">Full browser logs, screenshots and traces: <a href="playwright/index.html">Playwright report</a> · Raw data: <a href="summary.json">summary.json</a></p>
+</div></body></html>
