@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T09:33:34.751Z",
+  "generatedAt": "2026-11-19T11:46:10.228Z",
   "checks": [
     {
       "name": "SSL certificate",
@@ -24,12 +24,12 @@
     {
       "name": "Sitemap",
       "status": "PASS",
-      "detail": "8 file(s), 13950 URLs"
+      "detail": "8 file(s), 13991 URLs"
     },
     {
       "name": "Sitemap URL sample",
       "status": "PASS",
-      "detail": "40 checked, 0 broken, 0 slow, avg 832 ms"
+      "detail": "40 checked, 0 broken, 0 slow, avg 825 ms"
     },
     {
       "name": "Internal links",
@@ -41,210 +41,210 @@
   "sitemap": {
     "files": 8,
     "badFiles": [],
-    "totalUrls": 13950,
+    "totalUrls": 13991,
     "sample": [
       {
-        "url": "https://www.applegadgetsbd.com/product/baseus-palm-fast-charger-with-usb-c-cable",
+        "url": "https://www.applegadgetsbd.com/product/anker-solix-c300-portable-power-station",
         "status": 200,
-        "ms": 790
+        "ms": 852
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/poco-x6-neo",
+        "url": "https://www.applegadgetsbd.com/product/ocean-omop70t20lv1e-mechanical-microwave",
         "status": 200,
-        "ms": 899
+        "ms": 1261
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/anker-a8895-2-in-1-usb-c-to-usb-c-cable-140w",
+        "url": "https://www.applegadgetsbd.com/product/logitech-k120-keyboard",
         "status": 200,
-        "ms": 938
+        "ms": 1249
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/sharp-r-32a0-sm-v-microwave-oven",
+        "url": "https://www.applegadgetsbd.com/product/zkteco-mb360-terminal-machine",
         "status": 200,
-        "ms": 940
+        "ms": 598
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/panasonic-mg-1360-meat-grinder",
+        "url": "https://www.applegadgetsbd.com/product/hoco-ds64-wireless-bluetooth-speaker-with-mic",
         "status": 200,
-        "ms": 918
+        "ms": 856
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/t-wolf-t78-rgb-tri-mode-mechanical-gaming-keyboard",
+        "url": "https://www.applegadgetsbd.com/product/gigabyte-b550m-h-argb-matx-motherboard",
         "status": 200,
-        "ms": 982
+        "ms": 833
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/miyako-atc-20t6-infrared-cooker",
+        "url": "https://www.applegadgetsbd.com/product/titan-bandhan-quartz-17732603sm01-couple-watch",
+        "status": 200,
+        "ms": 799
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/lg-24gs65f-b-ultragear-24-inch-gaming-monitor",
+        "status": 200,
+        "ms": 642
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/sony-bravia-kd-55x75k-google-tv",
+        "status": 200,
+        "ms": 1054
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/t-wolf-g510-6-buttons-gaming-mouse",
+        "status": 200,
+        "ms": 810
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/thermalright-peerless-assassin-120-digital-argb-cpu-cooler",
+        "status": 200,
+        "ms": 602
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/jisulife-f8x-bear-handheld-foldable-fan",
+        "status": 200,
+        "ms": 484
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/lenovo-loq-essential-15arp11-amd-ryzen-7-170-gaming-laptop",
+        "status": 200,
+        "ms": 768
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/xigmatek-aqua-ultra-gaming-casing",
         "status": 200,
         "ms": 782
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/ezviz-cb3-outdoor-wi-fi-standalone-smart-home-battery-camera",
+        "url": "https://www.applegadgetsbd.com/product/tesy-bellislimo-cloud-gcr-802722-e31-ecw-electric-water-heater",
         "status": 200,
-        "ms": 857
+        "ms": 1232
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/deepcool-ch170-digital-gaming-casing",
+        "url": "https://www.applegadgetsbd.com/product/t-wolf-tf800-4-in-1-gaming-combo-set",
         "status": 200,
-        "ms": 931
+        "ms": 1075
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/motorola-moto-g37",
+        "url": "https://www.applegadgetsbd.com/product/mcdodo-ca-5610-usb-c-to-usb-c-data-lightning-cable-1-2m",
         "status": 200,
-        "ms": 855
+        "ms": 781
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/apacer-ac236-external-hdd",
-        "status": 200,
-        "ms": 911
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/pc-power-z777-mesh-casing",
-        "status": 200,
-        "ms": 897
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/sony-srs-xg500-portable-wireless-speaker",
-        "status": 200,
-        "ms": 755
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/gigabyte-z790-ud-ax-ddr5-atx-motherboard",
-        "status": 200,
-        "ms": 766
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/golden-field-t01-casing",
-        "status": 200,
-        "ms": 832
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/miyako-3-jars-pink-panther-blender",
-        "status": 200,
-        "ms": 846
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/asus-prime-h610m-cs-d4-motherboard",
-        "status": 200,
-        "ms": 867
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/joyroom-sa38-cl3-30w-pd-coiled-lightning-cable",
-        "status": 200,
-        "ms": 1089
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/gazi-hy-738bv-smiss-kitchen-hood",
-        "status": 200,
-        "ms": 803
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/philips-hd491100-induction-cooker",
+        "url": "https://www.applegadgetsbd.com/product/baseus-superior-series-fast-charging-data-cable-usb-to-mlc",
         "status": 200,
         "ms": 761
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/fastrack-groove-quartz-3321nl01-mens-watch",
+        "url": "https://www.applegadgetsbd.com/product/walton-wg-crystal-electric-geyser",
         "status": 200,
-        "ms": 766
+        "ms": 814
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/gigabyte-z890m-gaming-x-micro-atx-motherboard",
+        "url": "https://www.applegadgetsbd.com/product/sony-bravia-5-k-55xr50-google-tv",
         "status": 200,
-        "ms": 783
+        "ms": 1017
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/logitech-pebble-keys-2-k380s-multi-device-bluetooth-wireless-keyboard",
+        "url": "https://www.applegadgetsbd.com/product/orico-papw4a-u31m-wh-pw-series-4-port-usb-hub",
         "status": 200,
-        "ms": 782
+        "ms": 747
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/kent-super-plus-water-purifier",
+        "url": "https://www.applegadgetsbd.com/product/sony-plus-sp55sfvg-55-inch-frameless-voice-control-4k-qled-google-tv",
         "status": 200,
-        "ms": 816
+        "ms": 762
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/rizco-rtz-301-ceramic-panel-gas-burner",
+        "url": "https://www.applegadgetsbd.com/product/miyako-pcf-50hm-electric-flask",
         "status": 200,
-        "ms": 764
+        "ms": 800
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/ajazz-nj07-mc-tri-mode-wireless-gaming-mouse",
+        "url": "https://www.applegadgetsbd.com/product/titan-1805sl12-mens-watch",
         "status": 200,
         "ms": 784
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/apacer-2666mhz-desktop-ram",
-        "status": 200,
-        "ms": 850
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/zifriend-tk68-rgb-wired-mechanical-keyboard",
-        "status": 200,
-        "ms": 806
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/asus-pro-q570m-c-csm-motherboard",
-        "status": 200,
-        "ms": 772
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/ocean-osj833lr-2-in-1-juicer",
-        "status": 200,
-        "ms": 862
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/miyako-atc-22s2-infrared-cooker",
-        "status": 200,
-        "ms": 772
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/hp-victus-15-fb3093dx-amd-ryzen-7-7445hs-gaming-laptop",
-        "status": 200,
-        "ms": 838
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/kdk-tg3ad1-water-heater",
+        "url": "https://www.applegadgetsbd.com/product/orico-2-5-to-3-5-inch-hard-drive-caddy",
         "status": 200,
         "ms": 771
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/cougar-ultimus-pro-wireless-mechanical-gaming-keyboard",
-        "status": 200,
-        "ms": 807
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/micropack-gp-320-mouse-pad",
+        "url": "https://www.applegadgetsbd.com/product/revenger-air-box-mini-5-argb-infinity-fans-mid-tower-gaming-casing",
         "status": 200,
         "ms": 796
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/panasonic-mc-cl605-22l-bagless-canister-vacuum-cleaner",
+        "url": "https://www.applegadgetsbd.com/product/smart-seh-i01sds-electric-dry-iron",
+        "status": 200,
+        "ms": 818
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/a4tech-fstyler-fbx55c-bluetooth-and-24g-wireless-keyboard",
+        "status": 200,
+        "ms": 788
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/hithium-portable-solar-panel-200w",
+        "status": 200,
+        "ms": 775
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/thermalright-tp-850-w-full-modular-power-supply",
+        "status": 200,
+        "ms": 776
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/sharp-fz-j80hfe-hepa-carbon-replacement-filter",
+        "status": 200,
+        "ms": 807
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/hoco-j154a-victorious-power-bank",
+        "status": 200,
+        "ms": 819
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/imou-ipc-k6cp-3h0web-3mp-wi-fi-camera",
+        "status": 200,
+        "ms": 738
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/jaipan-steelx-mixer-grinder",
+        "status": 200,
+        "ms": 797
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/msi-mpg-491cqpx-gaming-monitor",
+        "status": 200,
+        "ms": 793
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/kospet-tank-t4-smart-watch",
+        "status": 200,
+        "ms": 794
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/imou-n118-8a0e-nvr",
+        "status": 200,
+        "ms": 806
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/gazi-hy-912a-smiss-kitchen-hood",
+        "status": 200,
+        "ms": 804
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/lg-32ur500-b-monitor",
+        "status": 200,
+        "ms": 790
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/smart-sel-43g25f-google-tv",
         "status": 200,
         "ms": 765
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/hisense-as12cw4rgrkf01bu-non-inverter-air-conditioner-1-ton",
-        "status": 200,
-        "ms": 752
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/hyphen-magnetic-leather-case-for-ipad",
-        "status": 200,
-        "ms": 809
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/pureit-ultima-pro-mineral-water-purifier",
-        "status": 200,
-        "ms": 791
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/msi-mag-forge-gaming-case",
-        "status": 200,
-        "ms": 789
       }
     ],
-    "avgMs": 832
+    "avgMs": 825
   },
   "ssl": {
     "issuer": "Google Trust Services",
