@@ -1,0 +1,1234 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: seo.spec.js >> [seo] Home
+- Location: tests/seo.spec.js:7:3
+
+# Error details
+
+```
+Error: canonical present
+
+expect(received).not.toBe(expected) // Object.is equality
+
+Expected: not ""
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - region "Notifications alt+T"
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "AGLx11y-ezgif.com-gif-to-webp-converter" [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]: Search
+        - textbox "Search" [ref=e10]:
+          - /placeholder: Search product, brand, and more...
+        - button [ref=e11] [cursor=pointer]
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - link "Blog" [ref=e17] [cursor=pointer]:
+            - /url: /blog
+          - link "Pre-order" [ref=e18] [cursor=pointer]:
+            - /url: /pre-order
+          - link "Offers" [ref=e19] [cursor=pointer]:
+            - /url: /offer
+          - generic "button" [ref=e44]:
+            - button "Tools" [ref=e45] [cursor=pointer]
+        - generic [ref=e48]:
+          - button "Wishlist" [ref=e49] [cursor=pointer]
+          - button "0" [ref=e52] [cursor=pointer]
+          - button [ref=e59] [cursor=pointer]
+    - navigation [ref=e63]:
+      - generic [ref=e65]:
+        - link "Apple Store" [ref=e67] [cursor=pointer]:
+          - /url: /brands/apple
+        - link "Phones" [ref=e71] [cursor=pointer]:
+          - /url: /category/mobile-phone
+        - link "Tablets" [ref=e75] [cursor=pointer]:
+          - /url: /category/tablet
+        - link "Desktop" [ref=e79] [cursor=pointer]:
+          - /url: /category/desktop
+        - link "Laptops" [ref=e83] [cursor=pointer]:
+          - /url: /category/laptops
+        - link "PC Components" [ref=e87] [cursor=pointer]:
+          - /url: /category/computer-components
+        - link "Gadgets" [ref=e91] [cursor=pointer]:
+          - /url: /category/gadgets-and-gears
+        - link "PC Accessories" [ref=e95] [cursor=pointer]:
+          - /url: /category/computer-accessories
+        - link "Office Equipment" [ref=e99] [cursor=pointer]:
+          - /url: /category/office-equipment
+        - link "Appliances" [ref=e103] [cursor=pointer]:
+          - /url: /category/home-appliances
+        - link "Lifestyle" [ref=e107] [cursor=pointer]:
+          - /url: /category/lifestyle-and-travel
+        - link "Security" [ref=e111] [cursor=pointer]:
+          - /url: /category/security
+        - link "Networking" [ref=e115] [cursor=pointer]:
+          - /url: /category/networking
+  - main [ref=e121]:
+    - generic [ref=e122]:
+      - generic "Hero Slider" [ref=e123]:
+        - generic [ref=e125]:
+          - link [ref=e126] [cursor=pointer]:
+            - /url: https://www.applegadgetsbd.com/offer/vision-exclusive-offers
+            - figure [ref=e127]:
+              - img "Vision-Exclusive-Offers-2.jpg-9360" [ref=e128]
+          - link [ref=e129] [cursor=pointer]:
+            - /url: https://www.applegadgetsbd.com/offer/11-11-mega-shopping-fest?collections=404&page=1
+            - figure [ref=e130]:
+              - img "11.11---Geyser-Offer-7014" [ref=e131]
+          - link [ref=e132] [cursor=pointer]:
+            - /url: https://www.applegadgetsbd.com/offer/11-11-mega-shopping-fest
+            - figure [ref=e133]:
+              - img "Web-Slider-1978" [ref=e134]
+          - link [ref=e135] [cursor=pointer]:
+            - /url: https://www.applegadgetsbd.com/page/11-campaign-terms-and-conditions
+            - figure [ref=e136]:
+              - img "11.11---Web-Slider-7785" [ref=e137]
+          - link [ref=e138] [cursor=pointer]:
+            - /url: https://www.applegadgetsbd.com/offer/zero-percent-emi-offer-ipad-and-macbook
+            - figure [ref=e139]:
+              - img "Top-Slider_EBL-Brac-City-6346" [ref=e140]
+          - link [ref=e141] [cursor=pointer]:
+            - /url: https://www.applegadgetsbd.com/category/special-pc
+            - figure [ref=e142]:
+              - img "Special-PC---2.jpg-1329" [ref=e143]
+          - link [ref=e144] [cursor=pointer]:
+            - /url: https://www.applegadgetsbd.com/product/iphone-duo
+            - figure [ref=e145]:
+              - img "iPhone-Duo-5279" [ref=e146]
+          - link [ref=e147] [cursor=pointer]:
+            - /url: https://www.applegadgetsbd.com/offer/zero-percent-emi-on-iphone-17-and-18-series
+            - figure [ref=e148]:
+              - img "City-&-EBL-0-EMI-5726" [ref=e149]
+        - button "Prev Button" [ref=e150] [cursor=pointer]
+        - button "Next Button" [ref=e153] [cursor=pointer]
+        - navigation "Carousel dots" [ref=e156]:
+          - button "Go to slide 1" [ref=e157] [cursor=pointer]
+          - button "Go to slide 2" [ref=e158] [cursor=pointer]
+          - button "Go to slide 3" [ref=e159] [cursor=pointer]
+          - button "Go to slide 4" [ref=e160] [cursor=pointer]
+          - button "Go to slide 5" [ref=e161] [cursor=pointer]
+          - button "Go to slide 6" [ref=e162] [cursor=pointer]
+          - button "Go to slide 7" [ref=e163] [cursor=pointer]
+          - button "Go to slide 8" [ref=e164] [cursor=pointer]
+      - link [ref=e165] [cursor=pointer]:
+        - /url: https://www.applegadgetsbd.com/offer/happy-hour
+        - img "Happy-Hour---Top-Right-3997" [ref=e166]
+      - link [ref=e167] [cursor=pointer]:
+        - /url: https://www.applegadgetsbd.com/product/hisense-as-18tw4rgskb02du-smart-compact-inverter-air-conditioner
+        - img "Hisense-AC---Top-Right-2576" [ref=e168]
+    - generic [ref=e169]:
+      - generic [ref=e170]: 36 Months EMI
+      - generic [ref=e175]: Fastest Home Delivery
+      - generic [ref=e180]: Exchange Facility
+      - generic [ref=e184]: Best Price Deals
+      - generic [ref=e191]: After-Sales Service
+    - generic [ref=e196]:
+      - heading "Featured Categories" [level=2] [ref=e197]
+      - generic [ref=e198]:
+        - link [ref=e199] [cursor=pointer]:
+          - /url: /category/laptops
+          - figure [ref=e200]:
+            - img "Laptop" [ref=e201]
+          - paragraph [ref=e202]: Laptop
+        - link [ref=e203] [cursor=pointer]:
+          - /url: /category/graphics-card
+          - figure [ref=e204]:
+            - img "Graphics Card" [ref=e205]
+          - paragraph [ref=e206]: Graphics Card
+        - link [ref=e207] [cursor=pointer]:
+          - /url: /category/processor
+          - figure [ref=e208]:
+            - img "Computer Processor" [ref=e209]
+          - paragraph [ref=e210]: Computer Processor
+        - link [ref=e211] [cursor=pointer]:
+          - /url: /category/motherboard
+          - figure [ref=e212]:
+            - img "Motherboard" [ref=e213]
+          - paragraph [ref=e214]: Motherboard
+        - link [ref=e215] [cursor=pointer]:
+          - /url: /category/monitor
+          - figure [ref=e216]:
+            - img "Monitor" [ref=e217]
+          - paragraph [ref=e218]: Monitor
+        - link [ref=e219] [cursor=pointer]:
+          - /url: /category/power-supply
+          - figure [ref=e220]:
+            - img "Power Supply" [ref=e221]
+          - paragraph [ref=e222]: Power Supply
+        - link [ref=e223] [cursor=pointer]:
+          - /url: /category/ram
+          - figure [ref=e224]:
+            - img "RAM" [ref=e225]
+          - paragraph [ref=e226]: RAM
+        - link [ref=e227] [cursor=pointer]:
+          - /url: /category/ssd
+          - figure [ref=e228]:
+            - img "SSD" [ref=e229]
+          - paragraph [ref=e230]: SSD
+        - link [ref=e231] [cursor=pointer]:
+          - /url: /category/macbook
+          - figure [ref=e232]:
+            - img "MacBook" [ref=e233]
+          - paragraph [ref=e234]: MacBook
+        - link [ref=e235] [cursor=pointer]:
+          - /url: /category/ipad
+          - figure [ref=e236]:
+            - img "iPad" [ref=e237]
+          - paragraph [ref=e238]: iPad
+        - link [ref=e239] [cursor=pointer]:
+          - /url: /category/iphone
+          - figure [ref=e240]:
+            - img "iPhone" [ref=e241]
+          - paragraph [ref=e242]: iPhone
+        - link [ref=e243] [cursor=pointer]:
+          - /url: /category/smart-watch
+          - figure [ref=e244]:
+            - img "Smart Watch" [ref=e245]
+          - paragraph [ref=e246]: Smart Watch
+        - link [ref=e247] [cursor=pointer]:
+          - /url: /category/hd-camera
+          - figure [ref=e248]:
+            - img "HD Camera" [ref=e249]
+          - paragraph [ref=e250]: HD Camera
+        - link [ref=e251] [cursor=pointer]:
+          - /url: /category/router
+          - figure [ref=e252]:
+            - img "Wi-Fi Router" [ref=e253]
+          - paragraph [ref=e254]: Wi-Fi Router
+        - link [ref=e255] [cursor=pointer]:
+          - /url: /category/air-fryer
+          - figure [ref=e256]:
+            - img "Air Fryer" [ref=e257]
+          - paragraph [ref=e258]: Air Fryer
+        - link [ref=e259] [cursor=pointer]:
+          - /url: /category/induction-cooker
+          - figure [ref=e260]:
+            - img "Induction Cooker" [ref=e261]
+          - paragraph [ref=e262]: Induction Cooker
+    - generic [ref=e263]:
+      - generic [ref=e264]:
+        - heading "Exclusive Deals" [level=2] [ref=e265]
+        - generic [ref=e266]:
+          - button "Prev Button" [disabled] [ref=e267]
+          - button "Next Button" [ref=e270] [cursor=pointer]
+      - generic "Product Slider" [ref=e273]:
+        - generic [ref=e275]:
+          - article [ref=e276]:
+            - link [ref=e277] [cursor=pointer]:
+              - /url: /product/silver-crest-extra-large-capacity-air-fryer
+              - img "Silver Crest Extra Large Capacity Air Fryer - 6L" [ref=e279]
+              - paragraph [ref=e280]: Silver Crest Extra Large Capacity Air Fryer - 6L
+            - generic [ref=e281]:
+              - generic [ref=e282]: ৳ 4,290
+              - generic [ref=e284]:
+                - generic [ref=e285]: ৳6,990
+                - paragraph [ref=e286]: ৳ 2,700 OFF
+          - article [ref=e287]:
+            - link [ref=e288] [cursor=pointer]:
+              - /url: /product/hisense-as-18tw4rgskb02du-smart-compact-inverter-air-conditioner
+              - img "Hisense AS-18TW4RGSKB02DU Smart Compact Inverter Air Conditioner - 1.5 Ton" [ref=e290]
+              - paragraph [ref=e291]: Hisense AS-18TW4RGSKB02DU Smart Compact Inverter Air Conditioner - 1.5 Ton
+            - generic [ref=e292]:
+              - generic [ref=e293]: ৳ 43,900
+              - generic [ref=e295]:
+                - generic [ref=e296]: ৳74,900
+                - paragraph [ref=e297]: ৳ 31,000 OFF
+          - article [ref=e298]:
+            - link [ref=e299] [cursor=pointer]:
+              - /url: /product/minister-mi-25ux68-grill-microwave
+              - img "Minister MI-25UX68 Grill Microwave - 25L" [ref=e301]
+              - paragraph [ref=e302]: Minister MI-25UX68 Grill Microwave - 25L
+            - generic [ref=e303]:
+              - generic [ref=e304]: ৳ 10,900
+              - generic [ref=e306]:
+                - generic [ref=e307]: ৳15,000
+                - paragraph [ref=e308]: ৳ 4,100 OFF
+          - article [ref=e309]:
+            - link [ref=e310] [cursor=pointer]:
+              - /url: /product/vision-blz-dspbl-03blaze-blender
+              - img "Vision BLZ- DSPBL 03Blaze Blender (Couple Choice)" [ref=e312]
+              - paragraph [ref=e313]: Vision BLZ- DSPBL 03Blaze Blender (Couple Choice)
+            - generic [ref=e314]:
+              - generic [ref=e315]: ৳ 1,619
+              - generic [ref=e317]:
+                - generic [ref=e318]: ৳2,700
+                - paragraph [ref=e319]: ৳ 1,081 OFF
+          - article [ref=e320]:
+            - link [ref=e321] [cursor=pointer]:
+              - /url: /product/minister-mi-ekx-180-electric-kettle
+              - img "Minister MI-EKX 180 Electric Kettle - 1.8L" [ref=e323]
+              - paragraph [ref=e324]: Minister MI-EKX 180 Electric Kettle - 1.8L
+            - generic [ref=e325]:
+              - generic [ref=e326]: ৳ 699
+              - generic [ref=e328]:
+                - generic [ref=e329]: ৳1,074
+                - paragraph [ref=e330]: ৳ 375 OFF
+          - article [ref=e331]:
+            - link [ref=e332] [cursor=pointer]:
+              - /url: /product/minister-split-inv-m18k410ge-fc-inverter-air-conditioner
+              - img "Minister Split INV-M18K410GE-FC Inverter Air Conditioner - 1.5 Ton" [ref=e334]
+              - paragraph [ref=e335]: Minister Split INV-M18K410GE-FC Inverter Air Conditioner - 1.5 Ton
+            - generic [ref=e336]:
+              - generic [ref=e337]: ৳ 41,900
+              - generic [ref=e339]:
+                - generic [ref=e340]: ৳82,785
+                - paragraph [ref=e341]: ৳ 40,885 OFF
+          - article [ref=e342]:
+            - link [ref=e343] [cursor=pointer]:
+              - /url: /product/haier-es30h-ck3-bd-30-litre-geyser
+              - img "Haier ES30H-CK3(BD) 30 Litre Geyser" [ref=e345]
+              - paragraph [ref=e346]: Haier ES30H-CK3(BD) 30 Litre Geyser
+            - generic [ref=e347]:
+              - generic [ref=e348]: ৳ 9,890
+              - generic [ref=e350]:
+                - generic [ref=e351]: ৳13,300
+                - paragraph [ref=e352]: ৳ 3,410 OFF
+          - article [ref=e353]:
+            - link [ref=e354] [cursor=pointer]:
+              - /url: /product/haier-hwm80-1269s6-top-load-automatic-washing-machine
+              - img "Haier HWM80-1269S6 Top Load Automatic Washing Machine - 8KG" [ref=e356]
+              - paragraph [ref=e357]: Haier HWM80-1269S6 Top Load Automatic Washing Machine - 8KG
+            - generic [ref=e358]:
+              - generic [ref=e359]: ৳ 22,490
+              - generic [ref=e361]:
+                - generic [ref=e362]: ৳29,900
+                - paragraph [ref=e363]: ৳ 7,410 OFF
+          - article [ref=e364]:
+            - link [ref=e365] [cursor=pointer]:
+              - /url: /product/whirlpool-magicook-pro-25ge-microwave
+              - img "Whirlpool Magicook Pro 25GE Microwave - 25L" [ref=e367]
+              - paragraph [ref=e368]: Whirlpool Magicook Pro 25GE Microwave - 25L
+            - generic [ref=e369]:
+              - generic [ref=e370]: ৳ 15,390
+              - generic [ref=e372]:
+                - generic [ref=e373]: ৳18,990
+                - paragraph [ref=e374]: ৳ 3,600 OFF
+          - article [ref=e375]:
+            - link [ref=e376] [cursor=pointer]:
+              - /url: /product/tcl-43s5k-43-inch-fhd-qled-smart-google-tv
+              - img "TCL 43S5K 43-Inch FHD QLED Smart Google TV" [ref=e378]
+              - paragraph [ref=e379]: TCL 43S5K 43-Inch FHD QLED Smart Google TV
+            - generic [ref=e380]:
+              - generic [ref=e381]: ৳ 37,890
+              - generic [ref=e383]:
+                - generic [ref=e384]: ৳46,990
+                - paragraph [ref=e385]: ৳ 9,100 OFF
+          - article [ref=e386]:
+            - link [ref=e387] [cursor=pointer]:
+              - /url: /product/walton-wfb-2b6-gdel-sc-refrigerator
+              - img "Walton WFB-2B6-GDEL-SC Inverter Refrigerator - 252L" [ref=e389]
+              - paragraph [ref=e390]: Walton WFB-2B6-GDEL-SC Inverter Refrigerator - 252L
+            - generic [ref=e391]:
+              - generic [ref=e392]: ৳ 37,990
+              - generic [ref=e394]:
+                - generic [ref=e395]: ৳46,590
+                - paragraph [ref=e396]: ৳ 8,600 OFF
+          - article [ref=e397]:
+            - link [ref=e398] [cursor=pointer]:
+              - /url: /product/midea-msi-18crn-inverter-ac
+              - img "Midea MSI-18CRN Inverter Air Conditioner - 1.5 TON" [ref=e400]
+              - paragraph [ref=e401]: Midea MSI-18CRN Inverter Air Conditioner - 1.5 TON
+            - generic [ref=e402]: ৳ 53,999
+          - article [ref=e405]:
+            - link [ref=e406] [cursor=pointer]:
+              - /url: /product/walton-wcf-1b5-gdel-xx-chest-freezer
+              - img "Walton WCF-1B5-GDEL-XX Chest Freezer - 125L" [ref=e408]
+              - paragraph [ref=e409]: Walton WCF-1B5-GDEL-XX Chest Freezer - 125L
+            - generic [ref=e410]:
+              - generic [ref=e411]: ৳ 24,990
+              - generic [ref=e413]:
+                - generic [ref=e414]: ৳28,990
+                - paragraph [ref=e415]: ৳ 4,000 OFF
+          - article [ref=e416]:
+            - link [ref=e417] [cursor=pointer]:
+              - /url: /product/walton-crystal-pro-geyser
+              - img "Walton Crystal Pro Geyser - 30L" [ref=e419]
+              - paragraph [ref=e420]: Walton Crystal Pro Geyser - 30L
+            - generic [ref=e421]:
+              - generic [ref=e422]: ৳ 9,790
+              - generic [ref=e424]:
+                - generic [ref=e425]: ৳13,300
+                - paragraph [ref=e426]: ৳ 3,510 OFF
+          - article [ref=e427]:
+            - link [ref=e428] [cursor=pointer]:
+              - /url: /product/rfl-rozana-electric-geyser-40-l
+              - img "RFL Rozana Electric Geyser - 40L" [ref=e430]
+              - paragraph [ref=e431]: RFL Rozana Electric Geyser - 40L
+            - generic [ref=e432]:
+              - generic [ref=e433]: ৳ 10,290
+              - generic [ref=e435]:
+                - generic [ref=e436]: ৳13,200
+                - paragraph [ref=e437]: ৳ 2,910 OFF
+          - article [ref=e438]:
+            - link [ref=e439] [cursor=pointer]:
+              - /url: /product/whirlpool-magicook-pro-30ge-microwave
+              - img "Whirlpool Magicook Pro 30GE Microwave - 30L" [ref=e441]
+              - paragraph [ref=e442]: Whirlpool Magicook Pro 30GE Microwave - 30L
+            - generic [ref=e443]:
+              - generic [ref=e444]: ৳ 17,790
+              - generic [ref=e446]:
+                - generic [ref=e447]: ৳21,990
+                - paragraph [ref=e448]: ৳ 4,200 OFF
+          - article [ref=e449]:
+            - link [ref=e450] [cursor=pointer]:
+              - /url: /product/whirlpool-magicook-convection-black-mirror-microwave-oven
+              - img "Whirlpool Magicook Convection Black Mirror Microwave Oven - 30L" [ref=e452]
+              - paragraph [ref=e453]: Whirlpool Magicook Convection Black Mirror Microwave Oven - 30L
+            - generic [ref=e454]:
+              - generic [ref=e455]: ৳ 24,490
+              - generic [ref=e457]:
+                - generic [ref=e458]: ৳30,490
+                - paragraph [ref=e459]: ৳ 6,000 OFF
+          - article [ref=e460]:
+            - link [ref=e461] [cursor=pointer]:
+              - /url: /product/hitachi-ltl-08m00-gg-washing-machine
+              - img "Hitachi LTL 08M00 GG Top Load Washing Machine - 8KG" [ref=e463]
+              - paragraph [ref=e464]: Hitachi LTL 08M00 GG Top Load Washing Machine - 8KG
+            - generic [ref=e465]:
+              - generic [ref=e466]: ৳ 33,900
+              - generic [ref=e468]:
+                - generic [ref=e469]: ৳45,900
+                - paragraph [ref=e470]: ৳ 12,000 OFF
+          - article [ref=e471]:
+            - link [ref=e472] [cursor=pointer]:
+              - /url: /product/shameem-tropica-standard-geyser
+              - img "Shameem Tropica standard Geyser (Floor Type)" [ref=e474]
+              - paragraph [ref=e475]: Shameem Tropica standard Geyser (Floor Type)
+            - generic [ref=e476]:
+              - generic [ref=e477]: ৳ 8,715
+              - generic [ref=e479]:
+                - generic [ref=e480]: ৳10,500
+                - paragraph [ref=e481]: ৳ 1,785 OFF
+          - article [ref=e482]:
+            - link [ref=e483] [cursor=pointer]:
+              - /url: /product/philips-na12000-air-fryer-4-2l
+              - img "PHILIPS NA120/00 Air Fryer 4.2L" [ref=e485]
+              - paragraph [ref=e486]: PHILIPS NA120/00 Air Fryer 4.2L
+            - generic [ref=e487]:
+              - generic [ref=e488]: ৳ 7,490
+              - generic [ref=e490]:
+                - generic [ref=e491]: ৳13,900
+                - paragraph [ref=e492]: ৳ 6,410 OFF
+          - article [ref=e493]:
+            - link [ref=e494] [cursor=pointer]:
+              - /url: /product/haier-es40h-ck3-bd-40-litre-geyser
+              - img "Haier ES40H-CK3(BD) 40 Litre Geyser" [ref=e496]
+              - paragraph [ref=e497]: Haier ES40H-CK3(BD) 40 Litre Geyser
+            - generic [ref=e498]:
+              - generic [ref=e499]: ৳ 10,990
+              - generic [ref=e501]:
+                - generic [ref=e502]: ৳14,800
+                - paragraph [ref=e503]: ৳ 3,810 OFF
+          - article [ref=e504]:
+            - link [ref=e505] [cursor=pointer]:
+              - /url: /product/vision-40a3-hilife-infrared-cooker-2200-w
+              - img "VISION 40A3 HiLife Infrared Cooker - 2200W" [ref=e507]
+              - paragraph [ref=e508]: VISION 40A3 HiLife Infrared Cooker - 2200W
+            - generic [ref=e509]:
+              - generic [ref=e510]: ৳ 3,990
+              - generic [ref=e512]:
+                - generic [ref=e513]: ৳5,050
+                - paragraph [ref=e514]: ৳ 1,060 OFF
+          - article [ref=e515]:
+            - link [ref=e516] [cursor=pointer]:
+              - /url: /product/vision-rel-50-05-ss-double-pot-rice-cooker-3-l
+              - img "Vision REL-50-05 Stainless Steel Double Pot Rice Cooker - 3L" [ref=e518]
+              - paragraph [ref=e519]: Vision REL-50-05 Stainless Steel Double Pot Rice Cooker - 3L
+            - generic [ref=e520]:
+              - generic [ref=e521]: ৳ 2,890
+              - generic [ref=e523]:
+                - generic [ref=e524]: ৳3,750
+                - paragraph [ref=e525]: ৳ 860 OFF
+          - article [ref=e526]:
+            - link [ref=e527] [cursor=pointer]:
+              - /url: /product/vision-j5-microwave-oven
+              - img "Vision J5 Microwave Oven - 20L" [ref=e529]
+              - paragraph [ref=e530]: Vision J5 Microwave Oven - 20L
+            - generic [ref=e531]:
+              - generic [ref=e532]: ৳ 8,990
+              - generic [ref=e534]:
+                - generic [ref=e535]: ৳11,600
+                - paragraph [ref=e536]: ৳ 2,610 OFF
+    - generic [ref=e537]:
+      - generic [ref=e538]:
+        - heading "AG Computers" [level=2] [ref=e539]
+        - generic [ref=e540]:
+          - button "Prev Button" [disabled] [ref=e541]
+          - button "Next Button" [ref=e544] [cursor=pointer]
+      - generic "Tab Slider" [ref=e547]:
+        - generic [ref=e549]:
+          - button "Special PC" [ref=e550] [cursor=pointer]
+          - button "Motherboard" [ref=e551] [cursor=pointer]
+          - button "CPU" [ref=e552] [cursor=pointer]
+          - button "Graphics Card" [ref=e553] [cursor=pointer]
+          - button "SSD" [ref=e554] [cursor=pointer]
+          - button "RAM" [ref=e555] [cursor=pointer]
+          - button "Cpu Cooler" [ref=e556] [cursor=pointer]
+          - button "Power Supply" [ref=e557] [cursor=pointer]
+          - button "Monitor" [ref=e558] [cursor=pointer]
+          - button "Casing" [ref=e559] [cursor=pointer]
+          - button "Mouse" [ref=e560] [cursor=pointer]
+          - button "Keyboard" [ref=e561] [cursor=pointer]
+      - generic "Product Slider" [ref=e562]:
+        - generic [ref=e564]:
+          - article [ref=e565]:
+            - link [ref=e566] [cursor=pointer]:
+              - /url: /product/amd-ryzen-3-2200g-desktop-pc
+              - img "AMD Ryzen 3 2200G Budget Desktop PC" [ref=e568]
+              - paragraph [ref=e569]: AMD Ryzen 3 2200G Budget Desktop PC
+            - generic [ref=e570]:
+              - generic [ref=e571]: ৳ 22,222
+              - generic [ref=e573]:
+                - generic [ref=e574]: ৳24,399
+                - paragraph [ref=e575]: ৳ 2,177 OFF
+          - article [ref=e576]:
+            - link [ref=e577] [cursor=pointer]:
+              - /url: /product/amd-ryzen-5-2400g-desktop-pc
+              - img "AMD Ryzen 5 2400G Budget Desktop PC" [ref=e579]
+              - paragraph [ref=e580]: AMD Ryzen 5 2400G Budget Desktop PC
+            - generic [ref=e581]:
+              - generic [ref=e582]: ৳ 27,777
+              - generic [ref=e584]:
+                - generic [ref=e585]: ৳29,100
+                - paragraph [ref=e586]: ৳ 1,323 OFF
+          - article [ref=e587]:
+            - link [ref=e588] [cursor=pointer]:
+              - /url: /product/intel-10th-gen-core-i3-10105-desktop-pc
+              - img "Intel 10th Gen Core i3 10105 Budget Desktop PC" [ref=e590]
+              - paragraph [ref=e591]: Intel 10th Gen Core i3 10105 Budget Desktop PC
+            - generic [ref=e592]:
+              - generic [ref=e593]: ৳ 33,333
+              - generic [ref=e595]:
+                - generic [ref=e596]: ৳36,800
+                - paragraph [ref=e597]: ৳ 3,467 OFF
+          - article [ref=e598]:
+            - link [ref=e599] [cursor=pointer]:
+              - /url: /product/intel-14th-gen-core-i3-14100-desktop-pc
+              - img "Intel 14th Gen Core i3 14100 Budget Desktop PC" [ref=e601]
+              - paragraph [ref=e602]: Intel 14th Gen Core i3 14100 Budget Desktop PC
+            - generic [ref=e603]:
+              - generic [ref=e604]: ৳ 37,777
+              - generic [ref=e606]:
+                - generic [ref=e607]: ৳40,000
+                - paragraph [ref=e608]: ৳ 2,223 OFF
+          - article [ref=e609]:
+            - link [ref=e610] [cursor=pointer]:
+              - /url: /product/amd-ryzen-5-pro-5650ge-desktop-pc
+              - img "AMD Ryzen 5 PRO 5650GE Budget Desktop PC" [ref=e612]
+              - paragraph [ref=e613]: AMD Ryzen 5 PRO 5650GE Budget Desktop PC
+            - generic [ref=e614]:
+              - generic [ref=e615]: ৳ 38,999
+              - generic [ref=e617]:
+                - generic [ref=e618]: ৳39,400
+                - paragraph [ref=e619]: ৳ 401 OFF
+          - article [ref=e620]:
+            - link [ref=e621] [cursor=pointer]:
+              - /url: /product/amd-ryzen-5-5500-with-rx-580-gaming-pc
+              - img "AMD Ryzen 5 5500 with RX 580 Gaming PC" [ref=e623]
+              - paragraph [ref=e624]: AMD Ryzen 5 5500 with RX 580 Gaming PC
+            - generic [ref=e625]:
+              - generic [ref=e626]: ৳ 62,999
+              - generic [ref=e628]:
+                - generic [ref=e629]: ৳63,750
+                - paragraph [ref=e630]: ৳ 751 OFF
+          - article [ref=e631]:
+            - link [ref=e632] [cursor=pointer]:
+              - /url: /product/amd-ryzen-5-5600-with-rx-580-gaming-pc
+              - img "AMD Ryzen 5 5600 with RX 580 Gaming PC" [ref=e634]
+              - paragraph [ref=e635]: AMD Ryzen 5 5600 with RX 580 Gaming PC
+            - generic [ref=e636]:
+              - generic [ref=e637]: ৳ 71,999
+              - generic [ref=e639]:
+                - generic [ref=e640]: ৳72,100
+                - paragraph [ref=e641]: ৳ 101 OFF
+          - article [ref=e642]:
+            - link [ref=e643] [cursor=pointer]:
+              - /url: /product/amd-ryzen-5-8400f-with-rtx-3050-gaming-pc
+              - img "AMD Ryzen 5 8400F with RTX 3050 Gaming PC" [ref=e645]
+              - paragraph [ref=e646]: AMD Ryzen 5 8400F with RTX 3050 Gaming PC
+            - generic [ref=e647]:
+              - generic [ref=e648]: ৳ 103,999
+              - generic [ref=e650]:
+                - generic [ref=e651]: ৳104,400
+                - paragraph [ref=e652]: ৳ 401 OFF
+          - article [ref=e653]:
+            - link [ref=e654] [cursor=pointer]:
+              - /url: /product/amd-ryzen-5-8500g-desktop-pc
+              - img "AMD Ryzen 5 8500G Desktop PC" [ref=e656]
+              - paragraph [ref=e657]: AMD Ryzen 5 8500G Desktop PC
+            - generic [ref=e658]:
+              - generic [ref=e659]: ৳ 56,499
+              - generic [ref=e661]:
+                - generic [ref=e662]: ৳56,700
+                - paragraph [ref=e663]: ৳ 201 OFF
+          - article [ref=e664]:
+            - link [ref=e665] [cursor=pointer]:
+              - /url: /product/intel-10th-gen-core-i3-10100-desktop-pc
+              - img "Intel 10th Gen Core i3 10100 Budget Desktop PC" [ref=e667]
+              - paragraph [ref=e668]: Intel 10th Gen Core i3 10100 Budget Desktop PC
+            - generic [ref=e669]:
+              - generic [ref=e670]: ৳ 35,999
+              - generic [ref=e672]:
+                - generic [ref=e673]: ৳36,250
+                - paragraph [ref=e674]: ৳ 251 OFF
+          - article [ref=e675]:
+            - link [ref=e676] [cursor=pointer]:
+              - /url: /product/intel-12th-gen-core-i5-12400-desktop-pc
+              - img "Intel 12th Gen Core i5-12400 Desktop PC" [ref=e678]
+              - paragraph [ref=e679]: Intel 12th Gen Core i5-12400 Desktop PC
+            - generic [ref=e680]:
+              - generic [ref=e681]: ৳ 43,999
+              - generic [ref=e683]:
+                - generic [ref=e684]: ৳44,450
+                - paragraph [ref=e685]: ৳ 451 OFF
+          - article [ref=e686]:
+            - link [ref=e687] [cursor=pointer]:
+              - /url: /product/amd-ryzen-5-3400g-desktop-pc
+              - img "AMD Ryzen 5 3400G Budget Desktop PC" [ref=e689]
+              - paragraph [ref=e690]: AMD Ryzen 5 3400G Budget Desktop PC
+            - generic [ref=e691]:
+              - generic [ref=e692]: ৳ 28,999
+              - generic [ref=e694]:
+                - generic [ref=e695]: ৳31,150
+                - paragraph [ref=e696]: ৳ 2,151 OFF
+    - generic [ref=e697]:
+      - generic [ref=e698]:
+        - heading "Apple Exclusive 2026" [level=2] [ref=e699]
+        - generic [ref=e700]:
+          - button "Prev Button" [disabled] [ref=e701]
+          - button "Next Button" [ref=e704] [cursor=pointer]
+      - generic "Product Slider" [ref=e707]:
+        - generic [ref=e709]:
+          - article [ref=e710]:
+            - link [ref=e711] [cursor=pointer]:
+              - /url: /product/iphone-18-pro-max
+              - img "iPhone 18 Pro Max" [ref=e713]
+              - paragraph [ref=e714]: iPhone 18 Pro Max
+            - generic [ref=e715]:
+              - generic [ref=e716]: ৳ 191,999
+              - generic [ref=e718]:
+                - generic [ref=e719]: ৳197,000
+                - paragraph [ref=e720]: ৳ 5,001 OFF
+          - article [ref=e721]:
+            - link [ref=e722] [cursor=pointer]:
+              - /url: /product/iphone-18-pro
+              - img "iPhone 18 Pro" [ref=e724]
+              - paragraph [ref=e725]: iPhone 18 Pro
+            - generic [ref=e726]:
+              - generic [ref=e727]: ৳ 175,999
+              - generic [ref=e729]:
+                - generic [ref=e730]: ৳179,999
+                - paragraph [ref=e731]: ৳ 4,000 OFF
+          - article [ref=e732]:
+            - link [ref=e733] [cursor=pointer]:
+              - /url: /product/iphone-duo
+              - img "iPhone Duo" [ref=e735]
+              - paragraph [ref=e736]: iPhone Duo
+            - generic [ref=e737]:
+              - generic [ref=e738]: ৳ 315,999
+              - generic [ref=e740]:
+                - generic [ref=e741]: ৳320,000
+                - paragraph [ref=e742]: ৳ 4,001 OFF
+          - article [ref=e743]:
+            - link [ref=e744] [cursor=pointer]:
+              - /url: /product/apple-airpods-5
+              - img "Apple AirPods 5" [ref=e746]
+              - paragraph [ref=e747]: Apple AirPods 5
+            - generic [ref=e748]:
+              - generic [ref=e749]: ৳ 17,499
+              - generic [ref=e751]:
+                - generic [ref=e752]: ৳19,499
+                - paragraph [ref=e753]: ৳ 2,000 OFF
+          - article [ref=e754]:
+            - link [ref=e755] [cursor=pointer]:
+              - /url: /product/apple-watch-series-12
+              - img "Apple Watch Series 12" [ref=e757]
+              - paragraph [ref=e758]: Apple Watch Series 12
+            - generic [ref=e759]:
+              - generic [ref=e760]: ৳ 52,499
+              - generic [ref=e762]:
+                - generic [ref=e763]: ৳57,499
+                - paragraph [ref=e764]: ৳ 5,000 OFF
+          - article [ref=e765]:
+            - link [ref=e766] [cursor=pointer]:
+              - /url: /product/apple-watch-ultra-4
+              - img "Apple Watch Ultra 4" [ref=e768]
+              - paragraph [ref=e769]: Apple Watch Ultra 4
+            - generic [ref=e770]: ৳ 10,000
+    - generic "Banner Slider" [ref=e774]:
+      - generic [ref=e776]:
+        - link [ref=e777] [cursor=pointer]:
+          - /url: /page/11-campaign-terms-and-conditions
+          - img "11.11---Web-1500-323.jpg-3054" [ref=e778]
+        - link [ref=e779] [cursor=pointer]:
+          - /url: /page/exchange-policy
+          - img "Exchange-Offer-up-1-7872" [ref=e780]
+      - navigation "Carousel dots" [ref=e781]:
+        - button "Go to slide 1" [ref=e782] [cursor=pointer]
+        - button "Go to slide 2" [ref=e783] [cursor=pointer]
+    - generic [ref=e784]:
+      - generic [ref=e785]:
+        - heading "Home Appliances" [level=2] [ref=e786]
+        - generic [ref=e787]:
+          - button "Prev Button" [disabled] [ref=e788]
+          - button "Next Button" [ref=e791] [cursor=pointer]
+      - generic "Tab Slider" [ref=e794]:
+        - generic [ref=e796]:
+          - button "Hot Deals" [ref=e797] [cursor=pointer]
+          - button "Air Fryer" [ref=e798] [cursor=pointer]
+          - button "Induction Cooker" [ref=e799] [cursor=pointer]
+          - button "Mixer Grinder & Blender" [ref=e800] [cursor=pointer]
+          - button "Microwave Oven" [ref=e801] [cursor=pointer]
+          - button "TV" [ref=e802] [cursor=pointer]
+          - button "Air Conditioner" [ref=e803] [cursor=pointer]
+          - button "Washing Machine" [ref=e804] [cursor=pointer]
+          - button "Power Station" [ref=e805] [cursor=pointer]
+      - generic "Product Slider" [ref=e806]:
+        - generic [ref=e808]:
+          - article [ref=e809]:
+            - link [ref=e810] [cursor=pointer]:
+              - /url: /product/haier-es30h-ck3-bd-30-litre-geyser
+              - img "Haier ES30H-CK3(BD) 30 Litre Geyser" [ref=e812]
+              - paragraph [ref=e813]: Haier ES30H-CK3(BD) 30 Litre Geyser
+            - generic [ref=e814]:
+              - generic [ref=e815]: ৳ 9,890
+              - generic [ref=e817]:
+                - generic [ref=e818]: ৳13,300
+                - paragraph [ref=e819]: ৳ 3,410 OFF
+          - article [ref=e820]:
+            - link [ref=e821] [cursor=pointer]:
+              - /url: /product/haier-hwm80-1269s6-top-load-automatic-washing-machine
+              - img "Haier HWM80-1269S6 Top Load Automatic Washing Machine - 8KG" [ref=e823]
+              - paragraph [ref=e824]: Haier HWM80-1269S6 Top Load Automatic Washing Machine - 8KG
+            - generic [ref=e825]:
+              - generic [ref=e826]: ৳ 22,490
+              - generic [ref=e828]:
+                - generic [ref=e829]: ৳29,900
+                - paragraph [ref=e830]: ৳ 7,410 OFF
+          - article [ref=e831]:
+            - link [ref=e832] [cursor=pointer]:
+              - /url: /product/walton-wfb-2b6-gdel-sc-refrigerator
+              - img "Walton WFB-2B6-GDEL-SC Inverter Refrigerator - 252L" [ref=e834]
+              - paragraph [ref=e835]: Walton WFB-2B6-GDEL-SC Inverter Refrigerator - 252L
+            - generic [ref=e836]:
+              - generic [ref=e837]: ৳ 37,990
+              - generic [ref=e839]:
+                - generic [ref=e840]: ৳46,590
+                - paragraph [ref=e841]: ৳ 8,600 OFF
+          - article [ref=e842]:
+            - link [ref=e843] [cursor=pointer]:
+              - /url: /product/walton-wcf-1b5-gdel-xx-chest-freezer
+              - img "Walton WCF-1B5-GDEL-XX Chest Freezer - 125L" [ref=e845]
+              - paragraph [ref=e846]: Walton WCF-1B5-GDEL-XX Chest Freezer - 125L
+            - generic [ref=e847]:
+              - generic [ref=e848]: ৳ 24,990
+              - generic [ref=e850]:
+                - generic [ref=e851]: ৳28,990
+                - paragraph [ref=e852]: ৳ 4,000 OFF
+          - article [ref=e853]:
+            - link [ref=e854] [cursor=pointer]:
+              - /url: /product/haier-es50h-ck3-bd-horizontal-electric-water-heater-50l
+              - img "Haier ES50H-CK3(BD) Horizontal Electric Water Heater - 50L" [ref=e856]
+              - paragraph [ref=e857]: Haier ES50H-CK3(BD) Horizontal Electric Water Heater - 50L
+            - generic [ref=e858]:
+              - generic [ref=e859]: ৳ 12,490
+              - generic [ref=e861]:
+                - generic [ref=e862]: ৳16,300
+                - paragraph [ref=e863]: ৳ 3,810 OFF
+          - article [ref=e864]:
+            - link [ref=e865] [cursor=pointer]:
+              - /url: /product/vision-rel-50-05-ss-double-pot-rice-cooker-3-l
+              - img "Vision REL-50-05 Stainless Steel Double Pot Rice Cooker - 3L" [ref=e867]
+              - paragraph [ref=e868]: Vision REL-50-05 Stainless Steel Double Pot Rice Cooker - 3L
+            - generic [ref=e869]:
+              - generic [ref=e870]: ৳ 2,890
+              - generic [ref=e872]:
+                - generic [ref=e873]: ৳3,750
+                - paragraph [ref=e874]: ৳ 860 OFF
+          - article [ref=e875]:
+            - link [ref=e876] [cursor=pointer]:
+              - /url: /product/vision-j5-microwave-oven
+              - img "Vision J5 Microwave Oven - 20L" [ref=e878]
+              - paragraph [ref=e879]: Vision J5 Microwave Oven - 20L
+            - generic [ref=e880]:
+              - generic [ref=e881]: ৳ 8,990
+              - generic [ref=e883]:
+                - generic [ref=e884]: ৳11,600
+                - paragraph [ref=e885]: ৳ 2,610 OFF
+          - article [ref=e886]:
+            - link [ref=e887] [cursor=pointer]:
+              - /url: /product/vision-40a3-hilife-infrared-cooker-2200-w
+              - img "VISION 40A3 HiLife Infrared Cooker - 2200W" [ref=e889]
+              - paragraph [ref=e890]: VISION 40A3 HiLife Infrared Cooker - 2200W
+            - generic [ref=e891]:
+              - generic [ref=e892]: ৳ 3,990
+              - generic [ref=e894]:
+                - generic [ref=e895]: ৳5,050
+                - paragraph [ref=e896]: ৳ 1,060 OFF
+    - generic [ref=e897]:
+      - generic [ref=e898]:
+        - heading "Featured Products" [level=2] [ref=e899]
+        - generic [ref=e900]:
+          - button "Prev Button" [disabled] [ref=e901]
+          - button "Next Button" [ref=e904] [cursor=pointer]
+      - generic "Tab Slider" [ref=e907]:
+        - generic [ref=e909]:
+          - button "Earbuds" [ref=e910] [cursor=pointer]
+          - button "Neckband" [ref=e911] [cursor=pointer]
+          - button "Headphone" [ref=e912] [cursor=pointer]
+          - button "Speaker" [ref=e913] [cursor=pointer]
+          - button "Smart Watch" [ref=e914] [cursor=pointer]
+          - button "Power Adapter" [ref=e915] [cursor=pointer]
+          - button "Power Bank" [ref=e916] [cursor=pointer]
+          - button "Cables" [ref=e917] [cursor=pointer]
+          - button "Hubs & Docks" [ref=e918] [cursor=pointer]
+          - button "Stylus Pen" [ref=e919] [cursor=pointer]
+          - button "WiFi Router" [ref=e920] [cursor=pointer]
+      - generic "Product Slider" [ref=e921]:
+        - generic [ref=e923]:
+          - article [ref=e924]:
+            - link [ref=e925] [cursor=pointer]:
+              - /url: /product/galaxy-buds4-pro
+              - img "Galaxy Buds4 Pro" [ref=e927]
+              - paragraph [ref=e928]: Galaxy Buds4 Pro
+            - generic [ref=e929]:
+              - generic [ref=e930]: ৳ 18,499
+              - generic [ref=e932]:
+                - generic [ref=e933]: ৳19,999
+                - paragraph [ref=e934]: ৳ 1,500 OFF
+          - article [ref=e935]:
+            - link [ref=e936] [cursor=pointer]:
+              - /url: /product/anker-soundcore-r60i-nc-tws-earbuds
+              - img "Anker Soundcore R60i NC TWS Earbuds" [ref=e938]
+              - paragraph [ref=e939]: Anker Soundcore R60i NC TWS Earbuds
+            - generic [ref=e940]:
+              - generic [ref=e941]: ৳ 2,999
+              - generic [ref=e943]:
+                - generic [ref=e944]: ৳3,450
+                - paragraph [ref=e945]: ৳ 451 OFF
+          - article [ref=e946]:
+            - link [ref=e947] [cursor=pointer]:
+              - /url: /product/anker-soundcore-liberty-5-nc-tws-earbuds
+              - img "Anker Soundcore Liberty 5 ANC TWS Earbuds" [ref=e949]
+              - paragraph [ref=e950]: Anker Soundcore Liberty 5 ANC TWS Earbuds
+            - generic [ref=e951]:
+              - generic [ref=e952]: ৳ 6,899
+              - generic [ref=e954]:
+                - generic [ref=e955]: ৳8,000
+                - paragraph [ref=e956]: ৳ 1,101 OFF
+          - article [ref=e957]:
+            - link [ref=e958] [cursor=pointer]:
+              - /url: /product/cmf-by-nothing-buds-pro-2-hybrid-anc-wireless-earbuds
+              - img "CMF by Nothing Buds Pro 2 Hybrid ANC Wireless Earbuds" [ref=e960]
+              - paragraph [ref=e961]: CMF by Nothing Buds Pro 2 Hybrid ANC Wireless Earbuds
+            - generic [ref=e962]:
+              - generic [ref=e963]: ৳ 4,999
+              - generic [ref=e965]:
+                - generic [ref=e966]: ৳5,500
+                - paragraph [ref=e967]: ৳ 501 OFF
+          - article [ref=e968]:
+            - link [ref=e969] [cursor=pointer]:
+              - /url: /product/qcy-melobuds-n20-pro-earbuds
+              - img "QCY MeloBuds N20 Pro Earbuds" [ref=e971]
+              - paragraph [ref=e972]: QCY MeloBuds N20 Pro Earbuds
+            - generic [ref=e973]:
+              - generic [ref=e974]: ৳ 2,699
+              - generic [ref=e976]:
+                - generic [ref=e977]: ৳2,850
+                - paragraph [ref=e978]: ৳ 151 OFF
+          - article [ref=e979]:
+            - link [ref=e980] [cursor=pointer]:
+              - /url: /product/oneplus-buds-4-anc-tws-earbuds
+              - img "OnePlus Buds 4 ANC TWS Earbuds" [ref=e982]
+              - paragraph [ref=e983]: OnePlus Buds 4 ANC TWS Earbuds
+            - generic [ref=e984]:
+              - generic [ref=e985]: ৳ 7,899
+              - generic [ref=e987]:
+                - generic [ref=e988]: ৳9,000
+                - paragraph [ref=e989]: ৳ 1,101 OFF
+          - article [ref=e990]:
+            - link [ref=e991] [cursor=pointer]:
+              - /url: /product/oneplus-nord-buds-4-earbuds
+              - img "OnePlus Nord Buds 4 Earbuds" [ref=e993]
+              - paragraph [ref=e994]: OnePlus Nord Buds 4 Earbuds
+            - generic [ref=e995]:
+              - generic [ref=e996]: ৳ 3,599
+              - generic [ref=e998]:
+                - generic [ref=e999]: ৳4,000
+                - paragraph [ref=e1000]: ৳ 401 OFF
+          - article [ref=e1001]:
+            - link [ref=e1002] [cursor=pointer]:
+              - /url: /product/qcy-melobuds-pro-anc-tws-earbuds
+              - img "QCY HT08 MeloBuds Pro ANC TWS Earbuds" [ref=e1004]
+              - paragraph [ref=e1005]: QCY HT08 MeloBuds Pro ANC TWS Earbuds
+            - generic [ref=e1006]:
+              - generic [ref=e1007]: ৳ 3,350
+              - generic [ref=e1009]:
+                - generic [ref=e1010]: ৳3,500
+                - paragraph [ref=e1011]: ৳ 150 OFF
+          - article [ref=e1012]:
+            - link [ref=e1013] [cursor=pointer]:
+              - /url: /product/realme-buds-t500-pro-earbuds
+              - img "realme Buds T500 Pro ANC TWS Earbuds" [ref=e1015]
+              - paragraph [ref=e1016]: realme Buds T500 Pro ANC TWS Earbuds
+            - generic [ref=e1017]:
+              - generic [ref=e1018]: ৳ 3,699
+              - generic [ref=e1020]:
+                - generic [ref=e1021]: ৳4,100
+                - paragraph [ref=e1022]: ৳ 401 OFF
+    - generic [ref=e1023]:
+      - generic [ref=e1024]:
+        - heading "Bangladesh’s Trusted Tech & Lifestyle E-Commerce Store" [level=1] [ref=e1025]
+        - generic [ref=e1026]: Apple Gadgets has grown into more than just a gadget shop. It’s now a place where you can find all kinds of tech and lifestyle essentials in one spot. From Apple devices to everyday electronics, home appliances, and travel-friendly gadgets, everything is easy to explore. We focus on keeping things simple and authentic with genuine products, reliable service, and a smooth shopping experience both online and in-store. No matter what you’re looking for, you can shop with proper support and confidence.
+      - generic "Seo Content Slider" [ref=e1028]:
+        - generic [ref=e1030]:
+          - link [ref=e1031] [cursor=pointer]:
+            - /url: https://www.applegadgetsbd.com/category/macbook/pro/m5
+            - figure [ref=e1032]:
+              - img "MacBook-Pro-M5-Pro-2968.png" [ref=e1033]
+          - link [ref=e1034] [cursor=pointer]:
+            - /url: https://www.applegadgetsbd.com/category/portable-power-station
+            - figure [ref=e1035]:
+              - img "Hithium-HeroEE-and-ecoflow-seo-slider-1X1-2088.jpg" [ref=e1036]
+        - navigation "Carousel dots" [ref=e1037]:
+          - button "Go to slide 1" [ref=e1038] [cursor=pointer]
+          - button "Go to slide 2" [ref=e1039] [cursor=pointer]
+      - generic [ref=e1040]:
+        - heading "Power Solutions & Portable Energy for Everyday Needs" [level=2] [ref=e1041]
+        - generic [ref=e1042]: Staying powered up is important, especially when power cuts happen without warning. Our collection includes portable power stations, charger fans, power banks, and other backup options that help you stay prepared. These are useful at home, during travel, or even outdoors. All of them are built to be easy to use and dependable, so your devices keep running when you need them most.
+      - generic [ref=e1043]:
+        - heading "Accessories & Essentials That Power Your Devices" [level=2] [ref=e1044]
+        - generic [ref=e1045]: The right accessories can make your devices much easier to use every day. At Apple Gadgets, you’ll find chargers, cables, adapters, covers, screen protectors, hubs, and more, all chosen for quality and compatibility. Along with that, we also offer smartwatches, earbuds, headphones, speakers, and other useful gadgets that fit into your daily routine. These products help to improve performance, add convenience, and make your overall experience better.
+      - generic [ref=e1046]:
+        - heading "Smartphones, Tablets & the Complete Apple Ecosystem" [level=2] [ref=e1047]
+        - generic [ref=e1048]: You’ll find a wide range of smartphones and tablets from leading brands, along with the full Apple lineup. From iPhones and iPads to MacBooks, Apple Watch, and AirPods, everything is available in one place. We also store popular Android brands like Samsung, Xiaomi, OnePlus, and more, so you can choose what suits your needs and budget. All products come with proper authenticity and support, so you don’t have to worry after buying.
+      - generic [ref=e1049]:
+        - heading "Home Appliances & Lifestyle Electronics for Modern Living" [level=2] [ref=e1050]
+        - generic [ref=e1051]: Apple Gadgets now offers a wide range of home appliances and lifestyle electronics to make daily life more comfortable. From kitchen essentials like air fryers, rice cookers, and blenders to useful home products like vacuum cleaners, lighting, and heaters, you’ll find plenty of practical options. There are also travel accessories, personal care devices, and outdoor utilities that are easy to carry and use. Everything is selected to help you manage everyday tasks more easily without overcomplicating things.
+  - contentinfo [ref=e1052]:
+    - generic [ref=e1053]:
+      - generic [ref=e1054]:
+        - generic [ref=e1055]:
+          - generic [ref=e1056]:
+            - figure [ref=e1057]:
+              - link [ref=e1058] [cursor=pointer]:
+                - /url: /
+                - img "AGLx11y-ezgif.com-gif-to-webp-converter" [ref=e1059]
+            - generic [ref=e1060]:
+              - generic [ref=e1061]: Phone Number
+              - link "09678148148" [ref=e1065] [cursor=pointer]:
+                - /url: tel:09678148148
+              - generic [ref=e1066]: Email Address
+              - link "contact@applegadgetsbd.com" [ref=e1071] [cursor=pointer]:
+                - /url: mailto:contact@applegadgetsbd.com
+            - generic [ref=e1072]:
+              - link [ref=e1073] [cursor=pointer]:
+                - /url: https://apps.apple.com/us/app/apple-gadgets-tech-shopping/id6738599022
+              - link [ref=e1076] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.agl.agl_app
+          - generic [ref=e1087]:
+            - paragraph [ref=e1088]: LOCATION
+            - generic [ref=e1089]:
+              - link [ref=e1090] [cursor=pointer]:
+                - /url: /outlet/bashundhara-city-shopping-complex
+                - generic [ref=e1093]:
+                  - paragraph [ref=e1094]: Apple Gadgets - Basement 2, Shop 26, Bashundhara City Shopping Complex
+                  - paragraph [ref=e1095]: Basement 2, Shop 26
+              - link [ref=e1096] [cursor=pointer]:
+                - /url: /outlet/apple-gadgets-level-5-block-a-shop-4-5-bashundhara-city-shopping-complex
+                - generic [ref=e1099]:
+                  - paragraph [ref=e1100]: Apple Gadgets - Level- 5, Block- A, Shop- 4-5. Bashundhara City Shopping Complex
+                  - paragraph [ref=e1101]: Level- 5, Block- A, Shop- 4-5
+              - link [ref=e1102] [cursor=pointer]:
+                - /url: /outlet/jamuna-future-park
+                - generic [ref=e1105]:
+                  - paragraph [ref=e1106]: Apple Gadgets - Level 4, Zone A (West Court), Shop 28D, Jamuna Future Park
+                  - paragraph [ref=e1107]: Level 4, Zone A (West Court), Shop 28D
+              - link "See All Outlet" [ref=e1108] [cursor=pointer]:
+                - /url: /outlet
+        - generic [ref=e1109]:
+          - generic [ref=e1110]:
+            - paragraph [ref=e1111]: About Us
+            - generic [ref=e1112]:
+              - link "About Us" [ref=e1113] [cursor=pointer]:
+                - /url: /about-us
+              - link "Corporate" [ref=e1114] [cursor=pointer]:
+                - /url: /corporate
+              - link "Order Tracking" [ref=e1115] [cursor=pointer]:
+                - /url: /tracking
+              - link "Blog" [ref=e1116] [cursor=pointer]:
+                - /url: /blog
+              - link "Press Coverage" [ref=e1117] [cursor=pointer]:
+                - /url: /press-coverage
+              - link "Careers" [ref=e1118] [cursor=pointer]:
+                - /url: /career
+              - link "Complain / Advice" [ref=e1119] [cursor=pointer]:
+                - /url: /page/feedback
+              - link "Contact Us" [ref=e1120] [cursor=pointer]:
+                - /url: /contact-us
+              - link "FAQs" [ref=e1121] [cursor=pointer]:
+                - /url: /faq?q=15
+          - generic [ref=e1122]:
+            - paragraph [ref=e1123]: Policy
+            - generic [ref=e1124]:
+              - link "Privacy Policy" [ref=e1125] [cursor=pointer]:
+                - /url: /page/privacy-policy
+              - link "EMI and Payment Policy" [ref=e1126] [cursor=pointer]:
+                - /url: /page/emi-policy
+              - link "Warranty Policy" [ref=e1127] [cursor=pointer]:
+                - /url: /page/warranty-policy
+              - link "Exchange Policy" [ref=e1128] [cursor=pointer]:
+                - /url: /page/exchange-policy
+              - link "Delivery Policy" [ref=e1129] [cursor=pointer]:
+                - /url: /page/delivery-terms-and-conditions
+              - link "Pre-Order Policy" [ref=e1130] [cursor=pointer]:
+                - /url: /page/প্রি-অর্ডার-শর্তাবলী
+              - link "Refund Policy" [ref=e1131] [cursor=pointer]:
+                - /url: /page/refund-policy
+              - link "Return Policy" [ref=e1132] [cursor=pointer]:
+                - /url: /page/apple-gadgets-return-policy
+      - generic [ref=e1133]:
+        - generic [ref=e1134]:
+          - paragraph [ref=e1135]: © 2026 Apple Gadgets. All Rights Reserved.
+          - link "Developed by Nextlab" [ref=e1136] [cursor=pointer]:
+            - /url: https://www.wenextlab.com
+        - generic [ref=e1137]:
+          - link "WhatsApp" [ref=e1138] [cursor=pointer]:
+            - /url: https://wa.me/+8801711105888?text=Hi, is there anyone to assist me?
+          - link "Facebook" [ref=e1142] [cursor=pointer]:
+            - /url: https://www.facebook.com/applegadgetsltd
+          - link "Instagram" [ref=e1146] [cursor=pointer]:
+            - /url: https://www.instagram.com/applegadgetsltd/
+          - link "LinkedIn" [ref=e1150] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/applegadgets/
+          - link "YouTube" [ref=e1156] [cursor=pointer]:
+            - /url: https://www.youtube.com/@AppleGadgetsLtd
+      - generic [ref=e1160]:
+        - generic [ref=e1161]:
+          - paragraph [ref=e1162]: Mobile Phones
+          - generic [ref=e1163]:
+            - link "iPhone" [ref=e1164] [cursor=pointer]:
+              - /url: /category/iphone
+            - link "Samsung" [ref=e1165] [cursor=pointer]:
+              - /url: /category/samsung-mobile-phone
+            - link "Google" [ref=e1166] [cursor=pointer]:
+              - /url: /category/google-mobile-phone
+            - link "Motorola" [ref=e1167] [cursor=pointer]:
+              - /url: /category/motorola-mobile-phone
+            - link "Xiaomi" [ref=e1168] [cursor=pointer]:
+              - /url: /category/xiaomi-mobile-phone
+            - link "iQOO" [ref=e1169] [cursor=pointer]:
+              - /url: /category/iqoo-mobile-phone
+            - link "Vivo" [ref=e1170] [cursor=pointer]:
+              - /url: /category/vivo-mobile-phone
+            - link "Honor" [ref=e1171] [cursor=pointer]:
+              - /url: /category/honor-mobile-phone
+            - link "Nothing" [ref=e1172] [cursor=pointer]:
+              - /url: /category/nothing-mobile-phone
+            - link "Huawei" [ref=e1173] [cursor=pointer]:
+              - /url: /category/huawei-mobile-phone
+        - generic [ref=e1174]:
+          - paragraph [ref=e1175]: Accessories
+          - generic [ref=e1176]:
+            - link "Earbuds" [ref=e1177] [cursor=pointer]:
+              - /url: /category/earbuds
+            - link "Earphone" [ref=e1178] [cursor=pointer]:
+              - /url: /category/earphone
+            - link "Neckband" [ref=e1179] [cursor=pointer]:
+              - /url: /category/neckband
+            - link "Headphone" [ref=e1180] [cursor=pointer]:
+              - /url: /category/headphone
+            - link "Speakers" [ref=e1181] [cursor=pointer]:
+              - /url: /category/speakers
+            - link "Power Bank" [ref=e1182] [cursor=pointer]:
+              - /url: /category/power-bank
+            - link "Smart Watch" [ref=e1183] [cursor=pointer]:
+              - /url: /category/smart-watch
+            - link "Mobile Charger" [ref=e1184] [cursor=pointer]:
+              - /url: /category/mobile-charger
+            - link "Wireless Charger" [ref=e1185] [cursor=pointer]:
+              - /url: /category/wireless-charger
+            - link "Projector" [ref=e1186] [cursor=pointer]:
+              - /url: /category/projector
+        - generic [ref=e1187]:
+          - paragraph [ref=e1188]: Trending
+          - generic [ref=e1189]:
+            - link "IP Camera" [ref=e1190] [cursor=pointer]:
+              - /url: /category/ip-camera
+            - link "Graphics Card" [ref=e1191] [cursor=pointer]:
+              - /url: /category/graphics-card
+            - link "Motherboard" [ref=e1192] [cursor=pointer]:
+              - /url: /category/motherboard
+            - link "Monitor" [ref=e1193] [cursor=pointer]:
+              - /url: /category/monitor
+            - link "Processor" [ref=e1194] [cursor=pointer]:
+              - /url: /category/processor
+            - link "Keyboard" [ref=e1195] [cursor=pointer]:
+              - /url: /category/keyboards
+            - link "Mouse" [ref=e1196] [cursor=pointer]:
+              - /url: /category/mouse
+            - link "Power Supply" [ref=e1197] [cursor=pointer]:
+              - /url: /category/power-supply
+            - link "RAM" [ref=e1198] [cursor=pointer]:
+              - /url: /category/ram
+            - link "NAS" [ref=e1199] [cursor=pointer]:
+              - /url: /category/storage/nas
+        - generic [ref=e1200]:
+          - paragraph [ref=e1201]: Best-Selling
+          - generic [ref=e1202]:
+            - link "MacBook" [ref=e1203] [cursor=pointer]:
+              - /url: /category/macbook
+            - link "iMac" [ref=e1204] [cursor=pointer]:
+              - /url: /category/imac
+            - link "iPad" [ref=e1205] [cursor=pointer]:
+              - /url: /category/ipad
+            - link "AirPods" [ref=e1206] [cursor=pointer]:
+              - /url: /category/airpods
+            - link "Lightning Cable" [ref=e1207] [cursor=pointer]:
+              - /url: /category/cable/lightning
+            - link "Phone Cooler" [ref=e1208] [cursor=pointer]:
+              - /url: /category/phone-cooler
+            - link "Adapter" [ref=e1209] [cursor=pointer]:
+              - /url: /category/adapter
+            - link "Trimmer" [ref=e1210] [cursor=pointer]:
+              - /url: /category/trimmer
+            - link "Charger Fan" [ref=e1211] [cursor=pointer]:
+              - /url: /category/charger-fan
+            - link "Geyser" [ref=e1212] [cursor=pointer]:
+              - /url: /category/geyser
+        - generic [ref=e1213]:
+          - paragraph [ref=e1214]: Home-Appliances
+          - generic [ref=e1215]:
+            - link "TV" [ref=e1216] [cursor=pointer]:
+              - /url: /category/tv
+            - link "Induction Cooker" [ref=e1217] [cursor=pointer]:
+              - /url: /category/induction-cooker
+            - link "Air Fryer" [ref=e1218] [cursor=pointer]:
+              - /url: /category/air-fryer
+            - link "Kitchen Appliances" [ref=e1219] [cursor=pointer]:
+              - /url: /category/kitchen-appliances
+            - link "Microwave Oven" [ref=e1220] [cursor=pointer]:
+              - /url: /category/oven
+            - link "Air Conditioner" [ref=e1221] [cursor=pointer]:
+              - /url: /category/air-conditioner
+            - link "Refrigerator & Freezer" [ref=e1222] [cursor=pointer]:
+              - /url: /category/refrigerator
+            - link "Washing Machine" [ref=e1223] [cursor=pointer]:
+              - /url: /category/washing-machine
+            - link "Solar Panel" [ref=e1224] [cursor=pointer]:
+              - /url: /category/solar-panel
+            - link "Water Purifier" [ref=e1225] [cursor=pointer]:
+              - /url: /category/water-purifier
+        - generic [ref=e1226]:
+          - paragraph [ref=e1227]: Top-Brands
+          - generic [ref=e1228]:
+            - link "Apple" [ref=e1229] [cursor=pointer]:
+              - /url: /brands/apple
+            - link "Samsung" [ref=e1230] [cursor=pointer]:
+              - /url: /brands/samsung
+            - link "Honor" [ref=e1231] [cursor=pointer]:
+              - /url: /brands/honor
+            - link "Oraimo" [ref=e1232] [cursor=pointer]:
+              - /url: /brands/oraimo
+            - link "JBL" [ref=e1233] [cursor=pointer]:
+              - /url: /brands/jbl
+            - link "QCY" [ref=e1234] [cursor=pointer]:
+              - /url: /brands/qcy
+            - link "Amazfit" [ref=e1235] [cursor=pointer]:
+              - /url: /brands/amazfit
+            - link "Anker" [ref=e1236] [cursor=pointer]:
+              - /url: /brands/anker
+            - link "boAt" [ref=e1237] [cursor=pointer]:
+              - /url: /brands/boat
+            - link "Sony" [ref=e1238] [cursor=pointer]:
+              - /url: /brands/sony
+      - figure [ref=e1239]:
+        - img "footer-bg" [ref=e1240]
+  - alert [ref=e1241]
+```
+
+# Test source
+
+```ts
+  1  | // On-page SEO checks for every key page (desktop only).
+  2  | // Hard failures = things that break indexing. Soft issues are logged as warnings.
+  3  | import { test, expect } from '@playwright/test';
+  4  | import { config, url } from '../config.js';
+  5  | 
+  6  | for (const pg of config.keyPages) {
+  7  |   test(`[seo] ${pg.name}`, async ({ page }, info) => {
+  8  |     await page.goto(pg.path, { waitUntil: 'domcontentloaded' });
+  9  |     const d = await page.evaluate(() => {
+  10 |       const meta = (sel) => document.querySelector(sel)?.getAttribute('content') || '';
+  11 |       const ld = [...document.querySelectorAll('script[type="application/ld+json"]')]
+  12 |         .map((s) => { try { return JSON.parse(s.textContent); } catch { return null; } }).filter(Boolean);
+  13 |       const types = [];
+  14 |       const walk = (o) => {
+  15 |         if (!o || typeof o !== 'object') return;
+  16 |         if (o['@type']) types.push(...[].concat(o['@type']));
+  17 |         Object.values(o).forEach(walk);
+  18 |       };
+  19 |       ld.forEach(walk);
+  20 |       const product = JSON.stringify(ld).includes('"Product"');
+  21 |       const hasPrice = /"price"\s*:\s*"?\d/.test(JSON.stringify(ld));
+  22 |       return {
+  23 |         title: document.title.trim(),
+  24 |         desc: meta('meta[name="description"]'),
+  25 |         robots: meta('meta[name="robots"]'),
+  26 |         canonical: document.querySelector('link[rel="canonical"]')?.href || '',
+  27 |         h1: [...document.querySelectorAll('h1')].map((h) => h.textContent.trim()).filter(Boolean),
+  28 |         ogTitle: meta('meta[property="og:title"]'),
+  29 |         ogImage: meta('meta[property="og:image"]'),
+  30 |         lang: document.documentElement.lang,
+  31 |         imgNoAlt: [...document.querySelectorAll('img')].filter((i) => !i.hasAttribute('alt')).length,
+  32 |         schemaTypes: [...new Set(types)],
+  33 |         product, hasPrice,
+  34 |       };
+  35 |     });
+  36 | 
+  37 |     const warn = (m) => info.annotations.push({ type: 'warn', description: m });
+  38 |     info.annotations.push({ type: 'info', description: `Title(${d.title.length}): ${d.title}` });
+  39 |     info.annotations.push({ type: 'info', description: `Schema: ${d.schemaTypes.join(', ') || 'none'}` });
+  40 | 
+  41 |     // Soft (warnings)
+  42 |     if (d.title.length < 20 || d.title.length > 65) warn(`Title length ${d.title.length} (aim 20–65)`);
+  43 |     if (d.desc && (d.desc.length < 70 || d.desc.length > 165)) warn(`Meta description length ${d.desc.length} (aim 70–165)`);
+  44 |     if (d.h1.length > 1) warn(`${d.h1.length} H1 tags`);
+  45 |     if (!d.ogTitle || !d.ogImage) warn('Missing og:title / og:image');
+  46 |     if (!d.lang) warn('Missing <html lang>');
+  47 |     if (d.imgNoAlt > 0) warn(`${d.imgNoAlt} image(s) without alt attribute`);
+  48 | 
+  49 |     // Hard (failures)
+  50 |     expect.soft(d.title, 'title present').not.toBe('');
+  51 |     expect.soft(d.desc, 'meta description present').not.toBe('');
+  52 |     expect.soft(d.robots.toLowerCase(), 'page is not noindex').not.toContain('noindex');
+  53 |     expect.soft(d.h1.length, 'has an H1').toBeGreaterThan(0);
+> 54 |     expect.soft(d.canonical, 'canonical present').not.toBe('');
+     |                                                       ^ Error: canonical present
+  55 |     if (d.canonical) {
+  56 |       const canon = new URL(d.canonical);
+  57 |       const expected = new URL(url(pg.path));
+  58 |       expect.soft(canon.pathname.replace(/\/$/, ''), 'canonical points to itself')
+  59 |         .toBe(expected.pathname.replace(/\/$/, ''));
+  60 |     }
+  61 |     if (pg.type === 'product') {
+  62 |       expect.soft(d.product, 'Product schema (JSON-LD)').toBe(true);
+  63 |       expect.soft(d.hasPrice, 'Product schema has offers.price').toBe(true);
+  64 |     }
+  65 |   });
+  66 | }
+  67 | 
+```

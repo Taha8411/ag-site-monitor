@@ -1,0 +1,254 @@
+{
+  "generatedAt": "2026-11-20T11:44:11.440Z",
+  "checks": [
+    {
+      "name": "SSL certificate",
+      "status": "PASS",
+      "detail": "79 days left (Google Trust Services)"
+    },
+    {
+      "name": "Redirect http://www.applegadgetsbd.com/",
+      "status": "PASS",
+      "detail": "→ https://www.applegadgetsbd.com/ (200)"
+    },
+    {
+      "name": "Redirect https://applegadgetsbd.com/",
+      "status": "PASS",
+      "detail": "→ https://www.applegadgetsbd.com/ (200)"
+    },
+    {
+      "name": "robots.txt",
+      "status": "PASS",
+      "detail": "18 lines"
+    },
+    {
+      "name": "Sitemap",
+      "status": "PASS",
+      "detail": "8 file(s), 14014 URLs"
+    },
+    {
+      "name": "Sitemap URL sample",
+      "status": "PASS",
+      "detail": "40 checked, 0 broken, 0 slow, avg 1104 ms"
+    },
+    {
+      "name": "Internal links",
+      "status": "PASS",
+      "detail": "200 checked, 0 broken"
+    }
+  ],
+  "brokenLinks": [],
+  "sitemap": {
+    "files": 8,
+    "badFiles": [],
+    "totalUrls": 14014,
+    "sample": [
+      {
+        "url": "https://www.applegadgetsbd.com/product/western-digital-sn350-480gb-ssd",
+        "status": 200,
+        "ms": 1262
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/panasonic-mk-gb1-stand-and-hand-mixer",
+        "status": 200,
+        "ms": 1260
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/hp-15-fd0154wm-intel-core-ultra-5-125h-fhd-laptop",
+        "status": 200,
+        "ms": 1273
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/silicone-case-for-iphone",
+        "status": 200,
+        "ms": 1241
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/xiaomi-redmi-k100-pro-5g",
+        "status": 200,
+        "ms": 1247
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/nintendo-switch-oled-gaming-console",
+        "status": 200,
+        "ms": 1242
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/awei-y669-lite-30w-waterproof-bluetooth-speaker",
+        "status": 200,
+        "ms": 807
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/oraimo-oeb-e108d-freepods-pro-active-noise-cancellation-tws-earbuds",
+        "status": 200,
+        "ms": 763
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/wiwu-fold-mini-wireless-keyboard",
+        "status": 200,
+        "ms": 1154
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/montech-king-65-pro-atx-desktop-gaming-casing",
+        "status": 200,
+        "ms": 2804
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/baseus-l45-type-c-to-c-35mm-audio-adapter",
+        "status": 200,
+        "ms": 800
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/qbits-lania-mini-f",
+        "status": 200,
+        "ms": 752
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/casio-enticer-ltp-vt04d-2a-womens-watch",
+        "status": 200,
+        "ms": 2475
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/joyroom-jr-pbf04-65w-fast-charging-power-bank",
+        "status": 200,
+        "ms": 2543
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/coteetci-cs7075-apple-pencil-tip-4-pack",
+        "status": 200,
+        "ms": 2461
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/esr-halolock-classic-hybrid-camera-control-with-stand-case-for-iphone-16-pro-max",
+        "status": 200,
+        "ms": 2233
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/xiaomi-mijia-t300-sonic-electric-toothbrush",
+        "status": 200,
+        "ms": 2118
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/fastrack-bold-quartz-mens-watch",
+        "status": 200,
+        "ms": 914
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/ldnio-sc3416-power-strip",
+        "status": 200,
+        "ms": 636
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/hoco-dar43-professional-electric-hair-clipper",
+        "status": 200,
+        "ms": 890
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/esr-armorite-camera-protector-iphone-14-pro-to-17-pro-and-pro-max-series",
+        "status": 200,
+        "ms": 779
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/premium-texture-flowers-case-for-iphone",
+        "status": 200,
+        "ms": 1161
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/blisspads-bp05-topography-gaming-mouse-pad",
+        "status": 200,
+        "ms": 978
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/pixel-fold",
+        "status": 200,
+        "ms": 604
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/titan-raga-viva-quartz-2608wm01-analog-metal-strap-womens-watch",
+        "status": 200,
+        "ms": 951
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/poco-m7-plus-official",
+        "status": 200,
+        "ms": 1374
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/bose-quietcomfort-se-headphones",
+        "status": 200,
+        "ms": 610
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/xundd-xdch-079-pd-car-charger",
+        "status": 200,
+        "ms": 573
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/bange-bg7566-waterproof-chest-bag",
+        "status": 200,
+        "ms": 594
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/logitech-k400-plus-wireless-keyboard-with-touchpad",
+        "status": 200,
+        "ms": 570
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/titan-raga-2725sm01-womens-watch",
+        "status": 200,
+        "ms": 897
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/huawei-matepad-115inch",
+        "status": 200,
+        "ms": 655
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/asus-tuf-f16-fx607vjb-rl164-gaming-laptop",
+        "status": 200,
+        "ms": 594
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/brother-hl-l6210dw-single-function-mono-laser-printer",
+        "status": 200,
+        "ms": 572
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/joyroom-jr-fn2-funpods-series-true-wireless-earbuds",
+        "status": 200,
+        "ms": 630
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/marshall-monitor-ii-anc-wireless-headphones",
+        "status": 200,
+        "ms": 779
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/imac-24-inch-2024-m4-chip-10-core-cpu-10-core-gpu-161tb",
+        "status": 200,
+        "ms": 735
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/hp-victus-15-fa1082wm-core-i5-13420h-gaming-laptop",
+        "status": 200,
+        "ms": 804
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/ugreen-k551-dual-mode-wireless-keyboard",
+        "status": 200,
+        "ms": 765
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/magegee-gk960-tri-mode-wireless-gaming-keyboard",
+        "status": 200,
+        "ms": 670
+      }
+    ],
+    "avgMs": 1104
+  },
+  "ssl": {
+    "issuer": "Google Trust Services",
+    "validTo": "Feb  7 15:23:07 2027 GMT",
+    "daysLeft": 79
+  }
+}

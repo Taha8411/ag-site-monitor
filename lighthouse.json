@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-11-19T11:47:46.660Z",
+  "generatedAt": "2026-11-20T11:45:54.196Z",
   "results": [
     {
       "path": "/",
       "report": "lighthouse/home.html",
       "scores": {
-        "performance": 44,
+        "performance": 43,
         "accessibility": 82,
         "best-practices": 69,
         "seo": 100
       },
       "metrics": {
-        "LCP": 14022.231839999997,
-        "FCP": 2039.79259,
-        "TBT": 898.5,
+        "LCP": 7238.595919999999,
+        "FCP": 2202.8480799999998,
+        "TBT": 1683.5,
         "CLS": 0,
-        "SI": 9546.934597179048
+        "SI": 5197.33301019975
       },
       "topIssues": [
         {
           "title": "Reduce unused JavaScript",
-          "savingsMs": 2250
+          "savingsMs": 1370
         },
         {
           "title": "Reduce initial server response time",
-          "savingsMs": 1010
+          "savingsMs": 743
         },
         {
           "title": "Reduce unused CSS",
@@ -36,30 +36,30 @@
       "path": "/category/mobile-phone",
       "report": "lighthouse/category_mobile-phone.html",
       "scores": {
-        "performance": 51,
+        "performance": 49,
         "accessibility": 85,
         "best-practices": 77,
         "seo": 100
       },
       "metrics": {
-        "LCP": 11299.399599999997,
-        "FCP": 1663.8648999999998,
-        "TBT": 1025.5000000000018,
+        "LCP": 6478.3231,
+        "FCP": 1676.0127000000002,
+        "TBT": 1897.000000000001,
         "CLS": 0,
-        "SI": 3352.3941920000934
+        "SI": 2547.0630375338997
       },
       "topIssues": [
         {
           "title": "Reduce unused JavaScript",
-          "savingsMs": 2100
+          "savingsMs": 1350
         },
         {
           "title": "Reduce initial server response time",
-          "savingsMs": 1496
+          "savingsMs": 953
         },
         {
           "title": "Reduce unused CSS",
-          "savingsMs": 0
+          "savingsMs": 150
         }
       ]
     },
@@ -67,26 +67,26 @@
       "path": "/product/apple-airtag",
       "report": "lighthouse/product_apple-airtag.html",
       "scores": {
-        "performance": 54,
+        "performance": 50,
         "accessibility": 81,
         "best-practices": 69,
         "seo": 100
       },
       "metrics": {
-        "LCP": 5187.229750000002,
-        "FCP": 1243.1423,
-        "TBT": 811.5,
+        "LCP": 5567.629799999999,
+        "FCP": 1306.5022000000001,
+        "TBT": 1815.7245000000012,
         "CLS": 0,
-        "SI": 8109.214830374339
+        "SI": 4307.34813447266
       },
       "topIssues": [
         {
           "title": "Reduce unused JavaScript",
-          "savingsMs": 900
+          "savingsMs": 1050
         },
         {
           "title": "Reduce initial server response time",
-          "savingsMs": 648
+          "savingsMs": 866
         },
         {
           "title": "Reduce unused CSS",
