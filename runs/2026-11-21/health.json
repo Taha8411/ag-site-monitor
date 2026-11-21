@@ -1,0 +1,254 @@
+{
+  "generatedAt": "2026-11-21T11:00:28.488Z",
+  "checks": [
+    {
+      "name": "SSL certificate",
+      "status": "PASS",
+      "detail": "78 days left (Google Trust Services)"
+    },
+    {
+      "name": "Redirect http://www.applegadgetsbd.com/",
+      "status": "PASS",
+      "detail": "→ https://www.applegadgetsbd.com/ (200)"
+    },
+    {
+      "name": "Redirect https://applegadgetsbd.com/",
+      "status": "PASS",
+      "detail": "→ https://www.applegadgetsbd.com/ (200)"
+    },
+    {
+      "name": "robots.txt",
+      "status": "PASS",
+      "detail": "18 lines"
+    },
+    {
+      "name": "Sitemap",
+      "status": "PASS",
+      "detail": "8 file(s), 14115 URLs"
+    },
+    {
+      "name": "Sitemap URL sample",
+      "status": "PASS",
+      "detail": "40 checked, 0 broken, 0 slow, avg 863 ms"
+    },
+    {
+      "name": "Internal links",
+      "status": "PASS",
+      "detail": "200 checked, 0 broken"
+    }
+  ],
+  "brokenLinks": [],
+  "sitemap": {
+    "files": 8,
+    "badFiles": [],
+    "totalUrls": 14115,
+    "sample": [
+      {
+        "url": "https://www.applegadgetsbd.com/product/adata-16gb-ddr5-laptop-ram",
+        "status": 200,
+        "ms": 910
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/colmi-p78-amoled-smart-watch",
+        "status": 200,
+        "ms": 949
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/honor-pad-x7",
+        "status": 200,
+        "ms": 1048
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/baseus-bowie-mz10-true-wireless-earphones",
+        "status": 200,
+        "ms": 1005
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/sonata-7135sl03-mens-watch",
+        "status": 200,
+        "ms": 969
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/titan-workwear-1769sm02-mens-watch",
+        "status": 200,
+        "ms": 995
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/amazon-echo-spot",
+        "status": 200,
+        "ms": 808
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/a4tech-g3-300n-v-track-wireless-mouse",
+        "status": 200,
+        "ms": 868
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/boya-by-gm18cb-desktop-gooseneck-condenser-microphone",
+        "status": 200,
+        "ms": 842
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/momax-1-world-3-ports-gan-universal-travel-charger-70w",
+        "status": 200,
+        "ms": 827
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/fastrack-stunners-38164nm01-mens-watch",
+        "status": 200,
+        "ms": 862
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/joyroom-jr-l009-12w-colorful-series-power-bank-with-kickstand",
+        "status": 200,
+        "ms": 866
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/xiaomi-wireless-mouse-and-keyboard-set-2-wxjs02ym",
+        "status": 200,
+        "ms": 739
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/mibro-t2-calling-smart-watch",
+        "status": 200,
+        "ms": 829
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/wiwu-pencil-max-universal-stylus-pen",
+        "status": 200,
+        "ms": 781
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/jbl-soundgear-sense-true-wireless-open-ear-headphones",
+        "status": 200,
+        "ms": 850
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/kemei-km-709a-beard-and-hair-trimmer",
+        "status": 200,
+        "ms": 858
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/ajazz-ahm08-max-wireless-gaming-headphone",
+        "status": 200,
+        "ms": 808
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/casio-standard-ltp-v005gl-9audf-womens-watch",
+        "status": 200,
+        "ms": 843
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/hoco-hc4-true-wireless-speaker",
+        "status": 200,
+        "ms": 805
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/coteci-6-in-1-usb-c-hub-multiport-adapter",
+        "status": 200,
+        "ms": 758
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/wiwu-wi-004-smart-folio-case-for-ipad",
+        "status": 200,
+        "ms": 750
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/uniview-ipc3612le-adf28kc-wl-2mp-fixed-eyeball-network-camera",
+        "status": 200,
+        "ms": 799
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/hkviper-hk-1-pro-back-clip-phone-cooling-fan",
+        "status": 200,
+        "ms": 830
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/hoco-hc34-star-wireless-speaker",
+        "status": 200,
+        "ms": 972
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/kemei-km-6330-3-in-1-hair-trimmer-grooming-kit",
+        "status": 200,
+        "ms": 927
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/cmf-by-nothing-quick-charger",
+        "status": 200,
+        "ms": 955
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/duxducis-magi-series-pu-leather-case-for-tab",
+        "status": 200,
+        "ms": 917
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/galaxy-z-flip7",
+        "status": 200,
+        "ms": 887
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/cudy-gs105d-unmanaged-switch",
+        "status": 200,
+        "ms": 1028
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/fastrack-snob-x-quartz-6283wm01-womens-watch",
+        "status": 200,
+        "ms": 737
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/fantech-wh07a-go-flow-anc-wireless-headphone",
+        "status": 200,
+        "ms": 740
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/baseus-2-in-1-clean-guard-multifunctional-car-wash-spray-nozzle",
+        "status": 200,
+        "ms": 777
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/deepcool-ag620-wh-cpu-cooler",
+        "status": 200,
+        "ms": 792
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/hp-15-fd0054nr-laptop",
+        "status": 200,
+        "ms": 784
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/jbl-earbuds-t120",
+        "status": 200,
+        "ms": 753
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/hoco-ds65-portable-bluetooth-speaker",
+        "status": 200,
+        "ms": 1077
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/ugreen-x515-55476-30w-gan-fast-charger",
+        "status": 200,
+        "ms": 840
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/ng-professional-screen-protector-for-samsung-tab",
+        "status": 200,
+        "ms": 867
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/titan-trendsetters-2617sm03-womens-watch",
+        "status": 200,
+        "ms": 880
+      }
+    ],
+    "avgMs": 863
+  },
+  "ssl": {
+    "issuer": "Google Trust Services",
+    "validTo": "Feb  7 15:23:07 2027 GMT",
+    "daysLeft": 78
+  }
+}
