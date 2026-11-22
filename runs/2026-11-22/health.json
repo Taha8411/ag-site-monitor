@@ -1,0 +1,254 @@
+{
+  "generatedAt": "2026-11-22T11:23:16.093Z",
+  "checks": [
+    {
+      "name": "SSL certificate",
+      "status": "PASS",
+      "detail": "77 days left (Google Trust Services)"
+    },
+    {
+      "name": "Redirect http://www.applegadgetsbd.com/",
+      "status": "PASS",
+      "detail": "→ https://www.applegadgetsbd.com/ (200)"
+    },
+    {
+      "name": "Redirect https://applegadgetsbd.com/",
+      "status": "PASS",
+      "detail": "→ https://www.applegadgetsbd.com/ (200)"
+    },
+    {
+      "name": "robots.txt",
+      "status": "PASS",
+      "detail": "18 lines"
+    },
+    {
+      "name": "Sitemap",
+      "status": "PASS",
+      "detail": "8 file(s), 14224 URLs"
+    },
+    {
+      "name": "Sitemap URL sample",
+      "status": "PASS",
+      "detail": "40 checked, 0 broken, 0 slow, avg 1158 ms"
+    },
+    {
+      "name": "Internal links",
+      "status": "PASS",
+      "detail": "200 checked, 0 broken"
+    }
+  ],
+  "brokenLinks": [],
+  "sitemap": {
+    "files": 8,
+    "badFiles": [],
+    "totalUrls": 14224,
+    "sample": [
+      {
+        "url": "https://www.applegadgetsbd.com/product/geepas-gic6101n-digital-infrared-cooker",
+        "status": 200,
+        "ms": 1762
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/coteci-lightning-to-audio-adapter",
+        "status": 200,
+        "ms": 1717
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/thunderobot-l1a-usb-monitor-light-bar",
+        "status": 200,
+        "ms": 1718
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/canon-pixma-g3010-refillable-ink-tank-wireless-all-in-one-printer",
+        "status": 200,
+        "ms": 928
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/galaxy-s26",
+        "status": 200,
+        "ms": 892
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/g-skill-ripjaws-v-32gb-3600mhz-desktop-ram",
+        "status": 200,
+        "ms": 1925
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/minister-mi-25ux68-grill-microwave",
+        "status": 200,
+        "ms": 1040
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/ajazz-nj01-wired-optical-office-mouse",
+        "status": 200,
+        "ms": 1241
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/hifuture-passion-x-speaker",
+        "status": 200,
+        "ms": 1142
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/asus-b850m-max-gaming-wifi-ryzen-gaming-motherboard",
+        "status": 200,
+        "ms": 1123
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/philips-hd4929-induction-cooker",
+        "status": 200,
+        "ms": 806
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/titan-raga-viva-quartz-2608ym01-womens-watch",
+        "status": 200,
+        "ms": 1519
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/micropack-mp-712w-wireless-mouse",
+        "status": 200,
+        "ms": 773
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/ocypus-delta-a62-exs-air-cpu-cooler",
+        "status": 200,
+        "ms": 1063
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/g-skill-ripjaws-v-16gb-ddr4-3600mhz-desktop-ram",
+        "status": 200,
+        "ms": 868
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/msi-mag-275upd-e14-uhd-gaming-monitor",
+        "status": 200,
+        "ms": 1077
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/epson-eb-w53-projector",
+        "status": 200,
+        "ms": 1128
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/xundd-xdtg-004-axe-series-2-5d-hd-glass-protector-for-samsung-galaxy-s26-ultra",
+        "status": 200,
+        "ms": 1108
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/asus-prime-x870-p-csm-atx-motherboard",
+        "status": 200,
+        "ms": 868
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/hikvision-ds-9632ni-m8-nvr",
+        "status": 200,
+        "ms": 987
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/x-raypad-aqua-control-plus-xl-gaming-mouse-pad",
+        "status": 200,
+        "ms": 1086
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/thermalright-tr-ag-850-850w-80-plus-gold-modular-power-supply",
+        "status": 200,
+        "ms": 800
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/dahua-ipc-hfw1439tl1-pv-4mp-entry-smart-dual-light-bullet-network-camera",
+        "status": 200,
+        "ms": 834
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/acer-aspire-lite-al15-52h-laptop",
+        "status": 200,
+        "ms": 790
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/asus-x870-ayw-gaming-wifi-w-am5-atx-motherboard",
+        "status": 200,
+        "ms": 907
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/torras-ostand-q3-rugged-magsafe-case-for-iphone-18-series",
+        "status": 200,
+        "ms": 1405
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/onikuma-mp002-gaming-mouse-pad",
+        "status": 200,
+        "ms": 1100
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/asus-prime-h610i-plus-mini-itx-motherboard",
+        "status": 200,
+        "ms": 1417
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/epson-ecotank-l15180-a3-multi-function-inktank-printer",
+        "status": 200,
+        "ms": 1564
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/jedel-cp-09-gaming-combo",
+        "status": 200,
+        "ms": 1258
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/iqoo-z11x-5g",
+        "status": 200,
+        "ms": 984
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/gazi-if-hl02-smiss-infrared-cooker",
+        "status": 200,
+        "ms": 1044
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/apple-lightning-to-usb-cable-1m-r7sk",
+        "status": 200,
+        "ms": 1057
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/jedel-kl-114-rgb-gaming-mechanical-keyboard",
+        "status": 200,
+        "ms": 1157
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/titan-caelum-sun-moon-10028wl01-stellar-edition-mens-watch",
+        "status": 200,
+        "ms": 1037
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/hifuture-go-pro-2-smart-watch",
+        "status": 200,
+        "ms": 1547
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/titan-workwear-quartz-2733sl01-womens-watch",
+        "status": 200,
+        "ms": 1061
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/a4tech-bloody-a70-light-strike-gaming-mouse",
+        "status": 200,
+        "ms": 1017
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/gigabyte-aorus-fo32u2p-monitor",
+        "status": 200,
+        "ms": 1482
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/xundd-x57-mini-wireless-lavalier-1-transmitters-and-1-receiver-microphone",
+        "status": 200,
+        "ms": 1098
+      }
+    ],
+    "avgMs": 1158
+  },
+  "ssl": {
+    "issuer": "Google Trust Services",
+    "validTo": "Feb  7 15:23:07 2027 GMT",
+    "daysLeft": 77
+  }
+}
