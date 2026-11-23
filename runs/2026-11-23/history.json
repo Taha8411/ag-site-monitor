@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-11-14T09:31:50.008Z",
+    "status": "FAIL",
+    "passRate": 90,
+    "perf": 42,
+    "seo": 100,
+    "avgLoadMs": 3209,
+    "brokenLinks": 0
+  },
+  {
+    "date": "2026-11-15T10:54:12.043Z",
+    "status": "FAIL",
+    "passRate": 90,
+    "perf": 41,
+    "seo": 100,
+    "avgLoadMs": 3224,
+    "brokenLinks": 0
+  },
+  {
+    "date": "2026-11-16T11:17:34.224Z",
+    "status": "FAIL",
+    "passRate": 90,
+    "perf": 46,
+    "seo": 100,
+    "avgLoadMs": 2862,
+    "brokenLinks": 0
+  },
+  {
+    "date": "2026-11-17T11:52:57.174Z",
+    "status": "FAIL",
+    "passRate": 90,
+    "perf": 38,
+    "seo": 100,
+    "avgLoadMs": 2824,
+    "brokenLinks": 0
+  },
+  {
+    "date": "2026-11-18T11:43:38.767Z",
+    "status": "FAIL",
+    "passRate": 90,
+    "perf": 47,
+    "seo": 100,
+    "avgLoadMs": 2372,
+    "brokenLinks": 0
+  },
+  {
+    "date": "2026-11-19T11:47:47.252Z",
+    "status": "FAIL",
+    "passRate": 90,
+    "perf": 44,
+    "seo": 100,
+    "avgLoadMs": 2709,
+    "brokenLinks": 0
+  },
+  {
+    "date": "2026-11-20T11:45:54.888Z",
+    "status": "FAIL",
+    "passRate": 90,
+    "perf": 43,
+    "seo": 100,
+    "avgLoadMs": 3490,
+    "brokenLinks": 0
+  },
+  {
+    "date": "2026-11-21T11:02:05.725Z",
+    "status": "FAIL",
+    "passRate": 90,
+    "perf": 45,
+    "seo": 100,
+    "avgLoadMs": 3000,
+    "brokenLinks": 0
+  },
+  {
+    "date": "2026-11-22T11:24:56.194Z",
+    "status": "FAIL",
+    "passRate": 90,
+    "perf": 41,
+    "seo": 100,
+    "avgLoadMs": 2837,
+    "brokenLinks": 0
+  },
+  {
+    "date": "2026-11-23T12:40:29.713Z",
+    "status": "FAIL",
+    "passRate": 90,
+    "perf": 49,
+    "seo": 100,
+    "avgLoadMs": 2344,
+    "brokenLinks": 0
+  }
+]

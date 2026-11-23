@@ -1,0 +1,90 @@
+{
+  "generatedAt": "2026-11-23T12:40:29.471Z",
+  "results": [
+    {
+      "path": "/",
+      "report": "lighthouse/home.html",
+      "scores": {
+        "performance": 49,
+        "accessibility": 82,
+        "best-practices": 69,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 9125.936399999999,
+        "FCP": 2058.7933000000003,
+        "TBT": 937.5000000000027,
+        "CLS": 0,
+        "SI": 4727.751132791009
+      },
+      "topIssues": [
+        {
+          "title": "Reduce unused JavaScript",
+          "savingsMs": 1390
+        },
+        {
+          "title": "Reduce initial server response time",
+          "savingsMs": 802
+        }
+      ]
+    },
+    {
+      "path": "/category/mobile-phone",
+      "report": "lighthouse/category_mobile-phone.html",
+      "scores": {
+        "performance": 69,
+        "accessibility": 85,
+        "best-practices": 77,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 1663.7155999999998,
+        "FCP": 1663.7155999999998,
+        "TBT": 1009.4999999999982,
+        "CLS": 0,
+        "SI": 8551.137220010265
+      },
+      "topIssues": [
+        {
+          "title": "Reduce initial server response time",
+          "savingsMs": 660
+        },
+        {
+          "title": "Reduce unused CSS",
+          "savingsMs": 30
+        }
+      ]
+    },
+    {
+      "path": "/product/apple-airtag",
+      "report": "lighthouse/product_apple-airtag.html",
+      "scores": {
+        "performance": 59,
+        "accessibility": 81,
+        "best-practices": 69,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 5562.392500000002,
+        "FCP": 1238.1517999999999,
+        "TBT": 798,
+        "CLS": 0.003434607664812816,
+        "SI": 3297.896662069291
+      },
+      "topIssues": [
+        {
+          "title": "Reduce unused JavaScript",
+          "savingsMs": 940
+        },
+        {
+          "title": "Reduce initial server response time",
+          "savingsMs": 612
+        },
+        {
+          "title": "Reduce unused CSS",
+          "savingsMs": 150
+        }
+      ]
+    }
+  ]
+}
