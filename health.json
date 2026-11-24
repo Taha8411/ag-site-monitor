@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-23T12:39:01.909Z",
+  "generatedAt": "2026-11-24T13:42:41.400Z",
   "checks": [
     {
       "name": "SSL certificate",
       "status": "PASS",
-      "detail": "76 days left (Google Trust Services)"
+      "detail": "75 days left (Google Trust Services)"
     },
     {
       "name": "Redirect http://www.applegadgetsbd.com/",
@@ -24,12 +24,12 @@
     {
       "name": "Sitemap",
       "status": "PASS",
-      "detail": "8 file(s), 14317 URLs"
+      "detail": "8 file(s), 14406 URLs"
     },
     {
       "name": "Sitemap URL sample",
       "status": "PASS",
-      "detail": "40 checked, 0 broken, 0 slow, avg 853 ms"
+      "detail": "40 checked, 0 broken, 0 slow, avg 725 ms"
     },
     {
       "name": "Internal links",
@@ -41,214 +41,214 @@
   "sitemap": {
     "files": 8,
     "badFiles": [],
-    "totalUrls": 14317,
+    "totalUrls": 14406,
     "sample": [
       {
-        "url": "https://www.applegadgetsbd.com/product/eksa-e4-aircomfy-headphone",
+        "url": "https://www.applegadgetsbd.com/product/titan-karishma-1713bm02-mens-watch",
         "status": 200,
-        "ms": 865
+        "ms": 1006
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/blupebble-voyager-accessories-organizer",
+        "url": "https://www.applegadgetsbd.com/product/samsung-rt37k5532utd3-refrigerator",
         "status": 200,
-        "ms": 743
+        "ms": 821
       },
       {
-        "url": "https://www.applegadgetsbd.com/blog/%e0%a6%ac%e0%a6%be%e0%a6%82%e0%a6%b2%e0%a6%be/%e0%a6%b2%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%aa%e0%a6%9f%e0%a6%aa-%e0%a6%ac%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%9f%e0%a6%be%e0%a6%b0%e0%a6%bf-%e0%a6%ab%e0%a7%81%e0%a6%b2%e0%a6%be/",
+        "url": "https://www.applegadgetsbd.com/product/arctic-p9-silent-92mm-low-noise-casing-fan",
         "status": 200,
-        "ms": 964
+        "ms": 853
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/casio-standard-ltp-v009g-7eudf-analog-stainless-steel-womens-watch",
+        "url": "https://www.applegadgetsbd.com/product/oraimo-obs-682-space-box-pro-wireless-speaker",
         "status": 200,
-        "ms": 1474
+        "ms": 778
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/imiki-xplorer-scout-bt-calling-smart-watch",
+        "url": "https://www.applegadgetsbd.com/product/pureit-ultima-mineral-water-purifier",
         "status": 200,
-        "ms": 1463
+        "ms": 859
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/hoco-ua31c-usb-c-male-to-usb-a-female-data-transfer-otg-adapter",
+        "url": "https://www.applegadgetsbd.com/product/corsair-vengeance-5600mhz-desktop-ram",
+        "status": 200,
+        "ms": 872
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/apple-watch-se-3",
+        "status": 200,
+        "ms": 631
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/walton-wwm-atp60-top-loading-washing-machine-6-kg",
+        "status": 200,
+        "ms": 546
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/honor-x10-lite-tws-earbuds",
+        "status": 200,
+        "ms": 656
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/intel-core-i7-14700k-processor",
         "status": 200,
         "ms": 695
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/wiwu-t22-anc-earbuds",
+        "url": "https://www.applegadgetsbd.com/product/uphere-e360tc-argb-cpu-cooler",
         "status": 200,
-        "ms": 885
+        "ms": 592
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/joyroom-jr-pbf02-pro-power-bank",
+        "url": "https://www.applegadgetsbd.com/product/lg-27up850k-w-27-inch-professional-monitor",
         "status": 200,
-        "ms": 815
+        "ms": 541
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/monster-airmars-xkt10-tws-wireless-bluetooth-earphones",
+        "url": "https://www.applegadgetsbd.com/product/hifuture-lume-smart-watch",
         "status": 200,
-        "ms": 740
+        "ms": 538
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/hoco-hc2-true-wireless-speaker",
+        "url": "https://www.applegadgetsbd.com/product/dahua-dhi-lm25-b221b-monitor",
         "status": 200,
-        "ms": 680
+        "ms": 522
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/xiaomi-15-ultra",
+        "url": "https://www.applegadgetsbd.com/product/hp-series-3-pro-322pv-monitor",
         "status": 200,
-        "ms": 992
+        "ms": 684
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/honor-magic-v6",
+        "url": "https://www.applegadgetsbd.com/product/mibro-c3-calling-smart-watch",
         "status": 200,
-        "ms": 769
+        "ms": 621
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/edifier-r980t-active-2-0-bookshelf-speaker",
+        "url": "https://www.applegadgetsbd.com/product/ezviz-h6c-g1-5mp-3k-smart-wifi-camera",
         "status": 200,
-        "ms": 757
+        "ms": 648
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/mcdodo-ca-284-auto-power-off-type-c-to-type-c-transparent-data-cable-100w-1-2m",
+        "url": "https://www.applegadgetsbd.com/product/panasonic-mx-ge3750-3-jars-mixer-grinder",
         "status": 200,
-        "ms": 754
+        "ms": 667
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/xundd-pd-type-c-usb-fast-travel-charger",
+        "url": "https://www.applegadgetsbd.com/product/haier-hsu-19uvcool-inv-pro-dc-inverter-air-conditioner",
         "status": 200,
-        "ms": 1019
+        "ms": 566
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/hoco-ha9-kayman-dual-mic-outdoor-wireless-speaker",
+        "url": "https://www.applegadgetsbd.com/product/joyroom-s-cc100a4-100w-digital-display-type-c-charging-cable",
         "status": 200,
-        "ms": 765
+        "ms": 556
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/momax-ua15-1-world-universal-travel-power-adapter-120",
+        "url": "https://www.applegadgetsbd.com/product/haier-hsu-19ultimatecool-inverter-pro-ac",
         "status": 200,
-        "ms": 732
+        "ms": 696
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/x-level-better-enjoyment-series-magnetic-case-for-galaxy-s25-ultra",
+        "url": "https://www.applegadgetsbd.com/product/whirlpool-whitemagic-elite-7-5-grey-bd-washing-machine",
         "status": 200,
-        "ms": 759
+        "ms": 685
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/casio-youth-world-time-ae-1000wd-1avdf-digital-resin-belt-mens-watch",
+        "url": "https://www.applegadgetsbd.com/product/blisbond-t1-stam-bt-calling-smart-watch",
         "status": 200,
-        "ms": 1121
+        "ms": 709
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/hoco-bs63-graceful-wireless-dual-mic-bluetooth-speaker",
+        "url": "https://www.applegadgetsbd.com/product/logitech-mk250-keyboard-and-mouse-combo",
         "status": 200,
-        "ms": 719
+        "ms": 699
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/curren-8324-quartz-mens-watch",
+        "url": "https://www.applegadgetsbd.com/product/cudy-m3000-ax3000-dual-band-wi-fi-6-mesh-router",
         "status": 200,
-        "ms": 1050
+        "ms": 1177
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/nillkin-camshield-pro-case-for-google-pixel",
+        "url": "https://www.applegadgetsbd.com/product/oraimo-ocw-e97s-l53-cannon-2-pro-fast-charging-charger-kit-18w",
         "status": 200,
-        "ms": 1074
+        "ms": 1087
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/mcdodo-ca-7561-type-c-to-35mm-aux-adapter",
+        "url": "https://www.applegadgetsbd.com/product/midea-b82-auto-clean-kitchen-hood-36-inch",
         "status": 200,
-        "ms": 828
+        "ms": 887
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/joyroom-jbuds-jr-bc1-anc-tws-earbuds",
+        "url": "https://www.applegadgetsbd.com/product/wiwu-s900-laptop-stand",
         "status": 200,
-        "ms": 622
+        "ms": 704
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/edifier-g1000-bluetooth-gaming-stereo-speaker",
+        "url": "https://www.applegadgetsbd.com/product/nillkin-super-frosted-shield-pro-case-for-iphone",
         "status": 200,
-        "ms": 649
+        "ms": 659
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/wiwu-h6-thunder-wireless-speaker",
+        "url": "https://www.applegadgetsbd.com/product/mcdodo-ch-0061-gan-pd-wall-charger-adapter",
         "status": 200,
-        "ms": 958
+        "ms": 1342
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/awei-t28-pro-rgb-gaming-earbuds",
+        "url": "https://www.applegadgetsbd.com/product/biostar-a520mhp-motherboard",
         "status": 200,
-        "ms": 660
+        "ms": 573
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/casio-standard-ltp-1275sg-9adf-womens-watch",
+        "url": "https://www.applegadgetsbd.com/product/msi-pro-mp225-e12l-monitor",
         "status": 200,
-        "ms": 1028
+        "ms": 585
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/baseus-xundian-series-22w-dual-cable-powerbank-10000mah",
+        "url": "https://www.applegadgetsbd.com/product/philips-ep122000-automatic-coffee-maker",
         "status": 200,
-        "ms": 695
+        "ms": 608
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/vivo-t4",
+        "url": "https://www.applegadgetsbd.com/product/miyako-sm-826-3-in-1-sandwich-grill-and-waffle-maker",
         "status": 200,
-        "ms": 630
+        "ms": 927
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/standing-case-with-kickstand-for-galaxy-z-fold-7",
+        "url": "https://www.applegadgetsbd.com/product/tp-link-archer-ax12-ax1500-dual-band-gigabit-wi-fi-6-router",
         "status": 200,
-        "ms": 1062
+        "ms": 590
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/honor-magicpad-2",
+        "url": "https://www.applegadgetsbd.com/product/joyroom-jr-ec06-in-ear-metal-type-c-wired-earphone",
         "status": 200,
-        "ms": 636
+        "ms": 935
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/belkin-boostup-charge-usb-a-12w-wall-charger-with-lightning-cable-1m",
+        "url": "https://www.applegadgetsbd.com/product/jaipan-sonet-mixer-grinder",
         "status": 200,
-        "ms": 1097
+        "ms": 572
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/baseus-flash-series-two-for-three-data-cable",
+        "url": "https://www.applegadgetsbd.com/product/thunderobot-kg3089r-mechanical-gaming-keyboard",
         "status": 200,
-        "ms": 870
+        "ms": 560
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/wiwu-alpha-5-in-1-usb-c-hub-a513hvp",
+        "url": "https://www.applegadgetsbd.com/product/midea-msi-18crn-inverter-ac",
         "status": 200,
-        "ms": 1357
+        "ms": 531
       },
       {
-        "url": "https://www.applegadgetsbd.com/product/momax-1-power-qpass-qi2-magnetic-wireless-power-bank",
+        "url": "https://www.applegadgetsbd.com/product/msi-pro-mp275pg-business-monitor",
         "status": 200,
-        "ms": 635
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/marshall-stockwell-ii-wireless-stereo-speaker",
-        "status": 200,
-        "ms": 657
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/oraimo-watch-5r-pro-osw-830-smart-watch",
-        "status": 200,
-        "ms": 678
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/joyroom-jr-w23-qi2-4-in-1-wireless-charger",
-        "status": 200,
-        "ms": 622
-      },
-      {
-        "url": "https://www.applegadgetsbd.com/product/tp-link-archer-gxe75-axe5400-tri-band-wi-fi-6e-gaming-router",
-        "status": 200,
-        "ms": 606
+        "ms": 830
       }
     ],
-    "avgMs": 853
+    "avgMs": 725
   },
   "ssl": {
     "issuer": "Google Trust Services",
     "validTo": "Feb  7 15:23:07 2027 GMT",
-    "daysLeft": 76
+    "daysLeft": 75
   }
 }

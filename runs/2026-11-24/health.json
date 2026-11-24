@@ -1,0 +1,254 @@
+{
+  "generatedAt": "2026-11-24T13:42:41.400Z",
+  "checks": [
+    {
+      "name": "SSL certificate",
+      "status": "PASS",
+      "detail": "75 days left (Google Trust Services)"
+    },
+    {
+      "name": "Redirect http://www.applegadgetsbd.com/",
+      "status": "PASS",
+      "detail": "→ https://www.applegadgetsbd.com/ (200)"
+    },
+    {
+      "name": "Redirect https://applegadgetsbd.com/",
+      "status": "PASS",
+      "detail": "→ https://www.applegadgetsbd.com/ (200)"
+    },
+    {
+      "name": "robots.txt",
+      "status": "PASS",
+      "detail": "18 lines"
+    },
+    {
+      "name": "Sitemap",
+      "status": "PASS",
+      "detail": "8 file(s), 14406 URLs"
+    },
+    {
+      "name": "Sitemap URL sample",
+      "status": "PASS",
+      "detail": "40 checked, 0 broken, 0 slow, avg 725 ms"
+    },
+    {
+      "name": "Internal links",
+      "status": "PASS",
+      "detail": "200 checked, 0 broken"
+    }
+  ],
+  "brokenLinks": [],
+  "sitemap": {
+    "files": 8,
+    "badFiles": [],
+    "totalUrls": 14406,
+    "sample": [
+      {
+        "url": "https://www.applegadgetsbd.com/product/titan-karishma-1713bm02-mens-watch",
+        "status": 200,
+        "ms": 1006
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/samsung-rt37k5532utd3-refrigerator",
+        "status": 200,
+        "ms": 821
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/arctic-p9-silent-92mm-low-noise-casing-fan",
+        "status": 200,
+        "ms": 853
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/oraimo-obs-682-space-box-pro-wireless-speaker",
+        "status": 200,
+        "ms": 778
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/pureit-ultima-mineral-water-purifier",
+        "status": 200,
+        "ms": 859
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/corsair-vengeance-5600mhz-desktop-ram",
+        "status": 200,
+        "ms": 872
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/apple-watch-se-3",
+        "status": 200,
+        "ms": 631
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/walton-wwm-atp60-top-loading-washing-machine-6-kg",
+        "status": 200,
+        "ms": 546
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/honor-x10-lite-tws-earbuds",
+        "status": 200,
+        "ms": 656
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/intel-core-i7-14700k-processor",
+        "status": 200,
+        "ms": 695
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/uphere-e360tc-argb-cpu-cooler",
+        "status": 200,
+        "ms": 592
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/lg-27up850k-w-27-inch-professional-monitor",
+        "status": 200,
+        "ms": 541
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/hifuture-lume-smart-watch",
+        "status": 200,
+        "ms": 538
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/dahua-dhi-lm25-b221b-monitor",
+        "status": 200,
+        "ms": 522
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/hp-series-3-pro-322pv-monitor",
+        "status": 200,
+        "ms": 684
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/mibro-c3-calling-smart-watch",
+        "status": 200,
+        "ms": 621
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/ezviz-h6c-g1-5mp-3k-smart-wifi-camera",
+        "status": 200,
+        "ms": 648
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/panasonic-mx-ge3750-3-jars-mixer-grinder",
+        "status": 200,
+        "ms": 667
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/haier-hsu-19uvcool-inv-pro-dc-inverter-air-conditioner",
+        "status": 200,
+        "ms": 566
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/joyroom-s-cc100a4-100w-digital-display-type-c-charging-cable",
+        "status": 200,
+        "ms": 556
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/haier-hsu-19ultimatecool-inverter-pro-ac",
+        "status": 200,
+        "ms": 696
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/whirlpool-whitemagic-elite-7-5-grey-bd-washing-machine",
+        "status": 200,
+        "ms": 685
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/blisbond-t1-stam-bt-calling-smart-watch",
+        "status": 200,
+        "ms": 709
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/logitech-mk250-keyboard-and-mouse-combo",
+        "status": 200,
+        "ms": 699
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/cudy-m3000-ax3000-dual-band-wi-fi-6-mesh-router",
+        "status": 200,
+        "ms": 1177
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/oraimo-ocw-e97s-l53-cannon-2-pro-fast-charging-charger-kit-18w",
+        "status": 200,
+        "ms": 1087
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/midea-b82-auto-clean-kitchen-hood-36-inch",
+        "status": 200,
+        "ms": 887
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/wiwu-s900-laptop-stand",
+        "status": 200,
+        "ms": 704
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/nillkin-super-frosted-shield-pro-case-for-iphone",
+        "status": 200,
+        "ms": 659
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/mcdodo-ch-0061-gan-pd-wall-charger-adapter",
+        "status": 200,
+        "ms": 1342
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/biostar-a520mhp-motherboard",
+        "status": 200,
+        "ms": 573
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/msi-pro-mp225-e12l-monitor",
+        "status": 200,
+        "ms": 585
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/philips-ep122000-automatic-coffee-maker",
+        "status": 200,
+        "ms": 608
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/miyako-sm-826-3-in-1-sandwich-grill-and-waffle-maker",
+        "status": 200,
+        "ms": 927
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/tp-link-archer-ax12-ax1500-dual-band-gigabit-wi-fi-6-router",
+        "status": 200,
+        "ms": 590
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/joyroom-jr-ec06-in-ear-metal-type-c-wired-earphone",
+        "status": 200,
+        "ms": 935
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/jaipan-sonet-mixer-grinder",
+        "status": 200,
+        "ms": 572
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/thunderobot-kg3089r-mechanical-gaming-keyboard",
+        "status": 200,
+        "ms": 560
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/midea-msi-18crn-inverter-ac",
+        "status": 200,
+        "ms": 531
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/msi-pro-mp275pg-business-monitor",
+        "status": 200,
+        "ms": 830
+      }
+    ],
+    "avgMs": 725
+  },
+  "ssl": {
+    "issuer": "Google Trust Services",
+    "validTo": "Feb  7 15:23:07 2027 GMT",
+    "daysLeft": 75
+  }
+}
