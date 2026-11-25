@@ -97,5 +97,14 @@
     "seo": 100,
     "avgLoadMs": 2880,
     "brokenLinks": 0
+  },
+  {
+    "date": "2026-11-25T12:55:06.703Z",
+    "status": "FAIL",
+    "passRate": 90,
+    "perf": 43,
+    "seo": 100,
+    "avgLoadMs": 3966,
+    "brokenLinks": 2
   }
 ]

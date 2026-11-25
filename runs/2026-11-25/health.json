@@ -1,0 +1,265 @@
+{
+  "generatedAt": "2026-11-25T12:53:37.348Z",
+  "checks": [
+    {
+      "name": "SSL certificate",
+      "status": "PASS",
+      "detail": "74 days left (Google Trust Services)"
+    },
+    {
+      "name": "Redirect http://www.applegadgetsbd.com/",
+      "status": "PASS",
+      "detail": "→ https://www.applegadgetsbd.com/ (200)"
+    },
+    {
+      "name": "Redirect https://applegadgetsbd.com/",
+      "status": "PASS",
+      "detail": "→ https://www.applegadgetsbd.com/ (200)"
+    },
+    {
+      "name": "robots.txt",
+      "status": "PASS",
+      "detail": "18 lines"
+    },
+    {
+      "name": "Sitemap",
+      "status": "PASS",
+      "detail": "8 file(s), 14519 URLs"
+    },
+    {
+      "name": "Sitemap URL sample",
+      "status": "PASS",
+      "detail": "40 checked, 0 broken, 0 slow, avg 801 ms"
+    },
+    {
+      "name": "Internal links",
+      "status": "FAIL",
+      "detail": "200 checked, 2 broken"
+    }
+  ],
+  "brokenLinks": [
+    {
+      "url": "https://www.applegadgetsbd.com/category/computer-accessories",
+      "status": 500,
+      "foundOn": "/"
+    },
+    {
+      "url": "https://www.applegadgetsbd.com/category/bluetooth-speaker",
+      "status": 500,
+      "foundOn": "/"
+    }
+  ],
+  "sitemap": {
+    "files": 8,
+    "badFiles": [],
+    "totalUrls": 14519,
+    "sample": [
+      {
+        "url": "https://www.applegadgetsbd.com/product/bajaj-armor-series-pentacle-water-heater",
+        "status": 200,
+        "ms": 498
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/oraimo-opensnap-opn-373-black-tws-earbuds",
+        "status": 200,
+        "ms": 656
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/jedel-kl-81b-tri-mode-mechanical-gaming-keyboard",
+        "status": 200,
+        "ms": 550
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/apple-magic-keyboard-with-numeric-keypad",
+        "status": 200,
+        "ms": 608
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/philips-na23000-air-fryer-6-2l",
+        "status": 200,
+        "ms": 611
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/plextone-g20-game-headphones",
+        "status": 200,
+        "ms": 622
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/pc-power-603-wired-standard-office-keyboard-with-bangla",
+        "status": 200,
+        "ms": 419
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/gazi-gst-215h-gas-stove",
+        "status": 200,
+        "ms": 479
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/lingbao-k87-pro-elenia-edition-tri-mode-mechanical-keyboard",
+        "status": 200,
+        "ms": 846
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/fastrack-xtreme-s1-smart-watch",
+        "status": 200,
+        "ms": 581
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/patriot-viper-steel-heatsink-rgb-desktop-ram",
+        "status": 200,
+        "ms": 553
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/maono-au-am200-s1-maonocaster-lite-podcast-production-studio",
+        "status": 200,
+        "ms": 555
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/gigabyte-a520m-ds3h-matx-motherboard",
+        "status": 200,
+        "ms": 507
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/panasonic-er-206-beard-and-hair-trimmer",
+        "status": 200,
+        "ms": 541
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/micropack-k-205-wired-keyboard",
+        "status": 200,
+        "ms": 1080
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/dareu-ck98-ultra-he-mechanical-keyboard",
+        "status": 200,
+        "ms": 1104
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/orico-tcm2-g20-m-2-ssd-enclosure",
+        "status": 200,
+        "ms": 1117
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/gigabyte-gp-gstfs31256gtnd-256gb-sata-ssd",
+        "status": 200,
+        "ms": 1071
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/hisense-as-18tw4rmatd01bu-full-dc-inverter-air-conditioner",
+        "status": 200,
+        "ms": 1121
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/walton-wk-luminous-electric-kettle",
+        "status": 200,
+        "ms": 1092
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/oneplus-bullets-wireless-z3",
+        "status": 200,
+        "ms": 633
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/kuwajia-auto-eject-charging-protector",
+        "status": 200,
+        "ms": 777
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/a4tech-bloody-p91s-rgb-gaming-mouse",
+        "status": 200,
+        "ms": 819
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/oraimo-traveler-power-bank-20000mah",
+        "status": 200,
+        "ms": 738
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/xundd-xdot-077-metal-high-speed-cooling-fan",
+        "status": 200,
+        "ms": 705
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/red-swiss-rsek-1802-electric-kettle",
+        "status": 200,
+        "ms": 701
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/qcy-ht15-buds-anc-tws-earbuds",
+        "status": 200,
+        "ms": 1001
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/jiayou-melody-9-headphone",
+        "status": 200,
+        "ms": 457
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/razer-blackwidow-v3-tenkeyless-mechanical-gaming-keyboard",
+        "status": 200,
+        "ms": 547
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/onikuma-g80-tri-mode-wireless-keyboard",
+        "status": 200,
+        "ms": 605
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/dahua-8-unit-security-package",
+        "status": 200,
+        "ms": 702
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/viewsonic-xg2409a-gaming-monitor",
+        "status": 200,
+        "ms": 798
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/orpat-heavy-duty-kitchen-helpers-commercial-mixer-grinder",
+        "status": 200,
+        "ms": 927
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/walton-wsi-oceanus-150-15j-inverter-air-conditioner",
+        "status": 200,
+        "ms": 1186
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/dtech-dt-h005-hdmi-cable",
+        "status": 200,
+        "ms": 1216
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/apacer-nox-ddr5-5600mhz-heatsink-desktop-ram",
+        "status": 200,
+        "ms": 1162
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/vgr-v-619-professional-trimmer",
+        "status": 200,
+        "ms": 1296
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/wiwu-magic-keyboard-for-ipad",
+        "status": 200,
+        "ms": 1287
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/jedel-gwh-102-gaming-mouse",
+        "status": 200,
+        "ms": 1023
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/zifriend-t62-rgb-mechanical-keyboard",
+        "status": 200,
+        "ms": 851
+      }
+    ],
+    "avgMs": 801
+  },
+  "ssl": {
+    "issuer": "Google Trust Services",
+    "validTo": "Feb  7 15:23:07 2027 GMT",
+    "daysLeft": 74
+  }
+}
