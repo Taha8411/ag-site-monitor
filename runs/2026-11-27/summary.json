@@ -1,0 +1,29 @@
+{
+  "site": "https://www.applegadgetsbd.com",
+  "date": "2026-11-27T12:19:08.521Z",
+  "status": "FAIL",
+  "tests": {
+    "total": 40,
+    "passed": 36,
+    "failed": 4,
+    "flaky": 0
+  },
+  "healthFails": 1,
+  "warnings": 23,
+  "avgLoadMs": 3777,
+  "brokenLinks": 2,
+  "sslDaysLeft": 72,
+  "lighthouseHome": {
+    "performance": 45,
+    "accessibility": 82,
+    "best-practices": 69,
+    "seo": 100
+  },
+  "topFailures": [
+    "[e2e] Search returns products (mobile)",
+    "[seo] Home (desktop)",
+    "[seo] Offers (desktop)",
+    "[seo] Blog (desktop)",
+    "Internal links: 200 checked, 2 broken"
+  ]
+}

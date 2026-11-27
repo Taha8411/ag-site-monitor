@@ -1,0 +1,265 @@
+{
+  "generatedAt": "2026-11-27T12:17:46.626Z",
+  "checks": [
+    {
+      "name": "SSL certificate",
+      "status": "PASS",
+      "detail": "72 days left (Google Trust Services)"
+    },
+    {
+      "name": "Redirect http://www.applegadgetsbd.com/",
+      "status": "PASS",
+      "detail": "→ https://www.applegadgetsbd.com/ (200)"
+    },
+    {
+      "name": "Redirect https://applegadgetsbd.com/",
+      "status": "PASS",
+      "detail": "→ https://www.applegadgetsbd.com/ (200)"
+    },
+    {
+      "name": "robots.txt",
+      "status": "PASS",
+      "detail": "18 lines"
+    },
+    {
+      "name": "Sitemap",
+      "status": "PASS",
+      "detail": "8 file(s), 14606 URLs"
+    },
+    {
+      "name": "Sitemap URL sample",
+      "status": "PASS",
+      "detail": "40 checked, 0 broken, 0 slow, avg 617 ms"
+    },
+    {
+      "name": "Internal links",
+      "status": "FAIL",
+      "detail": "200 checked, 2 broken"
+    }
+  ],
+  "brokenLinks": [
+    {
+      "url": "https://www.applegadgetsbd.com/category/oneplus-mobile-phone",
+      "status": 500,
+      "foundOn": "/"
+    },
+    {
+      "url": "https://www.applegadgetsbd.com/category/bluetooth-speaker",
+      "status": 500,
+      "foundOn": "/"
+    }
+  ],
+  "sitemap": {
+    "files": 8,
+    "badFiles": [],
+    "totalUrls": 14606,
+    "sample": [
+      {
+        "url": "https://www.applegadgetsbd.com/category/sapphire-graphics-card",
+        "status": 200,
+        "ms": 540
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/apple-airpods-max-2",
+        "status": 200,
+        "ms": 566
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/gigabyte-geforce-rtx-3060-windforce-oc-gddr6-graphics-card",
+        "status": 200,
+        "ms": 622
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/gree-gcf-350asnb-air-purifier",
+        "status": 200,
+        "ms": 972
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/orico-ah-a13-gy-usb-a-to-usb-3-0-4-port-hub",
+        "status": 200,
+        "ms": 621
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/lenovo-ideapad-slim-3-15iwc11-core-5-320-laptop",
+        "status": 200,
+        "ms": 607
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/gigabyte-gp-ud1000gm-pg5-power-supply",
+        "status": 200,
+        "ms": 692
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/oppo-find-x9-pro",
+        "status": 200,
+        "ms": 520
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/eksa-e1000-v2-headphone",
+        "status": 200,
+        "ms": 499
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/xiaomi-redmi-k90",
+        "status": 200,
+        "ms": 509
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/joyroom-jr-tcf20-charger-with-lightning-cable",
+        "status": 200,
+        "ms": 525
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/a4tech-fstyler-fg20-24g-wireless-mouse",
+        "status": 200,
+        "ms": 410
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/qcy-crossky-c30s-open-ear-headphones",
+        "status": 200,
+        "ms": 419
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/acefast-h6-anc-wireless-headset",
+        "status": 200,
+        "ms": 480
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/vision-re-vsn-xi-30a3-infrared-cooker",
+        "status": 200,
+        "ms": 457
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/msi-pro-b760m-e-motherboard",
+        "status": 200,
+        "ms": 456
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/deepcool-matrexx-30-mesh-gaming-casing",
+        "status": 200,
+        "ms": 515
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/skullcandy-crusher-anc-2-wireless-headphone",
+        "status": 200,
+        "ms": 422
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/dewanco-swift-premium-quick-heating-geyser",
+        "status": 200,
+        "ms": 434
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/team-mp44l-ssd",
+        "status": 200,
+        "ms": 457
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/ocean-oaf5118-air-fryer-4l",
+        "status": 200,
+        "ms": 483
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/arctic-alpine-23-co-compact-amd-cpu-cooler",
+        "status": 200,
+        "ms": 445
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/sony-wh-1000xm5-wireless-noise-cancelling-headphones",
+        "status": 200,
+        "ms": 409
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/gigabyte-ga-h81m-h-motherboard",
+        "status": 200,
+        "ms": 440
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/deepcool-cl660-gaming-casing",
+        "status": 200,
+        "ms": 453
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/qcy-melobuds-n70i-tws-earbuds",
+        "status": 200,
+        "ms": 617
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/edifier-wh700nb-pro-anc-wireless-headphone",
+        "status": 200,
+        "ms": 1001
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/qcy-ht10-ailybuds-pro-anc-tws-earbud",
+        "status": 200,
+        "ms": 1163
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/biostar-a520mhp-gaming-motherboard",
+        "status": 200,
+        "ms": 1475
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/jedel-k601-single-hand-wired-gaming-keyboard",
+        "status": 200,
+        "ms": 1162
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/vgr-v-495-professional-rotating-hot-air-styler",
+        "status": 200,
+        "ms": 1037
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/orico-papw4a-c3015-wh-ep-4-port-usb3-0-hub",
+        "status": 200,
+        "ms": 1249
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/gravastar-mercury-x-pro-gaming-mouse",
+        "status": 200,
+        "ms": 564
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/team-mp33-pro-512gb-pcie-gen3-nvme-ssd",
+        "status": 200,
+        "ms": 448
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/arctic-freezer-8i-air-cpu-cooler",
+        "status": 200,
+        "ms": 489
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/uphere-ue2tc6-air-cpu-cooler",
+        "status": 200,
+        "ms": 481
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/deepcool-cg530-4f-wh-mid-tower-atx-gaming-casing-1",
+        "status": 200,
+        "ms": 778
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/logitech-mx-master-4-wireless-mouse",
+        "status": 200,
+        "ms": 407
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/edifier-w820nb-anc-bluetooth-stereo-headphones",
+        "status": 200,
+        "ms": 427
+      },
+      {
+        "url": "https://www.applegadgetsbd.com/product/kaloc-klc-dh200-double-monitor-arm",
+        "status": 200,
+        "ms": 439
+      }
+    ],
+    "avgMs": 617
+  },
+  "ssl": {
+    "issuer": "Google Trust Services",
+    "validTo": "Feb  7 15:23:07 2027 GMT",
+    "daysLeft": 72
+  }
+}

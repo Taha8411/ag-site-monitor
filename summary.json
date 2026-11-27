@@ -1,6 +1,6 @@
 {
   "site": "https://www.applegadgetsbd.com",
-  "date": "2026-11-26T12:33:17.811Z",
+  "date": "2026-11-27T12:19:08.521Z",
   "status": "FAIL",
   "tests": {
     "total": 40,
@@ -9,12 +9,12 @@
     "flaky": 0
   },
   "healthFails": 1,
-  "warnings": 16,
-  "avgLoadMs": 2986,
-  "brokenLinks": 1,
-  "sslDaysLeft": 73,
+  "warnings": 23,
+  "avgLoadMs": 3777,
+  "brokenLinks": 2,
+  "sslDaysLeft": 72,
   "lighthouseHome": {
-    "performance": 39,
+    "performance": 45,
     "accessibility": 82,
     "best-practices": 69,
     "seo": 100
@@ -24,6 +24,6 @@
     "[seo] Home (desktop)",
     "[seo] Offers (desktop)",
     "[seo] Blog (desktop)",
-    "Internal links: 200 checked, 1 broken"
+    "Internal links: 200 checked, 2 broken"
   ]
 }
