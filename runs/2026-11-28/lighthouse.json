@@ -1,0 +1,78 @@
+{
+  "generatedAt": "2026-11-28T11:46:49.058Z",
+  "results": [
+    {
+      "path": "/",
+      "report": "lighthouse/home.html",
+      "scores": {
+        "performance": 44,
+        "accessibility": 82,
+        "best-practices": 69,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 7514.890545000002,
+        "FCP": 2388.20301,
+        "TBT": 1862.4999999999982,
+        "CLS": 0,
+        "SI": 4231.286141310643
+      },
+      "topIssues": [
+        {
+          "title": "Reduce unused JavaScript",
+          "savingsMs": 1280
+        }
+      ]
+    },
+    {
+      "path": "/category/mobile-phone",
+      "report": "lighthouse/category_mobile-phone.html",
+      "scores": {
+        "performance": 47,
+        "accessibility": 85,
+        "best-practices": 77,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 6953.103100000001,
+        "FCP": 1753.0691,
+        "TBT": 2400.000000000002,
+        "CLS": 0,
+        "SI": 2871.575664095715
+      },
+      "topIssues": [
+        {
+          "title": "Reduce unused JavaScript",
+          "savingsMs": 1350
+        }
+      ]
+    },
+    {
+      "path": "/product/apple-airtag",
+      "report": "lighthouse/product_apple-airtag.html",
+      "scores": {
+        "performance": 51,
+        "accessibility": 81,
+        "best-practices": 69,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 5646.426950000001,
+        "FCP": 1259.188,
+        "TBT": 1744.0000000000018,
+        "CLS": 0,
+        "SI": 3721.6267111344173
+      },
+      "topIssues": [
+        {
+          "title": "Reduce unused JavaScript",
+          "savingsMs": 900
+        },
+        {
+          "title": "Reduce unused CSS",
+          "savingsMs": 150
+        }
+      ]
+    }
+  ]
+}

@@ -20,7 +20,7 @@
       "ci": {
         "commitHref": "https://github.com/Taha8411/ag-site-monitor/commit/5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
         "commitHash": "5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
-        "buildHref": "https://github.com/Taha8411/ag-site-monitor/actions/runs/45997117781"
+        "buildHref": "https://github.com/Taha8411/ag-site-monitor/actions/runs/46141200155"
       },
       "gitCommit": {
         "shortHash": "5f3691e",
@@ -51,7 +51,7 @@
           "ci": {
             "commitHref": "https://github.com/Taha8411/ag-site-monitor/commit/5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
             "commitHash": "5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
-            "buildHref": "https://github.com/Taha8411/ag-site-monitor/actions/runs/45997117781"
+            "buildHref": "https://github.com/Taha8411/ag-site-monitor/actions/runs/46141200155"
           },
           "gitCommit": {
             "shortHash": "5f3691e",
@@ -89,7 +89,7 @@
           "ci": {
             "commitHref": "https://github.com/Taha8411/ag-site-monitor/commit/5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
             "commitHash": "5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
-            "buildHref": "https://github.com/Taha8411/ag-site-monitor/actions/runs/45997117781"
+            "buildHref": "https://github.com/Taha8411/ag-site-monitor/actions/runs/46141200155"
           },
           "gitCommit": {
             "shortHash": "5f3691e",
@@ -133,7 +133,7 @@
           "ci": {
             "commitHref": "https://github.com/Taha8411/ag-site-monitor/commit/5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
             "commitHash": "5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
-            "buildHref": "https://github.com/Taha8411/ag-site-monitor/actions/runs/45997117781"
+            "buildHref": "https://github.com/Taha8411/ag-site-monitor/actions/runs/46141200155"
           },
           "gitCommit": {
             "shortHash": "5f3691e",
@@ -193,7 +193,7 @@
           "ci": {
             "commitHref": "https://github.com/Taha8411/ag-site-monitor/commit/5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
             "commitHash": "5f3691e76aaff50fd7223f5e6c71e9f6b27bdb96",
-            "buildHref": "https://github.com/Taha8411/ag-site-monitor/actions/runs/45997117781"
+            "buildHref": "https://github.com/Taha8411/ag-site-monitor/actions/runs/46141200155"
           },
           "gitCommit": {
             "shortHash": "5f3691e",
@@ -304,12 +304,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 9537,
+                  "duration": 10276,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:16:26.005Z",
+                  "startTime": "2026-11-28T11:44:04.799Z",
                   "annotations": [
                     {
                       "type": "info",
@@ -337,12 +337,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 3,
                   "status": "passed",
-                  "duration": 11750,
+                  "duration": 10481,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:16:26.064Z",
+                  "startTime": "2026-11-28T11:44:04.818Z",
                   "annotations": [
                     {
                       "type": "info",
@@ -376,12 +376,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 6588,
+                  "duration": 5469,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:16:36.136Z",
+                  "startTime": "2026-11-28T11:44:15.606Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -399,12 +399,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 3,
                   "status": "passed",
-                  "duration": 5600,
+                  "duration": 6733,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:16:38.446Z",
+                  "startTime": "2026-11-28T11:44:15.835Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -438,12 +438,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 7543,
+                  "duration": 6740,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:16:42.816Z",
+                  "startTime": "2026-11-28T11:44:21.120Z",
                   "annotations": [
                     {
                       "type": "info",
@@ -466,7 +466,7 @@
                   "workerIndex": 3,
                   "parallelIndex": 3,
                   "status": "failed",
-                  "duration": 28136,
+                  "duration": 26683,
                   "error": {
                     "message": "Error: search box visible\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - search box visible locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first() with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first()\u001b[22m\n",
                     "stack": "Error: search box visible\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - search box visible locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first() with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first()\u001b[22m\n\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/e2e.spec.js:43:45",
@@ -490,7 +490,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:16:44.135Z",
+                  "startTime": "2026-11-28T11:44:22.591Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -516,10 +516,10 @@
                   }
                 },
                 {
-                  "workerIndex": 9,
+                  "workerIndex": 8,
                   "parallelIndex": 3,
                   "status": "failed",
-                  "duration": 26195,
+                  "duration": 26552,
                   "error": {
                     "message": "Error: search box visible\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - search box visible locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first() with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first()\u001b[22m\n",
                     "stack": "Error: search box visible\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - search box visible locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first() with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('input#search, input[name=\"search\"], input[type=\"search\"]').visible().first()\u001b[22m\n\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/e2e.spec.js:43:45",
@@ -543,7 +543,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 1,
-                  "startTime": "2026-11-27T12:17:14.417Z",
+                  "startTime": "2026-11-28T11:44:51.615Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -593,12 +593,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3437,
+                  "duration": 4140,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:16:50.430Z",
+                  "startTime": "2026-11-28T11:44:27.894Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -616,12 +616,12 @@
                   "workerIndex": 12,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2009,
+                  "duration": 2168,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:17:41.789Z",
+                  "startTime": "2026-11-28T11:45:19.517Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -650,12 +650,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 4910,
+                  "duration": 5759,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:16:53.944Z",
+                  "startTime": "2026-11-28T11:44:32.061Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -673,12 +673,12 @@
                   "workerIndex": 12,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2461,
+                  "duration": 2547,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:17:43.905Z",
+                  "startTime": "2026-11-28T11:45:21.799Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -724,7 +724,7 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "failed",
-                  "duration": 7088,
+                  "duration": 7538,
                   "error": {
                     "message": "Error: canonical present\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"\"\u001b[39m",
                     "stack": "Error: canonical present\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"\"\u001b[39m\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js:54:55",
@@ -748,7 +748,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:16:26.098Z",
+                  "startTime": "2026-11-28T11:44:04.776Z",
                   "annotations": [
                     {
                       "type": "info",
@@ -786,7 +786,7 @@
                   "workerIndex": 4,
                   "parallelIndex": 1,
                   "status": "failed",
-                  "duration": 7085,
+                  "duration": 6652,
                   "error": {
                     "message": "Error: canonical present\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"\"\u001b[39m",
                     "stack": "Error: canonical present\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"\"\u001b[39m\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js:54:55",
@@ -810,7 +810,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 1,
-                  "startTime": "2026-11-27T12:16:35.574Z",
+                  "startTime": "2026-11-28T11:44:15.477Z",
                   "annotations": [
                     {
                       "type": "info",
@@ -878,12 +878,12 @@
                   "workerIndex": 5,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 3765,
+                  "duration": 3416,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:16:45.526Z",
+                  "startTime": "2026-11-28T11:44:25.641Z",
                   "annotations": [
                     {
                       "type": "info",
@@ -930,12 +930,12 @@
                   "workerIndex": 5,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 2457,
+                  "duration": 3037,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:16:49.707Z",
+                  "startTime": "2026-11-28T11:44:29.400Z",
                   "annotations": [
                     {
                       "type": "info",
@@ -986,12 +986,12 @@
                   "workerIndex": 5,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 2520,
+                  "duration": 3909,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:16:52.222Z",
+                  "startTime": "2026-11-28T11:44:32.511Z",
                   "annotations": [
                     {
                       "type": "info",
@@ -1042,12 +1042,12 @@
                   "workerIndex": 5,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 2834,
+                  "duration": 2905,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:16:54.800Z",
+                  "startTime": "2026-11-28T11:44:36.483Z",
                   "annotations": [
                     {
                       "type": "info",
@@ -1094,12 +1094,12 @@
                   "workerIndex": 5,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 2550,
+                  "duration": 5110,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:16:57.689Z",
+                  "startTime": "2026-11-28T11:44:39.414Z",
                   "annotations": [
                     {
                       "type": "info",
@@ -1150,7 +1150,7 @@
                   "workerIndex": 5,
                   "parallelIndex": 1,
                   "status": "failed",
-                  "duration": 4313,
+                  "duration": 3243,
                   "error": {
                     "message": "Error: canonical present\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"\"\u001b[39m",
                     "stack": "Error: canonical present\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"\"\u001b[39m\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js:54:55",
@@ -1174,7 +1174,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:17:00.285Z",
+                  "startTime": "2026-11-28T11:44:44.561Z",
                   "annotations": [
                     {
                       "type": "info",
@@ -1216,7 +1216,7 @@
                   "workerIndex": 7,
                   "parallelIndex": 1,
                   "status": "failed",
-                  "duration": 4087,
+                  "duration": 4587,
                   "error": {
                     "message": "Error: canonical present\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"\"\u001b[39m",
                     "stack": "Error: canonical present\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m\"\"\u001b[39m\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js:54:55",
@@ -1240,7 +1240,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 1,
-                  "startTime": "2026-11-27T12:17:06.992Z",
+                  "startTime": "2026-11-28T11:44:49.484Z",
                   "annotations": [
                     {
                       "type": "info",
@@ -1313,10 +1313,10 @@
               "projectName": "desktop",
               "results": [
                 {
-                  "workerIndex": 8,
+                  "workerIndex": 9,
                   "parallelIndex": 1,
                   "status": "failed",
-                  "duration": 2886,
+                  "duration": 3164,
                   "error": {
                     "message": "Error: has an H1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
                     "stack": "Error: has an H1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js:53:43",
@@ -1340,7 +1340,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:17:12.855Z",
+                  "startTime": "2026-11-28T11:44:56.309Z",
                   "annotations": [
                     {
                       "type": "info",
@@ -1382,7 +1382,7 @@
                   "workerIndex": 10,
                   "parallelIndex": 1,
                   "status": "failed",
-                  "duration": 2329,
+                  "duration": 2632,
                   "error": {
                     "message": "Error: has an H1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
                     "stack": "Error: has an H1\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at /home/runner/work/ag-site-monitor/ag-site-monitor/tests/seo.spec.js:53:43",
@@ -1406,7 +1406,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 1,
-                  "startTime": "2026-11-27T12:17:18.086Z",
+                  "startTime": "2026-11-28T11:45:00.676Z",
                   "annotations": [
                     {
                       "type": "info",
@@ -1478,12 +1478,12 @@
                   "workerIndex": 11,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1670,
+                  "duration": 1926,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:17:21.448Z",
+                  "startTime": "2026-11-28T11:45:04.231Z",
                   "annotations": [
                     {
                       "type": "info",
@@ -1534,12 +1534,12 @@
                   "workerIndex": 11,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1930,
+                  "duration": 1608,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:17:23.295Z",
+                  "startTime": "2026-11-28T11:45:06.294Z",
                   "annotations": [
                     {
                       "type": "info",
@@ -1583,11 +1583,11 @@
               "annotations": [
                 {
                   "type": "loadMs",
-                  "description": "7220"
+                  "description": "7670"
                 },
                 {
                   "type": "ttfbMs",
-                  "description": "632"
+                  "description": "1027"
                 },
                 {
                   "type": "status",
@@ -1595,7 +1595,7 @@
                 },
                 {
                   "type": "warn",
-                  "description": "Slow load: 7220 ms"
+                  "description": "Slow load: 7670 ms"
                 }
               ],
               "expectedStatus": "passed",
@@ -1606,20 +1606,20 @@
                   "workerIndex": 2,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 7849,
+                  "duration": 8363,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:16:26.087Z",
+                  "startTime": "2026-11-28T11:44:04.766Z",
                   "annotations": [
                     {
                       "type": "loadMs",
-                      "description": "7220"
+                      "description": "7670"
                     },
                     {
                       "type": "ttfbMs",
-                      "description": "632"
+                      "description": "1027"
                     },
                     {
                       "type": "status",
@@ -1627,7 +1627,7 @@
                     },
                     {
                       "type": "warn",
-                      "description": "Slow load: 7220 ms"
+                      "description": "Slow load: 7670 ms"
                     }
                   ],
                   "attachments": []
@@ -1640,11 +1640,11 @@
               "annotations": [
                 {
                   "type": "loadMs",
-                  "description": "4733"
+                  "description": "5104"
                 },
                 {
                   "type": "ttfbMs",
-                  "description": "405"
+                  "description": "486"
                 },
                 {
                   "type": "status",
@@ -1652,7 +1652,7 @@
                 },
                 {
                   "type": "warn",
-                  "description": "Slow load: 4733 ms"
+                  "description": "Slow load: 5104 ms"
                 }
               ],
               "expectedStatus": "passed",
@@ -1663,20 +1663,20 @@
                   "workerIndex": 6,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 6152,
+                  "duration": 6386,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:17:00.480Z",
+                  "startTime": "2026-11-28T11:44:39.547Z",
                   "annotations": [
                     {
                       "type": "loadMs",
-                      "description": "4733"
+                      "description": "5104"
                     },
                     {
                       "type": "ttfbMs",
-                      "description": "405"
+                      "description": "486"
                     },
                     {
                       "type": "status",
@@ -1684,7 +1684,7 @@
                     },
                     {
                       "type": "warn",
-                      "description": "Slow load: 4733 ms"
+                      "description": "Slow load: 5104 ms"
                     }
                   ],
                   "attachments": []
@@ -1708,19 +1708,15 @@
               "annotations": [
                 {
                   "type": "loadMs",
-                  "description": "5241"
+                  "description": "3918"
                 },
                 {
                   "type": "ttfbMs",
-                  "description": "571"
+                  "description": "577"
                 },
                 {
                   "type": "status",
                   "description": "200"
-                },
-                {
-                  "type": "warn",
-                  "description": "Slow load: 5241 ms"
                 }
               ],
               "expectedStatus": "passed",
@@ -1731,28 +1727,24 @@
                   "workerIndex": 2,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 6201,
+                  "duration": 4877,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:16:34.400Z",
+                  "startTime": "2026-11-28T11:44:13.673Z",
                   "annotations": [
                     {
                       "type": "loadMs",
-                      "description": "5241"
+                      "description": "3918"
                     },
                     {
                       "type": "ttfbMs",
-                      "description": "571"
+                      "description": "577"
                     },
                     {
                       "type": "status",
                       "description": "200"
-                    },
-                    {
-                      "type": "warn",
-                      "description": "Slow load: 5241 ms"
                     }
                   ],
                   "attachments": []
@@ -1765,19 +1757,15 @@
               "annotations": [
                 {
                   "type": "loadMs",
-                  "description": "4029"
+                  "description": "3656"
                 },
                 {
                   "type": "ttfbMs",
-                  "description": "443"
+                  "description": "572"
                 },
                 {
                   "type": "status",
                   "description": "200"
-                },
-                {
-                  "type": "warn",
-                  "description": "Slow load: 4029 ms"
                 }
               ],
               "expectedStatus": "passed",
@@ -1788,28 +1776,24 @@
                   "workerIndex": 6,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 5179,
+                  "duration": 4345,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:17:06.805Z",
+                  "startTime": "2026-11-28T11:44:46.147Z",
                   "annotations": [
                     {
                       "type": "loadMs",
-                      "description": "4029"
+                      "description": "3656"
                     },
                     {
                       "type": "ttfbMs",
-                      "description": "443"
+                      "description": "572"
                     },
                     {
                       "type": "status",
                       "description": "200"
-                    },
-                    {
-                      "type": "warn",
-                      "description": "Slow load: 4029 ms"
                     }
                   ],
                   "attachments": []
@@ -1833,11 +1817,11 @@
               "annotations": [
                 {
                   "type": "loadMs",
-                  "description": "4868"
+                  "description": "4852"
                 },
                 {
                   "type": "ttfbMs",
-                  "description": "450"
+                  "description": "396"
                 },
                 {
                   "type": "status",
@@ -1845,7 +1829,7 @@
                 },
                 {
                   "type": "warn",
-                  "description": "Slow load: 4868 ms"
+                  "description": "Slow load: 4852 ms"
                 }
               ],
               "expectedStatus": "passed",
@@ -1856,20 +1840,20 @@
                   "workerIndex": 2,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 5932,
+                  "duration": 5794,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:16:40.640Z",
+                  "startTime": "2026-11-28T11:44:18.609Z",
                   "annotations": [
                     {
                       "type": "loadMs",
-                      "description": "4868"
+                      "description": "4852"
                     },
                     {
                       "type": "ttfbMs",
-                      "description": "450"
+                      "description": "396"
                     },
                     {
                       "type": "status",
@@ -1877,7 +1861,7 @@
                     },
                     {
                       "type": "warn",
-                      "description": "Slow load: 4868 ms"
+                      "description": "Slow load: 4852 ms"
                     }
                   ],
                   "attachments": []
@@ -1890,11 +1874,11 @@
               "annotations": [
                 {
                   "type": "loadMs",
-                  "description": "4453"
+                  "description": "5121"
                 },
                 {
                   "type": "ttfbMs",
-                  "description": "548"
+                  "description": "509"
                 },
                 {
                   "type": "status",
@@ -1902,7 +1886,7 @@
                 },
                 {
                   "type": "warn",
-                  "description": "Slow load: 4453 ms"
+                  "description": "Slow load: 5121 ms"
                 }
               ],
               "expectedStatus": "passed",
@@ -1913,20 +1897,20 @@
                   "workerIndex": 6,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 5836,
+                  "duration": 5907,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:17:12.037Z",
+                  "startTime": "2026-11-28T11:44:50.532Z",
                   "annotations": [
                     {
                       "type": "loadMs",
-                      "description": "4453"
+                      "description": "5121"
                     },
                     {
                       "type": "ttfbMs",
-                      "description": "548"
+                      "description": "509"
                     },
                     {
                       "type": "status",
@@ -1934,7 +1918,7 @@
                     },
                     {
                       "type": "warn",
-                      "description": "Slow load: 4453 ms"
+                      "description": "Slow load: 5121 ms"
                     }
                   ],
                   "attachments": []
@@ -1958,11 +1942,11 @@
               "annotations": [
                 {
                   "type": "loadMs",
-                  "description": "4600"
+                  "description": "4784"
                 },
                 {
                   "type": "ttfbMs",
-                  "description": "548"
+                  "description": "523"
                 },
                 {
                   "type": "status",
@@ -1970,7 +1954,7 @@
                 },
                 {
                   "type": "warn",
-                  "description": "Slow load: 4600 ms"
+                  "description": "Slow load: 4784 ms"
                 }
               ],
               "expectedStatus": "passed",
@@ -1981,20 +1965,20 @@
                   "workerIndex": 2,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 5311,
+                  "duration": 5729,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:16:46.619Z",
+                  "startTime": "2026-11-28T11:44:24.448Z",
                   "annotations": [
                     {
                       "type": "loadMs",
-                      "description": "4600"
+                      "description": "4784"
                     },
                     {
                       "type": "ttfbMs",
-                      "description": "548"
+                      "description": "523"
                     },
                     {
                       "type": "status",
@@ -2002,7 +1986,7 @@
                     },
                     {
                       "type": "warn",
-                      "description": "Slow load: 4600 ms"
+                      "description": "Slow load: 4784 ms"
                     }
                   ],
                   "attachments": []
@@ -2015,11 +1999,11 @@
               "annotations": [
                 {
                   "type": "loadMs",
-                  "description": "3216"
+                  "description": "3560"
                 },
                 {
                   "type": "ttfbMs",
-                  "description": "535"
+                  "description": "548"
                 },
                 {
                   "type": "status",
@@ -2034,20 +2018,20 @@
                   "workerIndex": 6,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3830,
+                  "duration": 4052,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:17:17.957Z",
+                  "startTime": "2026-11-28T11:44:56.466Z",
                   "annotations": [
                     {
                       "type": "loadMs",
-                      "description": "3216"
+                      "description": "3560"
                     },
                     {
                       "type": "ttfbMs",
-                      "description": "535"
+                      "description": "548"
                     },
                     {
                       "type": "status",
@@ -2075,11 +2059,11 @@
               "annotations": [
                 {
                   "type": "loadMs",
-                  "description": "4447"
+                  "description": "4076"
                 },
                 {
                   "type": "ttfbMs",
-                  "description": "429"
+                  "description": "528"
                 },
                 {
                   "type": "status",
@@ -2087,7 +2071,7 @@
                 },
                 {
                   "type": "warn",
-                  "description": "Slow load: 4447 ms"
+                  "description": "Slow load: 4076 ms"
                 }
               ],
               "expectedStatus": "passed",
@@ -2098,20 +2082,20 @@
                   "workerIndex": 2,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 5557,
+                  "duration": 5143,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:16:51.976Z",
+                  "startTime": "2026-11-28T11:44:30.252Z",
                   "annotations": [
                     {
                       "type": "loadMs",
-                      "description": "4447"
+                      "description": "4076"
                     },
                     {
                       "type": "ttfbMs",
-                      "description": "429"
+                      "description": "528"
                     },
                     {
                       "type": "status",
@@ -2119,7 +2103,7 @@
                     },
                     {
                       "type": "warn",
-                      "description": "Slow load: 4447 ms"
+                      "description": "Slow load: 4076 ms"
                     }
                   ],
                   "attachments": []
@@ -2132,11 +2116,11 @@
               "annotations": [
                 {
                   "type": "loadMs",
-                  "description": "2903"
+                  "description": "2537"
                 },
                 {
                   "type": "ttfbMs",
-                  "description": "522"
+                  "description": "507"
                 },
                 {
                   "type": "status",
@@ -2151,20 +2135,20 @@
                   "workerIndex": 6,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3573,
+                  "duration": 3097,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:17:21.849Z",
+                  "startTime": "2026-11-28T11:45:00.573Z",
                   "annotations": [
                     {
                       "type": "loadMs",
-                      "description": "2903"
+                      "description": "2537"
                     },
                     {
                       "type": "ttfbMs",
-                      "description": "522"
+                      "description": "507"
                     },
                     {
                       "type": "status",
@@ -2192,11 +2176,11 @@
               "annotations": [
                 {
                   "type": "loadMs",
-                  "description": "4027"
+                  "description": "4916"
                 },
                 {
                   "type": "ttfbMs",
-                  "description": "488"
+                  "description": "523"
                 },
                 {
                   "type": "status",
@@ -2204,7 +2188,7 @@
                 },
                 {
                   "type": "warn",
-                  "description": "Slow load: 4027 ms"
+                  "description": "Slow load: 4916 ms"
                 }
               ],
               "expectedStatus": "passed",
@@ -2215,20 +2199,20 @@
                   "workerIndex": 2,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 4988,
+                  "duration": 6123,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:16:57.592Z",
+                  "startTime": "2026-11-28T11:44:35.472Z",
                   "annotations": [
                     {
                       "type": "loadMs",
-                      "description": "4027"
+                      "description": "4916"
                     },
                     {
                       "type": "ttfbMs",
-                      "description": "488"
+                      "description": "523"
                     },
                     {
                       "type": "status",
@@ -2236,7 +2220,7 @@
                     },
                     {
                       "type": "warn",
-                      "description": "Slow load: 4027 ms"
+                      "description": "Slow load: 4916 ms"
                     }
                   ],
                   "attachments": []
@@ -2249,11 +2233,11 @@
               "annotations": [
                 {
                   "type": "loadMs",
-                  "description": "2846"
+                  "description": "3287"
                 },
                 {
                   "type": "ttfbMs",
-                  "description": "481"
+                  "description": "609"
                 },
                 {
                   "type": "status",
@@ -2268,20 +2252,20 @@
                   "workerIndex": 6,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3249,
+                  "duration": 3831,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:17:25.451Z",
+                  "startTime": "2026-11-28T11:45:03.686Z",
                   "annotations": [
                     {
                       "type": "loadMs",
-                      "description": "2846"
+                      "description": "3287"
                     },
                     {
                       "type": "ttfbMs",
-                      "description": "481"
+                      "description": "609"
                     },
                     {
                       "type": "status",
@@ -2309,11 +2293,11 @@
               "annotations": [
                 {
                   "type": "loadMs",
-                  "description": "4337"
+                  "description": "4199"
                 },
                 {
                   "type": "ttfbMs",
-                  "description": "481"
+                  "description": "519"
                 },
                 {
                   "type": "status",
@@ -2321,7 +2305,7 @@
                 },
                 {
                   "type": "warn",
-                  "description": "Slow load: 4337 ms"
+                  "description": "Slow load: 4199 ms"
                 },
                 {
                   "type": "warn",
@@ -2336,20 +2320,20 @@
                   "workerIndex": 2,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 4872,
+                  "duration": 4913,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:17:02.650Z",
+                  "startTime": "2026-11-28T11:44:41.666Z",
                   "annotations": [
                     {
                       "type": "loadMs",
-                      "description": "4337"
+                      "description": "4199"
                     },
                     {
                       "type": "ttfbMs",
-                      "description": "481"
+                      "description": "519"
                     },
                     {
                       "type": "status",
@@ -2357,7 +2341,7 @@
                     },
                     {
                       "type": "warn",
-                      "description": "Slow load: 4337 ms"
+                      "description": "Slow load: 4199 ms"
                     },
                     {
                       "type": "warn",
@@ -2374,11 +2358,11 @@
               "annotations": [
                 {
                   "type": "loadMs",
-                  "description": "1909"
+                  "description": "2072"
                 },
                 {
                   "type": "ttfbMs",
-                  "description": "415"
+                  "description": "536"
                 },
                 {
                   "type": "status",
@@ -2397,20 +2381,20 @@
                   "workerIndex": 6,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2348,
+                  "duration": 2544,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:17:28.710Z",
+                  "startTime": "2026-11-28T11:45:07.547Z",
                   "annotations": [
                     {
                       "type": "loadMs",
-                      "description": "1909"
+                      "description": "2072"
                     },
                     {
                       "type": "ttfbMs",
-                      "description": "415"
+                      "description": "536"
                     },
                     {
                       "type": "status",
@@ -2442,11 +2426,11 @@
               "annotations": [
                 {
                   "type": "loadMs",
-                  "description": "1884"
+                  "description": "3088"
                 },
                 {
                   "type": "ttfbMs",
-                  "description": "719"
+                  "description": "1065"
                 },
                 {
                   "type": "status",
@@ -2461,20 +2445,20 @@
                   "workerIndex": 2,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 2453,
+                  "duration": 3559,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:17:07.562Z",
+                  "startTime": "2026-11-28T11:44:46.627Z",
                   "annotations": [
                     {
                       "type": "loadMs",
-                      "description": "1884"
+                      "description": "3088"
                     },
                     {
                       "type": "ttfbMs",
-                      "description": "719"
+                      "description": "1065"
                     },
                     {
                       "type": "status",
@@ -2491,15 +2475,19 @@
               "annotations": [
                 {
                   "type": "loadMs",
-                  "description": "2107"
+                  "description": "2506"
                 },
                 {
                   "type": "ttfbMs",
-                  "description": "924"
+                  "description": "1226"
                 },
                 {
                   "type": "status",
                   "description": "200"
+                },
+                {
+                  "type": "warn",
+                  "description": "Slow TTFB: 1226 ms"
                 }
               ],
               "expectedStatus": "passed",
@@ -2510,24 +2498,28 @@
                   "workerIndex": 6,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2627,
+                  "duration": 3043,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:17:31.068Z",
+                  "startTime": "2026-11-28T11:45:10.109Z",
                   "annotations": [
                     {
                       "type": "loadMs",
-                      "description": "2107"
+                      "description": "2506"
                     },
                     {
                       "type": "ttfbMs",
-                      "description": "924"
+                      "description": "1226"
                     },
                     {
                       "type": "status",
                       "description": "200"
+                    },
+                    {
+                      "type": "warn",
+                      "description": "Slow TTFB: 1226 ms"
                     }
                   ],
                   "attachments": []
@@ -2551,11 +2543,11 @@
               "annotations": [
                 {
                   "type": "loadMs",
-                  "description": "4075"
+                  "description": "5331"
                 },
                 {
                   "type": "ttfbMs",
-                  "description": "420"
+                  "description": "503"
                 },
                 {
                   "type": "status",
@@ -2563,7 +2555,7 @@
                 },
                 {
                   "type": "warn",
-                  "description": "Slow load: 4075 ms"
+                  "description": "Slow load: 5331 ms"
                 }
               ],
               "expectedStatus": "passed",
@@ -2574,20 +2566,20 @@
                   "workerIndex": 2,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 4746,
+                  "duration": 5838,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:17:10.083Z",
+                  "startTime": "2026-11-28T11:44:50.226Z",
                   "annotations": [
                     {
                       "type": "loadMs",
-                      "description": "4075"
+                      "description": "5331"
                     },
                     {
                       "type": "ttfbMs",
-                      "description": "420"
+                      "description": "503"
                     },
                     {
                       "type": "status",
@@ -2595,7 +2587,7 @@
                     },
                     {
                       "type": "warn",
-                      "description": "Slow load: 4075 ms"
+                      "description": "Slow load: 5331 ms"
                     }
                   ],
                   "attachments": []
@@ -2608,11 +2600,11 @@
               "annotations": [
                 {
                   "type": "loadMs",
-                  "description": "2273"
+                  "description": "2261"
                 },
                 {
                   "type": "ttfbMs",
-                  "description": "466"
+                  "description": "609"
                 },
                 {
                   "type": "status",
@@ -2627,20 +2619,20 @@
                   "workerIndex": 6,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2690,
+                  "duration": 2635,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:17:33.706Z",
+                  "startTime": "2026-11-28T11:45:13.168Z",
                   "annotations": [
                     {
                       "type": "loadMs",
-                      "description": "2273"
+                      "description": "2261"
                     },
                     {
                       "type": "ttfbMs",
-                      "description": "466"
+                      "description": "609"
                     },
                     {
                       "type": "status",
@@ -2668,19 +2660,15 @@
               "annotations": [
                 {
                   "type": "loadMs",
-                  "description": "4240"
+                  "description": "3313"
                 },
                 {
                   "type": "ttfbMs",
-                  "description": "473"
+                  "description": "502"
                 },
                 {
                   "type": "status",
                   "description": "200"
-                },
-                {
-                  "type": "warn",
-                  "description": "Slow load: 4240 ms"
                 }
               ],
               "expectedStatus": "passed",
@@ -2691,28 +2679,24 @@
                   "workerIndex": 2,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 4746,
+                  "duration": 3873,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:17:14.863Z",
+                  "startTime": "2026-11-28T11:44:56.081Z",
                   "annotations": [
                     {
                       "type": "loadMs",
-                      "description": "4240"
+                      "description": "3313"
                     },
                     {
                       "type": "ttfbMs",
-                      "description": "473"
+                      "description": "502"
                     },
                     {
                       "type": "status",
                       "description": "200"
-                    },
-                    {
-                      "type": "warn",
-                      "description": "Slow load: 4240 ms"
                     }
                   ],
                   "attachments": []
@@ -2725,11 +2709,11 @@
               "annotations": [
                 {
                   "type": "loadMs",
-                  "description": "2130"
+                  "description": "2281"
                 },
                 {
                   "type": "ttfbMs",
-                  "description": "422"
+                  "description": "501"
                 },
                 {
                   "type": "status",
@@ -2744,20 +2728,20 @@
                   "workerIndex": 6,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2604,
+                  "duration": 2843,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-27T12:17:36.409Z",
+                  "startTime": "2026-11-28T11:45:15.817Z",
                   "annotations": [
                     {
                       "type": "loadMs",
-                      "description": "2130"
+                      "description": "2281"
                     },
                     {
                       "type": "ttfbMs",
-                      "description": "422"
+                      "description": "501"
                     },
                     {
                       "type": "status",
@@ -2780,8 +2764,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-27T12:16:25.145Z",
-    "duration": 81284.543,
+    "startTime": "2026-11-28T11:44:03.921Z",
+    "duration": 80495.633,
     "expected": 36,
     "skipped": 0,
     "unexpected": 4,
